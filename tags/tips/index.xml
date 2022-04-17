@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tips on Novores</title>
+    <link>https://novores.xyz/tags/tips/</link>
+    <description>Recent content in tips on Novores</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 07 Feb 2022 23:01:42 +0700</lastBuildDate><atom:link href="https://novores.xyz/tags/tips/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cara Aktifkan bluetooth Cukup dengan Terminal di Linux</title>
+      <link>https://novores.xyz/post/bluetoothctl/</link>
+      <pubDate>Mon, 07 Feb 2022 23:01:42 +0700</pubDate>
+      
+      <guid>https://novores.xyz/post/bluetoothctl/</guid>
+      <description>Intro Bluetooth merupakan salah satu teknologi yang wajib ada di setiap perangkat komputer, karena kegunaanya yang sangat-sangat banyak, bukan hanya untuk transfer file, namun bluetooth juga dapat digunakan untuk menyambungkan suara secara wireless.
+Dilansir dari wikipedia
+ Bluetooth adalah spesifikasi industri untuk jaringan kawasan pribadi (personal area networks atau PAN) tanpa kabel. Bluetooth menghubungkan dan dapat dipakai untuk melakukan tukar-menukar informasi di antara peralatan-peralatan. Spesifikasi dari peralatan Bluetooth ini dikembangkan dan didistribusikan oleh kelompok Bluetooth Special Interest Group.</description>
+    </item>
+    
+    <item>
+      <title>Cara Mengabaikan package tertentu untuk di Upgrade di Archlinux</title>
+      <link>https://novores.xyz/post/mengabaikan-package-archlinux/</link>
+      <pubDate>Sat, 29 Jan 2022 07:02:58 +0700</pubDate>
+      
+      <guid>https://novores.xyz/post/mengabaikan-package-archlinux/</guid>
+      <description>Background Terkadang ketika kita ingin meng-update package, ada hal yang ingin kita abaikan untuk diupdate. contohnya jika kekurangan kuota saya akan menjadikan salah satu package yang berukuran besar untuk diabaikan, salah satu nya libreoffice, package ini salah satu package besar dan tidak terlalu penting untuk di upgrade menurut saya, yang saya miliki
+ PERHATIAN hati-hati ketika memilih package yang akan diabaikan untuk diupgrade pastikan tidak ada dependensi yang bergantung kepada utamanya kernel linux</description>
+    </item>
+    
+    <item>
+      <title>Cara mengaktifkan Tap-to-Click di Archlinux</title>
+      <link>https://novores.xyz/post/cara-mengaktifkan-tap-to-click-on-linux/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      
+      <guid>https://novores.xyz/post/cara-mengaktifkan-tap-to-click-on-linux/</guid>
+      <description>Intro Ketika menggunakan linux kita kadang-kadang tidak mendapati Sistem kerja komputer yang semestinya, kita dituntut untuk bersikap do it yourself.
+maka dari itu kita harus benar-benar memahami cara kerja komputer yang sesungguhnya, dan dituntut mandiri menyelesaikan masalah yang ada. salah satu masalah yang pertama kali dirasakan ketika pertama kali mencoba linux adalah masalah tidak berfungsinya tap di touchpad laptop, saya akan mencoba memecahkan masalah ini secara runut agar mudah dipahami oleh anda.</description>
+    </item>
+    
+  </channel>
+</rss>
