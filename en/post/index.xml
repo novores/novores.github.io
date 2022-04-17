@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Novores</title>
     <link>https://novores.xyz/en/post/</link>
     <description>Recent content in Posts on Novores</description>
+    <image>
+      <url>https://novores.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://novores.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 13 Apr 2022 06:31:13 +0700</lastBuildDate><atom:link href="https://novores.xyz/en/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,9 +16,7 @@
       <pubDate>Wed, 13 Apr 2022 06:31:13 +0700</pubDate>
       
       <guid>https://novores.xyz/en/post/cactus-comment/</guid>
-      <description>Introduction hugo is a feature-rich static site generator. one of them is the comment feature, to add this comment feature we only need to add a shortcode to the frontmatter of our blog. but unfortunately this feature is only available for disqus. I personally don&amp;rsquo;t really like disquss because of its proprietary.
-if we want to add comments from other providers, then we have to write the shortcode itself.
-I prefer cactus comment where comments that enter the blog/website will be directly linked through the matrix account.</description>
+      <description>Add a comment field in hugo with cactus comment</description>
     </item>
     
     <item>
@@ -23,10 +25,7 @@ I prefer cactus comment where comments that enter the blog/website will be direc
       <pubDate>Sat, 12 Mar 2022 07:02:58 +0700</pubDate>
       
       <guid>https://novores.xyz/en/post/wormhole/</guid>
-      <description>Description wormhole-william is the go language implementation of magic-wormhole.
-Wormhole itself is a command-line tool that contains commands to send and receive files, directories, and text, securely. this is to send and receive files using easy-to-read wormhole code as the “unlocking key” example of the unlocking key in question:5-boy-farming.
-The wormhole also provides end-to-end encryption, the endpoint is connected to the same 2 endpoints.
- why use wormhole-william instead of wormhole?</description>
+      <description>wormhole-william is the go language implementation of magic-wormhole</description>
     </item>
     
     <item>
@@ -56,9 +55,7 @@ according to wikipedia
       <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://novores.xyz/en/post/connect-ke-github-dengan-ssh/</guid>
-      <description>Intro authenticating git with ssh is by generating a pair of encryption keys asymmetrically, where the key is stored on the system and the other is stored on the server.
-in other words the computer will not get access rights if the key that is paired is wrong or different, so this allows a very, very secure connection than we use https.
-and another advantage that we no longer use tokens when setting up the repository but just the password we set if you set it later when generating or generating ssh keys.</description>
+      <description>after reading this article you can connect git with ssh in terminal</description>
     </item>
     
     <item>
