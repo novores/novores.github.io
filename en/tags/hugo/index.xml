@@ -12,10 +12,10 @@
     <lastBuildDate>Wed, 13 Apr 2022 06:31:13 +0700</lastBuildDate><atom:link href="https://novores.xyz/en/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Added Cactus Comments to Hugo</title>
-      <link>https://novores.xyz/en/post/cactus-comment/</link>
+      <link>https://novores.xyz/en/blog/cactus-comment/</link>
       <pubDate>Wed, 13 Apr 2022 06:31:13 +0700</pubDate>
       
-      <guid>https://novores.xyz/en/post/cactus-comment/</guid>
+      <guid>https://novores.xyz/en/blog/cactus-comment/</guid>
       <description>Add a comment field in hugo with cactus comment</description>
     </item>
     
