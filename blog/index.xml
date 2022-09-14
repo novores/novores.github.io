@@ -9,7 +9,16 @@
       <link>https://novores.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 13 Apr 2022 06:31:13 +0700</lastBuildDate><atom:link href="https://novores.xyz/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Aug 2022 20:58:30 +0700</lastBuildDate><atom:link href="https://novores.xyz/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux Upskill Challenge: Day 0</title>
+      <link>https://novores.xyz/blog/luc_day1/</link>
+      <pubDate>Tue, 30 Aug 2022 20:58:30 +0700</pubDate>
+      
+      <guid>https://novores.xyz/blog/luc_day1/</guid>
+      <description>Make Your Own Server</description>
+    </item>
+    
     <item>
       <title>Menambahkan Cactus Comments ke dalam Hugo</title>
       <link>https://novores.xyz/blog/cactus-comment/</link>
@@ -36,7 +45,7 @@
       <guid>https://novores.xyz/blog/bluetoothctl/</guid>
       <description>Intro Bluetooth merupakan salah satu teknologi yang wajib ada di setiap perangkat komputer, karena kegunaanya yang sangat-sangat banyak, bukan hanya untuk transfer file, namun bluetooth juga dapat digunakan untuk menyambungkan suara secara wireless.
 Dilansir dari wikipedia
- Bluetooth adalah spesifikasi industri untuk jaringan kawasan pribadi (personal area networks atau PAN) tanpa kabel. Bluetooth menghubungkan dan dapat dipakai untuk melakukan tukar-menukar informasi di antara peralatan-peralatan. Spesifikasi dari peralatan Bluetooth ini dikembangkan dan didistribusikan oleh kelompok Bluetooth Special Interest Group.</description>
+Bluetooth adalah spesifikasi industri untuk jaringan kawasan pribadi (personal area networks atau PAN) tanpa kabel. Bluetooth menghubungkan dan dapat dipakai untuk melakukan tukar-menukar informasi di antara peralatan-peralatan. Spesifikasi dari peralatan Bluetooth ini dikembangkan dan didistribusikan oleh kelompok Bluetooth Special Interest Group.</description>
     </item>
     
     <item>
@@ -46,7 +55,7 @@ Dilansir dari wikipedia
       
       <guid>https://novores.xyz/blog/mengabaikan-package-archlinux/</guid>
       <description>Background Terkadang ketika kita ingin meng-update package, ada hal yang ingin kita abaikan untuk diupdate. contohnya jika kekurangan kuota saya akan menjadikan salah satu package yang berukuran besar untuk diabaikan, salah satu nya libreoffice, package ini salah satu package besar dan tidak terlalu penting untuk di upgrade menurut saya, yang saya miliki
- PERHATIAN hati-hati ketika memilih package yang akan diabaikan untuk diupgrade pastikan tidak ada dependensi yang bergantung kepada utamanya kernel linux</description>
+PERHATIAN hati-hati ketika memilih package yang akan diabaikan untuk diupgrade pastikan tidak ada dependensi yang bergantung kepada utamanya kernel linux</description>
     </item>
     
     <item>

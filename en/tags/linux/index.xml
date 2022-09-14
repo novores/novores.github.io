@@ -27,7 +27,7 @@
       <guid>https://novores.xyz/en/blog/bluetoothctl/</guid>
       <description>Intro bluetooth is one of the technologies that must exist in every computer device, because of its many, many uses, not only for file transfers, but bluetooth can also be used to connect sound wirelessly.
 according to wikipedia
- Bluetooth is the industry specification for wireless personal area networks (PAN). bluetooth connects and can be used to exchange information between devices. The specifications of this bluetooth device are developed and distributed by the bluetooth special interest group.</description>
+Bluetooth is the industry specification for wireless personal area networks (PAN). bluetooth connects and can be used to exchange information between devices. The specifications of this bluetooth device are developed and distributed by the bluetooth special interest group.</description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@ according to wikipedia
       
       <guid>https://novores.xyz/en/blog/mengabaikan-package-archlinux/</guid>
       <description>Background sometimes when we want to update a package, there are things we want to ignore to update. for example, if there is a lack of quota I will make one large package to be ignored, one of which is libreoffice, this package one of the big packages and not too important to upgrade in my opinion, that I have
- Attention be careful when choosing packages to ignore for upgrading make sure there are no dependencies to depend on Mainly the Linux kernel</description>
+Attention be careful when choosing packages to ignore for upgrading make sure there are no dependencies to depend on Mainly the Linux kernel</description>
     </item>
     
     <item>
