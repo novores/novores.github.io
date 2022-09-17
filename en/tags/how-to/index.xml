@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>How to on Novores</title>
     <link>https://novores.xyz/en/tags/how-to/</link>
     <description>Recent content in How to on Novores</description>
-    <image>
-      <url>https://novores.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://novores.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 26 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://novores.xyz/en/tags/how-to/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -16,7 +12,9 @@
       <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://novores.xyz/en/blog/connect-ke-github-dengan-ssh/</guid>
-      <description>after reading this article you can connect git with ssh in terminal</description>
+      <description>Intro authenticating git with ssh is by generating a pair of encryption keys asymmetrically, where the key is stored on the system and the other is stored on the server.
+in other words the computer will not get access rights if the key that is paired is wrong or different, so this allows a very, very secure connection than we use https.
+and another advantage that we no longer use tokens when setting up the repository but just the password we set if you set it later when generating or generating ssh keys.</description>
     </item>
     
   </channel>
