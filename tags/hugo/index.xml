@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>hugo on Novores</title>
     <link>https://novores.xyz/tags/hugo/</link>
     <description>Recent content in hugo on Novores</description>
+    <image>
+      <url>https://novores.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://novores.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 13 Apr 2022 06:31:13 +0700</lastBuildDate><atom:link href="https://novores.xyz/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,9 +16,7 @@
       <pubDate>Wed, 13 Apr 2022 06:31:13 +0700</pubDate>
       
       <guid>https://novores.xyz/blog/cactus-comment/</guid>
-      <description>Pengantar Hugo merupakan salah satu Static Site Generator yang kaya akan fitur. Salah satunya fitur komentar, untuk menambahkan fitur komentar ini kita hanya perlu menambahkan shortcode ke dalam fronmatter Blog kita. namun sayangnta fitur ini hanya tersedia untuk Disqus. saya pribadi tidak terlalu menyukai disquss karena proprietary-nya.
-jika kita ingin menambahkan komentar dari provider yang lain, maka kita harus menulis shortcode itu sendiri.
-saya lebih memilih Cactus Comment yang dimana komentar yang masuk kedalam blog/website akan langsung terhubung melalui akun Matrix.</description>
+      <description>Menambahkan kolom komentar dalam hugo dengan Cactus Comment</description>
     </item>
     
   </channel>

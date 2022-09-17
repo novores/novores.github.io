@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>linuxupskillchallenge on Novores</title>
     <link>https://novores.xyz/tags/linuxupskillchallenge/</link>
     <description>Recent content in linuxupskillchallenge on Novores</description>
+    <image>
+      <url>https://novores.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://novores.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 15 Sep 2022 07:10:42 +0700</lastBuildDate><atom:link href="https://novores.xyz/tags/linuxupskillchallenge/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,9 +16,7 @@
       <pubDate>Thu, 15 Sep 2022 07:10:42 +0700</pubDate>
       
       <guid>https://novores.xyz/blog/linuxupskillchallenge-day1/</guid>
-      <description>blog ini merupakan bagian dari linux upskill challenge series. berisi catatan proses belajar saya dalam mengikuti panduan linux upskill challenge
-Tempo hari kamu telah berhasil membuat server. kamu sendiri yang akan mengatur server tersebut tentunya. untuk menjadi seorang admin linux server, kita diharuskan untuk nyaman bekerja dengan berbagai varian linux. tapi untuk sekarang ubuntu adalah pilihan terbaik.
-Tugas Hari Ini connect dan masuk secara remote ke dalam server jalankan beberapa perintah sederhana, untuk cek status server Connect Server Kemarin kita telah mencoba connect ke server dengan menggunakan SSH menggunakan private key.</description>
+      <description>Get to know your server</description>
     </item>
     
     <item>
@@ -23,8 +25,7 @@ Tugas Hari Ini connect dan masuk secara remote ke dalam server jalankan beberapa
       <pubDate>Tue, 30 Aug 2022 20:58:30 +0700</pubDate>
       
       <guid>https://novores.xyz/blog/linuxupskillchallenge-day0/</guid>
-      <description>Intro Sudah 3 tahun saya bergelut dengan linux sejak tahun 2019 sampai sekarang, dari memepelajari GUI sampai CLI-nya, dari menjalankan desktop manager sampai window manager, dari ubuntu sampai Archlinux (yah walaupun saya tahu archlinux tidak benar-benar sesulit itu), perjalanan panjang saya sampai pada bash scripting. semua perjalanan itu benar-benar menyenangkan dan tanpa sadar menjadi minat saya dalam dunia pekerjaan, yah walaupun background pendidikan saya tidak berhubungan dengan itu.
-Hari ini saya ingin meningkatkan keahlian saya dalam dunia linux, yah.</description>
+      <description>Make Your Own Server</description>
     </item>
     
   </channel>

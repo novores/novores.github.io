@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>tips on Novores</title>
     <link>https://novores.xyz/tags/tips/</link>
     <description>Recent content in tips on Novores</description>
+    <image>
+      <url>https://novores.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://novores.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 07 Feb 2022 23:01:42 +0700</lastBuildDate><atom:link href="https://novores.xyz/tags/tips/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -33,8 +37,7 @@ PERHATIAN hati-hati ketika memilih package yang akan diabaikan untuk diupgrade p
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       
       <guid>https://novores.xyz/blog/cara-mengaktifkan-tap-to-click-on-linux/</guid>
-      <description>Intro Ketika menggunakan linux kita kadang-kadang tidak mendapati Sistem kerja komputer yang semestinya, kita dituntut untuk bersikap do it yourself.
-maka dari itu kita harus benar-benar memahami cara kerja komputer yang sesungguhnya, dan dituntut mandiri menyelesaikan masalah yang ada. salah satu masalah yang pertama kali dirasakan ketika pertama kali mencoba linux adalah masalah tidak berfungsinya tap di touchpad laptop, saya akan mencoba memecahkan masalah ini secara runut agar mudah dipahami oleh anda.</description>
+      <description>Aktifkan tap2click di touchpad</description>
     </item>
     
   </channel>
