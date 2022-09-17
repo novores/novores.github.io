@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://novores.xyz/blog/</loc>
-    <lastmod>2022-08-30T20:58:30+07:00</lastmod>
+    <lastmod>2022-09-15T07:10:42+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,14 +15,14 @@
                 href="https://novores.xyz/blog/"
                 />
   </url><url>
-    <loc>https://novores.xyz/blog/linuxupskillchallenge-day0/</loc>
-    <lastmod>2022-08-30T20:58:30+07:00</lastmod>
+    <loc>https://novores.xyz/blog/linuxupskillchallenge-day1/</loc>
+    <lastmod>2022-09-15T07:10:42+07:00</lastmod>
   </url><url>
     <loc>https://novores.xyz/tags/linuxupskillchallenge/</loc>
-    <lastmod>2022-08-30T20:58:30+07:00</lastmod>
+    <lastmod>2022-09-15T07:10:42+07:00</lastmod>
   </url><url>
     <loc>https://novores.xyz/</loc>
-    <lastmod>2022-08-30T20:58:30+07:00</lastmod>
+    <lastmod>2022-09-15T07:10:42+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -35,7 +35,7 @@
                 />
   </url><url>
     <loc>https://novores.xyz/tags/</loc>
-    <lastmod>2022-08-30T20:58:30+07:00</lastmod>
+    <lastmod>2022-09-15T07:10:42+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -46,6 +46,9 @@
                 hreflang="id"
                 href="https://novores.xyz/tags/"
                 />
+  </url><url>
+    <loc>https://novores.xyz/blog/linuxupskillchallenge-day0/</loc>
+    <lastmod>2022-08-30T20:58:30+07:00</lastmod>
   </url><url>
     <loc>https://novores.xyz/tags/hugo/</loc>
     <lastmod>2022-04-13T06:31:13+07:00</lastmod>

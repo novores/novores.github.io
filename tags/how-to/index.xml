@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>How to on Novores</title>
     <link>https://novores.xyz/tags/how-to/</link>
     <description>Recent content in How to on Novores</description>
-    <image>
-      <url>https://novores.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://novores.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 26 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://novores.xyz/tags/how-to/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -16,7 +12,9 @@
       <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://novores.xyz/blog/connect-ke-github-dengan-ssh/</guid>
-      <description>setelah membaca artikel ini kamu dapat menyambungkan git dengan ssh di terminal</description>
+      <description>Intro Mengautentikasi Git dengan SSH adalah dengan menghasilkan sepasang kunci enkripsi secara asimetris, dimana kunci disimpan di sistem dan yang satunya lagi di disimpan di server.
+dengan kata lain komputer tidak akan mendapat hak akses jika kunci yang dipasangkan salah atau berbeda, sehinga ini memungkinkan koneksi yang sangat-sangat aman dibanding kita menggunakan HTTPS.
+Dan keuntungan lainnya kita tidak lagi menggunakan token ketika akan mengatur repositori tapi cukup dengan password yang kita setel jika kamu menyetelnya nanti saat membuat atau meng-generate kunci SSH.</description>
     </item>
     
   </channel>

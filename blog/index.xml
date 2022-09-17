@@ -1,22 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Novores</title>
     <link>https://novores.xyz/blog/</link>
     <description>Recent content in Blog on Novores</description>
-    <image>
-      <url>https://novores.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://novores.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 30 Aug 2022 20:58:30 +0700</lastBuildDate><atom:link href="https://novores.xyz/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Sep 2022 07:10:42 +0700</lastBuildDate><atom:link href="https://novores.xyz/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux Upskill Challenge: Day 1</title>
+      <link>https://novores.xyz/blog/linuxupskillchallenge-day1/</link>
+      <pubDate>Thu, 15 Sep 2022 07:10:42 +0700</pubDate>
+      
+      <guid>https://novores.xyz/blog/linuxupskillchallenge-day1/</guid>
+      <description>blog ini merupakan bagian dari linux upskill challenge series. berisi catatan proses belajar saya dalam mengikuti panduan linux upskill challenge
+Tempo hari kamu telah berhasil membuat server. kamu sendiri yang akan mengatur server tersebut tentunya. untuk menjadi seorang admin linux server, kita diharuskan untuk nyaman bekerja dengan berbagai varian linux. tapi untuk sekarang ubuntu adalah pilihan terbaik.
+Tugas Hari Ini connect dan masuk secara remote ke dalam server jalankan beberapa perintah sederhana, untuk cek status server Connect Server Kemarin kita telah mencoba connect ke server dengan menggunakan SSH menggunakan private key.</description>
+    </item>
+    
     <item>
       <title>Linux Upskill Challenge: Day 0</title>
       <link>https://novores.xyz/blog/linuxupskillchallenge-day0/</link>
       <pubDate>Tue, 30 Aug 2022 20:58:30 +0700</pubDate>
       
       <guid>https://novores.xyz/blog/linuxupskillchallenge-day0/</guid>
-      <description>Make Your Own Server</description>
+      <description>Intro Sudah 3 tahun saya bergelut dengan linux sejak tahun 2019 sampai sekarang, dari memepelajari GUI sampai CLI-nya, dari menjalankan desktop manager sampai window manager, dari ubuntu sampai Archlinux (yah walaupun saya tahu archlinux tidak benar-benar sesulit itu), perjalanan panjang saya sampai pada bash scripting. semua perjalanan itu benar-benar menyenangkan dan tanpa sadar menjadi minat saya dalam dunia pekerjaan, yah walaupun background pendidikan saya tidak berhubungan dengan itu.
+Hari ini saya ingin meningkatkan keahlian saya dalam dunia linux, yah.</description>
     </item>
     
     <item>
@@ -25,7 +33,9 @@
       <pubDate>Wed, 13 Apr 2022 06:31:13 +0700</pubDate>
       
       <guid>https://novores.xyz/blog/cactus-comment/</guid>
-      <description>Menambahkan kolom komentar dalam hugo dengan Cactus Comment</description>
+      <description>Pengantar Hugo merupakan salah satu Static Site Generator yang kaya akan fitur. Salah satunya fitur komentar, untuk menambahkan fitur komentar ini kita hanya perlu menambahkan shortcode ke dalam fronmatter Blog kita. namun sayangnta fitur ini hanya tersedia untuk Disqus. saya pribadi tidak terlalu menyukai disquss karena proprietary-nya.
+jika kita ingin menambahkan komentar dari provider yang lain, maka kita harus menulis shortcode itu sendiri.
+saya lebih memilih Cactus Comment yang dimana komentar yang masuk kedalam blog/website akan langsung terhubung melalui akun Matrix.</description>
     </item>
     
     <item>
@@ -34,7 +44,11 @@
       <pubDate>Sat, 12 Mar 2022 07:02:58 +0700</pubDate>
       
       <guid>https://novores.xyz/blog/wormhole/</guid>
-      <description>wormhole-william adalah implementasi bahasa go dari magic-wormhole</description>
+      <description>Deskripsi wormhole-william adalah implementasi bahasa go dari magic-wormhole.
+wormhole sendiri merupakan suatu command-line tool yang berisi perintah untuk mengirim dan menerima file, direktori, serta teks, secara aman. ini untuk mengirim dan menerima file dengan menggunakan wormhole code yang mudah dibaca sebagai &amp;ldquo;kunci pembuka&amp;rdquo; contoh kunci pembuka yang dimaksud:5-boy-farming.
+wormhole juga menyediakan enkripsi end-to-end, titik akhirnya terhubung dengan 2 endpoints yang sama.
+Kenapa menggunakan wormhole-william alih-alih wormhole?
+karena wormhole-william memiliki beberapa fitur tambahan yang tidak ada di wormhole dasar, seperti dukungan qr code, built-in script untuk auto-completion di beberapa jenis shell, opsi flag yang bervariasi, dan dukungan QR code untuk handphone.</description>
     </item>
     
     <item>
@@ -75,7 +89,9 @@ ketikan perintah berikut untuk menduplikat source file dari repo github.</descri
       <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://novores.xyz/blog/connect-ke-github-dengan-ssh/</guid>
-      <description>setelah membaca artikel ini kamu dapat menyambungkan git dengan ssh di terminal</description>
+      <description>Intro Mengautentikasi Git dengan SSH adalah dengan menghasilkan sepasang kunci enkripsi secara asimetris, dimana kunci disimpan di sistem dan yang satunya lagi di disimpan di server.
+dengan kata lain komputer tidak akan mendapat hak akses jika kunci yang dipasangkan salah atau berbeda, sehinga ini memungkinkan koneksi yang sangat-sangat aman dibanding kita menggunakan HTTPS.
+Dan keuntungan lainnya kita tidak lagi menggunakan token ketika akan mengatur repositori tapi cukup dengan password yang kita setel jika kamu menyetelnya nanti saat membuat atau meng-generate kunci SSH.</description>
     </item>
     
     <item>
@@ -84,7 +100,8 @@ ketikan perintah berikut untuk menduplikat source file dari repo github.</descri
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       
       <guid>https://novores.xyz/blog/cara-mengaktifkan-tap-to-click-on-linux/</guid>
-      <description>Aktifkan tap2click di touchpad</description>
+      <description>Intro Ketika menggunakan linux kita kadang-kadang tidak mendapati Sistem kerja komputer yang semestinya, kita dituntut untuk bersikap do it yourself.
+maka dari itu kita harus benar-benar memahami cara kerja komputer yang sesungguhnya, dan dituntut mandiri menyelesaikan masalah yang ada. salah satu masalah yang pertama kali dirasakan ketika pertama kali mencoba linux adalah masalah tidak berfungsinya tap di touchpad laptop, saya akan mencoba memecahkan masalah ini secara runut agar mudah dipahami oleh anda.</description>
     </item>
     
   </channel>
