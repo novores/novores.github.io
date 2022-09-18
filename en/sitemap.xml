@@ -2,21 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://novores.xyz/en/blog/cactus-comment/</loc>
-    <lastmod>2022-04-13T06:31:13+07:00</lastmod>
+    <loc>https://novores.xyz/en/tags/asciinema/</loc>
+    <lastmod>2022-09-17T18:20:45+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://novores.xyz/blog/cactus-comment/"
+                href="https://novores.xyz/tags/asciinema/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://novores.xyz/en/blog/cactus-comment/"
+                href="https://novores.xyz/en/tags/asciinema/"
                 />
   </url><url>
     <loc>https://novores.xyz/en/blog/</loc>
-    <lastmod>2022-04-13T06:31:13+07:00</lastmod>
+    <lastmod>2022-09-17T18:20:45+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
@@ -28,8 +28,21 @@
                 href="https://novores.xyz/en/blog/"
                 />
   </url><url>
+    <loc>https://novores.xyz/en/blog/cara_mudah_embed_asciinema_ke_dalam_hugo/</loc>
+    <lastmod>2022-09-17T18:20:45+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://novores.xyz/blog/cara_mudah_embed_asciinema_ke_dalam_hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://novores.xyz/en/blog/cara_mudah_embed_asciinema_ke_dalam_hugo/"
+                />
+  </url><url>
     <loc>https://novores.xyz/en/tags/hugo/</loc>
-    <lastmod>2022-04-13T06:31:13+07:00</lastmod>
+    <lastmod>2022-09-17T18:20:45+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
@@ -42,7 +55,7 @@
                 />
   </url><url>
     <loc>https://novores.xyz/en/</loc>
-    <lastmod>2022-04-13T06:31:13+07:00</lastmod>
+    <lastmod>2022-09-17T18:20:45+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
@@ -55,7 +68,7 @@
                 />
   </url><url>
     <loc>https://novores.xyz/en/tags/</loc>
-    <lastmod>2022-04-13T06:31:13+07:00</lastmod>
+    <lastmod>2022-09-17T18:20:45+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
@@ -65,6 +78,58 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://novores.xyz/en/tags/"
+                />
+  </url><url>
+    <loc>https://novores.xyz/en/blog/linuxupskillchallenge-day1/</loc>
+    <lastmod>2022-09-15T07:10:42+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://novores.xyz/blog/linuxupskillchallenge-day1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://novores.xyz/en/blog/linuxupskillchallenge-day1/"
+                />
+  </url><url>
+    <loc>https://novores.xyz/en/tags/linuxupskillchallenge/</loc>
+    <lastmod>2022-09-15T07:10:42+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://novores.xyz/tags/linuxupskillchallenge/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://novores.xyz/en/tags/linuxupskillchallenge/"
+                />
+  </url><url>
+    <loc>https://novores.xyz/en/blog/linuxupskillchallenge-day0/</loc>
+    <lastmod>2022-08-30T20:58:30+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://novores.xyz/blog/linuxupskillchallenge-day0/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://novores.xyz/en/blog/linuxupskillchallenge-day0/"
+                />
+  </url><url>
+    <loc>https://novores.xyz/en/blog/cactus-comment/</loc>
+    <lastmod>2022-04-13T06:31:13+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://novores.xyz/blog/cactus-comment/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://novores.xyz/en/blog/cactus-comment/"
                 />
   </url><url>
     <loc>https://novores.xyz/en/tags/tutorial/</loc>

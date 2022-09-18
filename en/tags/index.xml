@@ -9,13 +9,31 @@
       <link>https://novores.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 13 Apr 2022 06:31:13 +0700</lastBuildDate><atom:link href="https://novores.xyz/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Sep 2022 18:20:45 +0700</lastBuildDate><atom:link href="https://novores.xyz/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>asciinema</title>
+      <link>https://novores.xyz/en/tags/asciinema/</link>
+      <pubDate>Sat, 17 Sep 2022 18:20:45 +0700</pubDate>
+      
+      <guid>https://novores.xyz/en/tags/asciinema/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>hugo</title>
       <link>https://novores.xyz/en/tags/hugo/</link>
-      <pubDate>Wed, 13 Apr 2022 06:31:13 +0700</pubDate>
+      <pubDate>Sat, 17 Sep 2022 18:20:45 +0700</pubDate>
       
       <guid>https://novores.xyz/en/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linuxupskillchallenge</title>
+      <link>https://novores.xyz/en/tags/linuxupskillchallenge/</link>
+      <pubDate>Thu, 15 Sep 2022 07:10:42 +0700</pubDate>
+      
+      <guid>https://novores.xyz/en/tags/linuxupskillchallenge/</guid>
       <description></description>
     </item>
     
