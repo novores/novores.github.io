@@ -9,7 +9,17 @@
       <link>https://novores.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 15 Sep 2022 07:10:42 +0700</lastBuildDate><atom:link href="https://novores.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Sep 2022 18:20:45 +0700</lastBuildDate><atom:link href="https://novores.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cara Mudah Menyemat Asciinema Ke Dalam Blog</title>
+      <link>https://novores.xyz/blog/cara_mudah_embed_asciinema_ke_dalam_hugo/</link>
+      <pubDate>Sat, 17 Sep 2022 18:20:45 +0700</pubDate>
+      
+      <guid>https://novores.xyz/blog/cara_mudah_embed_asciinema_ke_dalam_hugo/</guid>
+      <description>Sebagai author blog khususnya yang berhubungan dengan perkomputeran, terkadang kita membutuhkan suatu media yang dapat menunjang isi konten. Ada banyak cara untuk menunjang isi konten diantaranya dengan screenshot dan video recording. namun jika kita dihadapkan dengan comandline interactive , rasanya tidak pas jika kita menggunakan screenshot atau video recording sebagai sarana dokumentasinya.
+Saatnya kita berkenalan dengan Asciinema, dengan alat ini mari lupakan aplikasi recording dan video yang tampak mengerikan akibat blurfitur utama yang ditawarkan asciinema diantaranya.</description>
+    </item>
+    
     <item>
       <title>Linux Upskill Challenge: Day 1</title>
       <link>https://novores.xyz/blog/linuxupskillchallenge-day1/</link>
@@ -108,7 +118,7 @@ ketikan perintah berikut untuk menduplikat source file dari repo github.</descri
 Menggunakan nama samaran novores sebagai panggilan keseharian saya di dunia digital, saya membuat website ini dengan tujuan untuk menyimpan semua arsip proses pembelajaran saya di dunia linux agar mudah diakses oleh pribadi di kemudian hari.
 tetapi tidak hanya itu saya juga ingin berbagi apa yang saya ketahui dengan Anda.
 jadi nikmatilah!
-Alat-alat yang dipakai OS Archlinux init OpenRC text editor neovim terminal urxvt Static Site Generator Hugo browser qutebrowser Window Manager BSPWM File manager vifm Colorscheme gruvbox IRC weechat </description>
+Alat-alat yang dipakai OS Voidlinux init Runit text editor neovim terminal ST Static Site Generator Hugo browser qutebrowser Window Manager DWM File manager nnn Colorscheme gruvbox-material IRC weechat </description>
     </item>
     
   </channel>
