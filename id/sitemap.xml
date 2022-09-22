@@ -15,30 +15,30 @@
                 href="https://novores.xyz/tags/asciinema/"
                 />
   </url><url>
-    <loc>https://novores.xyz/blog/</loc>
+    <loc>https://novores.xyz/post/</loc>
     <lastmod>2022-09-17T18:20:45+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://novores.xyz/en/blog/"
+                href="https://novores.xyz/en/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://novores.xyz/blog/"
+                href="https://novores.xyz/post/"
                 />
   </url><url>
-    <loc>https://novores.xyz/blog/cara_mudah_embed_asciinema_ke_dalam_hugo/</loc>
+    <loc>https://novores.xyz/post/cara_mudah_embed_asciinema_ke_dalam_hugo/</loc>
     <lastmod>2022-09-17T18:20:45+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://novores.xyz/en/blog/cara_mudah_embed_asciinema_ke_dalam_hugo/"
+                href="https://novores.xyz/en/post/cara_mudah_embed_asciinema_ke_dalam_hugo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://novores.xyz/blog/cara_mudah_embed_asciinema_ke_dalam_hugo/"
+                href="https://novores.xyz/post/cara_mudah_embed_asciinema_ke_dalam_hugo/"
                 />
   </url><url>
     <loc>https://novores.xyz/tags/hugo/</loc>
@@ -80,17 +80,17 @@
                 href="https://novores.xyz/tags/"
                 />
   </url><url>
-    <loc>https://novores.xyz/blog/linuxupskillchallenge-day1/</loc>
+    <loc>https://novores.xyz/post/linuxupskillchallenge-day1/</loc>
     <lastmod>2022-09-15T07:10:42+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://novores.xyz/en/blog/linuxupskillchallenge-day1/"
+                href="https://novores.xyz/en/post/linuxupskillchallenge-day1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://novores.xyz/blog/linuxupskillchallenge-day1/"
+                href="https://novores.xyz/post/linuxupskillchallenge-day1/"
                 />
   </url><url>
     <loc>https://novores.xyz/tags/linuxupskillchallenge/</loc>
@@ -106,30 +106,30 @@
                 href="https://novores.xyz/tags/linuxupskillchallenge/"
                 />
   </url><url>
-    <loc>https://novores.xyz/blog/linuxupskillchallenge-day0/</loc>
+    <loc>https://novores.xyz/post/linuxupskillchallenge-day0/</loc>
     <lastmod>2022-08-30T20:58:30+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://novores.xyz/en/blog/linuxupskillchallenge-day0/"
+                href="https://novores.xyz/en/post/linuxupskillchallenge-day0/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://novores.xyz/blog/linuxupskillchallenge-day0/"
+                href="https://novores.xyz/post/linuxupskillchallenge-day0/"
                 />
   </url><url>
-    <loc>https://novores.xyz/blog/cactus-comment/</loc>
+    <loc>https://novores.xyz/post/cactus-comment/</loc>
     <lastmod>2022-04-13T06:31:13+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://novores.xyz/en/blog/cactus-comment/"
+                href="https://novores.xyz/en/post/cactus-comment/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://novores.xyz/blog/cactus-comment/"
+                href="https://novores.xyz/post/cactus-comment/"
                 />
   </url><url>
     <loc>https://novores.xyz/tags/tutorial/</loc>
@@ -145,17 +145,17 @@
                 href="https://novores.xyz/tags/tutorial/"
                 />
   </url><url>
-    <loc>https://novores.xyz/blog/wormhole/</loc>
+    <loc>https://novores.xyz/post/wormhole/</loc>
     <lastmod>2022-03-12T07:02:58+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://novores.xyz/en/blog/wormhole/"
+                href="https://novores.xyz/en/post/wormhole/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://novores.xyz/blog/wormhole/"
+                href="https://novores.xyz/post/wormhole/"
                 />
   </url><url>
     <loc>https://novores.xyz/tags/linux/</loc>
@@ -184,17 +184,17 @@
                 href="https://novores.xyz/tags/review/"
                 />
   </url><url>
-    <loc>https://novores.xyz/blog/bluetoothctl/</loc>
+    <loc>https://novores.xyz/post/bluetoothctl/</loc>
     <lastmod>2022-02-07T23:01:42+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://novores.xyz/en/blog/bluetoothctl/"
+                href="https://novores.xyz/en/post/bluetoothctl/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://novores.xyz/blog/bluetoothctl/"
+                href="https://novores.xyz/post/bluetoothctl/"
                 />
   </url><url>
     <loc>https://novores.xyz/tags/tips/</loc>
@@ -210,30 +210,30 @@
                 href="https://novores.xyz/tags/tips/"
                 />
   </url><url>
-    <loc>https://novores.xyz/blog/mengabaikan-package-archlinux/</loc>
+    <loc>https://novores.xyz/post/mengabaikan-package-archlinux/</loc>
     <lastmod>2022-01-29T07:02:58+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://novores.xyz/en/blog/mengabaikan-package-archlinux/"
+                href="https://novores.xyz/en/post/mengabaikan-package-archlinux/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://novores.xyz/blog/mengabaikan-package-archlinux/"
+                href="https://novores.xyz/post/mengabaikan-package-archlinux/"
                 />
   </url><url>
-    <loc>https://novores.xyz/blog/cara-mudah-mengkonfigurasi-emptty/</loc>
+    <loc>https://novores.xyz/post/cara-mudah-mengkonfigurasi-emptty/</loc>
     <lastmod>2021-12-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://novores.xyz/en/blog/cara-mudah-mengkonfigurasi-emptty/"
+                href="https://novores.xyz/en/post/cara-mudah-mengkonfigurasi-emptty/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://novores.xyz/blog/cara-mudah-mengkonfigurasi-emptty/"
+                href="https://novores.xyz/post/cara-mudah-mengkonfigurasi-emptty/"
                 />
   </url><url>
     <loc>https://novores.xyz/tags/how-to/</loc>
@@ -249,30 +249,30 @@
                 href="https://novores.xyz/tags/how-to/"
                 />
   </url><url>
-    <loc>https://novores.xyz/blog/connect-ke-github-dengan-ssh/</loc>
+    <loc>https://novores.xyz/post/connect-ke-github-dengan-ssh/</loc>
     <lastmod>2021-12-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://novores.xyz/en/blog/connect-ke-github-dengan-ssh/"
+                href="https://novores.xyz/en/post/connect-ke-github-dengan-ssh/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://novores.xyz/blog/connect-ke-github-dengan-ssh/"
+                href="https://novores.xyz/post/connect-ke-github-dengan-ssh/"
                 />
   </url><url>
-    <loc>https://novores.xyz/blog/cara-mengaktifkan-tap-to-click-on-linux/</loc>
+    <loc>https://novores.xyz/post/cara-mengaktifkan-tap-to-click-on-linux/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://novores.xyz/en/blog/cara-mengaktifkan-tap-to-click-on-linux/"
+                href="https://novores.xyz/en/post/cara-mengaktifkan-tap-to-click-on-linux/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://novores.xyz/blog/cara-mengaktifkan-tap-to-click-on-linux/"
+                href="https://novores.xyz/post/cara-mengaktifkan-tap-to-click-on-linux/"
                 />
   </url><url>
     <loc>https://novores.xyz/archives/</loc>

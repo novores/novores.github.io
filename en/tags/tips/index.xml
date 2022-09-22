@@ -12,10 +12,10 @@
     <lastBuildDate>Mon, 07 Feb 2022 23:01:42 +0700</lastBuildDate><atom:link href="https://novores.xyz/en/tags/tips/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Activate Bluetooth With Just A Terminal on Linux</title>
-      <link>https://novores.xyz/en/blog/bluetoothctl/</link>
+      <link>https://novores.xyz/en/post/bluetoothctl/</link>
       <pubDate>Mon, 07 Feb 2022 23:01:42 +0700</pubDate>
       
-      <guid>https://novores.xyz/en/blog/bluetoothctl/</guid>
+      <guid>https://novores.xyz/en/post/bluetoothctl/</guid>
       <description>Intro bluetooth is one of the technologies that must exist in every computer device, because of its many, many uses, not only for file transfers, but bluetooth can also be used to connect sound wirelessly.
 according to wikipedia
 Bluetooth is the industry specification for wireless personal area networks (PAN). bluetooth connects and can be used to exchange information between devices. The specifications of this bluetooth device are developed and distributed by the bluetooth special interest group.</description>
@@ -23,20 +23,20 @@ Bluetooth is the industry specification for wireless personal area networks (PAN
     
     <item>
       <title>How to Ignore Certain Packages To Upgrade in Archlinux</title>
-      <link>https://novores.xyz/en/blog/mengabaikan-package-archlinux/</link>
+      <link>https://novores.xyz/en/post/mengabaikan-package-archlinux/</link>
       <pubDate>Sat, 29 Jan 2022 07:02:58 +0700</pubDate>
       
-      <guid>https://novores.xyz/en/blog/mengabaikan-package-archlinux/</guid>
+      <guid>https://novores.xyz/en/post/mengabaikan-package-archlinux/</guid>
       <description>Background sometimes when we want to update a package, there are things we want to ignore to update. for example, if there is a lack of quota I will make one large package to be ignored, one of which is libreoffice, this package one of the big packages and not too important to upgrade in my opinion, that I have
 Attention be careful when choosing packages to ignore for upgrading make sure there are no dependencies to depend on Mainly the Linux kernel</description>
     </item>
     
     <item>
       <title>Set Touchpad Configuration in Linux</title>
-      <link>https://novores.xyz/en/blog/cara-mengaktifkan-tap-to-click-on-linux/</link>
+      <link>https://novores.xyz/en/post/cara-mengaktifkan-tap-to-click-on-linux/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       
-      <guid>https://novores.xyz/en/blog/cara-mengaktifkan-tap-to-click-on-linux/</guid>
+      <guid>https://novores.xyz/en/post/cara-mengaktifkan-tap-to-click-on-linux/</guid>
       <description>Intro when using linux we sometimes don&amp;rsquo;t find the computer working system properly, we are required to be do it yourself.
 therefore we must really understand how computers actually work, and are required to independently solve existing problems. One of the first problems that I felt when I first tried Linux was the problem of not working tap on the laptop touchpad, I will try to solve this problem in detail so that it is easy for you to understand.</description>
     </item>

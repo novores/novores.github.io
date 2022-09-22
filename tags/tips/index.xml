@@ -12,10 +12,10 @@
     <lastBuildDate>Mon, 07 Feb 2022 23:01:42 +0700</lastBuildDate><atom:link href="https://novores.xyz/tags/tips/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cara Aktifkan bluetooth Cukup dengan Terminal di Linux</title>
-      <link>https://novores.xyz/blog/bluetoothctl/</link>
+      <link>https://novores.xyz/post/bluetoothctl/</link>
       <pubDate>Mon, 07 Feb 2022 23:01:42 +0700</pubDate>
       
-      <guid>https://novores.xyz/blog/bluetoothctl/</guid>
+      <guid>https://novores.xyz/post/bluetoothctl/</guid>
       <description>Intro Bluetooth merupakan salah satu teknologi yang wajib ada di setiap perangkat komputer, karena kegunaanya yang sangat-sangat banyak, bukan hanya untuk transfer file, namun bluetooth juga dapat digunakan untuk menyambungkan suara secara wireless.
 Dilansir dari wikipedia
 Bluetooth adalah spesifikasi industri untuk jaringan kawasan pribadi (personal area networks atau PAN) tanpa kabel. Bluetooth menghubungkan dan dapat dipakai untuk melakukan tukar-menukar informasi di antara peralatan-peralatan. Spesifikasi dari peralatan Bluetooth ini dikembangkan dan didistribusikan oleh kelompok Bluetooth Special Interest Group.</description>
@@ -23,20 +23,20 @@ Bluetooth adalah spesifikasi industri untuk jaringan kawasan pribadi (personal a
     
     <item>
       <title>Cara Mengabaikan package tertentu untuk di Upgrade di Archlinux</title>
-      <link>https://novores.xyz/blog/mengabaikan-package-archlinux/</link>
+      <link>https://novores.xyz/post/mengabaikan-package-archlinux/</link>
       <pubDate>Sat, 29 Jan 2022 07:02:58 +0700</pubDate>
       
-      <guid>https://novores.xyz/blog/mengabaikan-package-archlinux/</guid>
+      <guid>https://novores.xyz/post/mengabaikan-package-archlinux/</guid>
       <description>Background Terkadang ketika kita ingin meng-update package, ada hal yang ingin kita abaikan untuk diupdate. contohnya jika kekurangan kuota saya akan menjadikan salah satu package yang berukuran besar untuk diabaikan, salah satu nya libreoffice, package ini salah satu package besar dan tidak terlalu penting untuk di upgrade menurut saya, yang saya miliki
 PERHATIAN hati-hati ketika memilih package yang akan diabaikan untuk diupgrade pastikan tidak ada dependensi yang bergantung kepada utamanya kernel linux</description>
     </item>
     
     <item>
       <title>Cara mengaktifkan Tap-to-Click di Archlinux</title>
-      <link>https://novores.xyz/blog/cara-mengaktifkan-tap-to-click-on-linux/</link>
+      <link>https://novores.xyz/post/cara-mengaktifkan-tap-to-click-on-linux/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       
-      <guid>https://novores.xyz/blog/cara-mengaktifkan-tap-to-click-on-linux/</guid>
+      <guid>https://novores.xyz/post/cara-mengaktifkan-tap-to-click-on-linux/</guid>
       <description>Aktifkan tap2click di touchpad</description>
     </item>
     

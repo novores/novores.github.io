@@ -12,20 +12,20 @@
     <lastBuildDate>Sat, 17 Sep 2022 18:20:45 +0700</lastBuildDate><atom:link href="https://novores.xyz/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cara Mudah Menyemat Asciinema Ke Dalam Hugo</title>
-      <link>https://novores.xyz/blog/cara_mudah_embed_asciinema_ke_dalam_hugo/</link>
+      <link>https://novores.xyz/post/cara_mudah_embed_asciinema_ke_dalam_hugo/</link>
       <pubDate>Sat, 17 Sep 2022 18:20:45 +0700</pubDate>
       
-      <guid>https://novores.xyz/blog/cara_mudah_embed_asciinema_ke_dalam_hugo/</guid>
+      <guid>https://novores.xyz/post/cara_mudah_embed_asciinema_ke_dalam_hugo/</guid>
       <description>Sebagai author blog khususnya yang berhubungan dengan perkomputeran, terkadang kita membutuhkan suatu media yang dapat menunjang isi konten. Ada banyak cara untuk menunjang isi konten diantaranya dengan screenshot dan video recording. namun jika kita dihadapkan dengan comandline interactive , rasanya tidak pas jika kita menggunakan screenshot atau video recording sebagai sarana dokumentasinya.
 Saatnya kita berkenalan dengan Asciinema, dengan alat ini mari lupakan aplikasi recording dan video yang tampak mengerikan akibat blur, fitur utama yang ditawarkan asciinema diantaranya.</description>
     </item>
     
     <item>
       <title>Menambahkan Cactus Comments ke dalam Hugo</title>
-      <link>https://novores.xyz/blog/cactus-comment/</link>
+      <link>https://novores.xyz/post/cactus-comment/</link>
       <pubDate>Wed, 13 Apr 2022 06:31:13 +0700</pubDate>
       
-      <guid>https://novores.xyz/blog/cactus-comment/</guid>
+      <guid>https://novores.xyz/post/cactus-comment/</guid>
       <description>Menambahkan kolom komentar dalam hugo dengan Cactus Comment</description>
     </item>
     

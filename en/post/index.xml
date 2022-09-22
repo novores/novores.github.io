@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Novores</title>
+    <link>https://novores.xyz/en/post/</link>
+    <description>Recent content in Posts on Novores</description>
+    <image>
+      <url>https://novores.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://novores.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 17 Sep 2022 18:20:45 +0700</lastBuildDate><atom:link href="https://novores.xyz/en/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Easy Way To Embed Asciinema Into Hugo</title>
+      <link>https://novores.xyz/en/post/cara_mudah_embed_asciinema_ke_dalam_hugo/</link>
+      <pubDate>Sat, 17 Sep 2022 18:20:45 +0700</pubDate>
+      
+      <guid>https://novores.xyz/en/post/cara_mudah_embed_asciinema_ke_dalam_hugo/</guid>
+      <description>As a blog author, especially those related to computing, sometimes we need a media that can support the content. There are many ways to support content, including screenshots and video recording. but if we are faced with commandline interactive, it doesn&amp;rsquo;t feel right if we use screenshots or video recording as a means of documentation.
+it&amp;rsquo;s time for us to get acquainted Asciinema, with this tool let&amp;rsquo;s forget about recording and video applications that look terrible due to blur The main features offered by Asciinema include:</description>
+    </item>
+    
+    <item>
+      <title>Linux Upskill Challenge: Day 1</title>
+      <link>https://novores.xyz/en/post/linuxupskillchallenge-day1/</link>
+      <pubDate>Thu, 15 Sep 2022 07:10:42 +0700</pubDate>
+      
+      <guid>https://novores.xyz/en/post/linuxupskillchallenge-day1/</guid>
+      <description>Get to know your server</description>
+    </item>
+    
+    <item>
+      <title>Linux Upskill Challenge: Day 0</title>
+      <link>https://novores.xyz/en/post/linuxupskillchallenge-day0/</link>
+      <pubDate>Tue, 30 Aug 2022 20:58:30 +0700</pubDate>
+      
+      <guid>https://novores.xyz/en/post/linuxupskillchallenge-day0/</guid>
+      <description>Make Your Own Server</description>
+    </item>
+    
+    <item>
+      <title>Added Cactus Comments to Hugo</title>
+      <link>https://novores.xyz/en/post/cactus-comment/</link>
+      <pubDate>Wed, 13 Apr 2022 06:31:13 +0700</pubDate>
+      
+      <guid>https://novores.xyz/en/post/cactus-comment/</guid>
+      <description>Add a comment field in hugo with cactus comment</description>
+    </item>
+    
+    <item>
+      <title>Share Files Between Devices with Wormhole William</title>
+      <link>https://novores.xyz/en/post/wormhole/</link>
+      <pubDate>Sat, 12 Mar 2022 07:02:58 +0700</pubDate>
+      
+      <guid>https://novores.xyz/en/post/wormhole/</guid>
+      <description>wormhole-william is the go language implementation of magic-wormhole</description>
+    </item>
+    
+    <item>
+      <title>How to Activate Bluetooth With Just A Terminal on Linux</title>
+      <link>https://novores.xyz/en/post/bluetoothctl/</link>
+      <pubDate>Mon, 07 Feb 2022 23:01:42 +0700</pubDate>
+      
+      <guid>https://novores.xyz/en/post/bluetoothctl/</guid>
+      <description>Intro bluetooth is one of the technologies that must exist in every computer device, because of its many, many uses, not only for file transfers, but bluetooth can also be used to connect sound wirelessly.
+according to wikipedia
+Bluetooth is the industry specification for wireless personal area networks (PAN). bluetooth connects and can be used to exchange information between devices. The specifications of this bluetooth device are developed and distributed by the bluetooth special interest group.</description>
+    </item>
+    
+    <item>
+      <title>How to Ignore Certain Packages To Upgrade in Archlinux</title>
+      <link>https://novores.xyz/en/post/mengabaikan-package-archlinux/</link>
+      <pubDate>Sat, 29 Jan 2022 07:02:58 +0700</pubDate>
+      
+      <guid>https://novores.xyz/en/post/mengabaikan-package-archlinux/</guid>
+      <description>Background sometimes when we want to update a package, there are things we want to ignore to update. for example, if there is a lack of quota I will make one large package to be ignored, one of which is libreoffice, this package one of the big packages and not too important to upgrade in my opinion, that I have
+Attention be careful when choosing packages to ignore for upgrading make sure there are no dependencies to depend on Mainly the Linux kernel</description>
+    </item>
+    
+    <item>
+      <title>Authenticate Git With SSH</title>
+      <link>https://novores.xyz/en/post/connect-ke-github-dengan-ssh/</link>
+      <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://novores.xyz/en/post/connect-ke-github-dengan-ssh/</guid>
+      <description>after reading this article you can connect git with ssh in terminal</description>
+    </item>
+    
+    <item>
+      <title>Emptty: A Very Simple Display Manager</title>
+      <link>https://novores.xyz/en/post/cara-mudah-mengkonfigurasi-emptty/</link>
+      <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://novores.xyz/en/post/cara-mudah-mengkonfigurasi-emptty/</guid>
+      <description>description emptty itself is cli based, this is what makes it quite simple to operate, emptty is a simple display manager, emptty is written in the go language. but there are some configurations that we must determine first, so that emptty can work as we want.
+Installing unfortunately emptty is only available in the aur and void repos. but calm down you can install emptty via cloning.
+type the following command</description>
+    </item>
+    
+    <item>
+      <title>Set Touchpad Configuration in Linux</title>
+      <link>https://novores.xyz/en/post/cara-mengaktifkan-tap-to-click-on-linux/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      
+      <guid>https://novores.xyz/en/post/cara-mengaktifkan-tap-to-click-on-linux/</guid>
+      <description>Intro when using linux we sometimes don&amp;rsquo;t find the computer working system properly, we are required to be do it yourself.
+therefore we must really understand how computers actually work, and are required to independently solve existing problems. One of the first problems that I felt when I first tried Linux was the problem of not working tap on the laptop touchpad, I will try to solve this problem in detail so that it is easy for you to understand.</description>
+    </item>
+    
+  </channel>
+</rss>
