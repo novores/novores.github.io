@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>linuxupskillchallenge on Novores</title>
-    <link>https://novores.xyz/en/tags/linuxupskillchallenge/</link>
+    <link>https://novores.github.io/en/tags/linuxupskillchallenge/</link>
     <description>Recent content in linuxupskillchallenge on Novores</description>
     <image>
-      <url>https://novores.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://novores.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://novores.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://novores.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 15 Sep 2022 07:10:42 +0700</lastBuildDate><atom:link href="https://novores.xyz/en/tags/linuxupskillchallenge/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Sep 2022 07:10:42 +0700</lastBuildDate><atom:link href="https://novores.github.io/en/tags/linuxupskillchallenge/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux Upskill Challenge: Day 1</title>
-      <link>https://novores.xyz/en/post/linuxupskillchallenge-day1/</link>
+      <link>https://novores.github.io/en/post/linuxupskillchallenge-day1/</link>
       <pubDate>Thu, 15 Sep 2022 07:10:42 +0700</pubDate>
       
-      <guid>https://novores.xyz/en/post/linuxupskillchallenge-day1/</guid>
+      <guid>https://novores.github.io/en/post/linuxupskillchallenge-day1/</guid>
       <description>Get to know your server</description>
     </item>
     
     <item>
       <title>Linux Upskill Challenge: Day 0</title>
-      <link>https://novores.xyz/en/post/linuxupskillchallenge-day0/</link>
+      <link>https://novores.github.io/en/post/linuxupskillchallenge-day0/</link>
       <pubDate>Tue, 30 Aug 2022 20:58:30 +0700</pubDate>
       
-      <guid>https://novores.xyz/en/post/linuxupskillchallenge-day0/</guid>
+      <guid>https://novores.github.io/en/post/linuxupskillchallenge-day0/</guid>
       <description>Make Your Own Server</description>
     </item>
     

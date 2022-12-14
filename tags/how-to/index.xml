@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>How to on Novores</title>
-    <link>https://novores.xyz/tags/how-to/</link>
+    <link>https://novores.github.io/tags/how-to/</link>
     <description>Recent content in How to on Novores</description>
     <image>
-      <url>https://novores.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://novores.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://novores.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://novores.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 26 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://novores.xyz/tags/how-to/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://novores.github.io/tags/how-to/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mengautentikasi Git dengan SSH</title>
-      <link>https://novores.xyz/post/connect-ke-github-dengan-ssh/</link>
+      <link>https://novores.github.io/post/connect-ke-github-dengan-ssh/</link>
       <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://novores.xyz/post/connect-ke-github-dengan-ssh/</guid>
+      <guid>https://novores.github.io/post/connect-ke-github-dengan-ssh/</guid>
       <description>setelah membaca artikel ini kamu dapat menyambungkan git dengan ssh di terminal</description>
     </item>
     
