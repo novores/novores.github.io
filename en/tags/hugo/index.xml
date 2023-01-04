@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hugo on Novores</title>
+    <title>hugo on My blog</title>
     <link>https://novores.github.io/en/tags/hugo/</link>
-    <description>Recent content in hugo on Novores</description>
-    <image>
-      <url>https://novores.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://novores.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
+    <description>Recent content in hugo on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
     <lastBuildDate>Sat, 17 Sep 2022 18:20:45 +0700</lastBuildDate><atom:link href="https://novores.github.io/en/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Easy Way To Embed Asciinema Into Hugo</title>
@@ -16,8 +13,10 @@
       <pubDate>Sat, 17 Sep 2022 18:20:45 +0700</pubDate>
       
       <guid>https://novores.github.io/en/post/cara_mudah_embed_asciinema_ke_dalam_hugo/</guid>
-      <description>As a blog author, especially those related to computing, sometimes we need a media that can support the content. There are many ways to support content, including screenshots and video recording. but if we are faced with commandline interactive, it doesn&amp;rsquo;t feel right if we use screenshots or video recording as a means of documentation.
+      
+        <description>As a blog author, especially those related to computing, sometimes we need a media that can support the content. There are many ways to support content, including screenshots and video recording. but if we are faced with commandline interactive, it doesn&amp;rsquo;t feel right if we use screenshots or video recording as a means of documentation.
 it&amp;rsquo;s time for us to get acquainted Asciinema, with this tool let&amp;rsquo;s forget about recording and video applications that look terrible due to blur The main features offered by Asciinema include:</description>
+      
     </item>
     
     <item>
@@ -26,7 +25,9 @@ it&amp;rsquo;s time for us to get acquainted Asciinema, with this tool let&amp;r
       <pubDate>Wed, 13 Apr 2022 06:31:13 +0700</pubDate>
       
       <guid>https://novores.github.io/en/post/cactus-comment/</guid>
-      <description>Add a comment field in hugo with cactus comment</description>
+      
+        <description>Add a comment field in hugo with cactus comment</description>
+      
     </item>
     
   </channel>

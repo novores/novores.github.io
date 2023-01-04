@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>linuxupskillchallenge on Novores</title>
+    <title>linuxupskillchallenge on My blog</title>
     <link>https://novores.github.io/en/tags/linuxupskillchallenge/</link>
-    <description>Recent content in linuxupskillchallenge on Novores</description>
-    <image>
-      <url>https://novores.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://novores.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
+    <description>Recent content in linuxupskillchallenge on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
     <lastBuildDate>Thu, 15 Sep 2022 07:10:42 +0700</lastBuildDate><atom:link href="https://novores.github.io/en/tags/linuxupskillchallenge/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux Upskill Challenge: Day 1</title>
@@ -16,7 +13,9 @@
       <pubDate>Thu, 15 Sep 2022 07:10:42 +0700</pubDate>
       
       <guid>https://novores.github.io/en/post/linuxupskillchallenge-day1/</guid>
-      <description>Get to know your server</description>
+      
+        <description>Get to know your server</description>
+      
     </item>
     
     <item>
@@ -25,7 +24,9 @@
       <pubDate>Tue, 30 Aug 2022 20:58:30 +0700</pubDate>
       
       <guid>https://novores.github.io/en/post/linuxupskillchallenge-day0/</guid>
-      <description>Make Your Own Server</description>
+      
+        <description>Make Your Own Server</description>
+      
     </item>
     
   </channel>

@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tutorial on Novores</title>
+    <title>tutorial on My blog</title>
     <link>https://novores.github.io/en/tags/tutorial/</link>
-    <description>Recent content in tutorial on Novores</description>
-    <image>
-      <url>https://novores.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://novores.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
+    <description>Recent content in tutorial on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
     <lastBuildDate>Wed, 13 Apr 2022 06:31:13 +0700</lastBuildDate><atom:link href="https://novores.github.io/en/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Added Cactus Comments to Hugo</title>
@@ -16,7 +13,9 @@
       <pubDate>Wed, 13 Apr 2022 06:31:13 +0700</pubDate>
       
       <guid>https://novores.github.io/en/post/cactus-comment/</guid>
-      <description>Add a comment field in hugo with cactus comment</description>
+      
+        <description>Add a comment field in hugo with cactus comment</description>
+      
     </item>
     
   </channel>

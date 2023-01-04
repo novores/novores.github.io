@@ -322,5 +322,17 @@
                 hreflang="en"
                 href="https://novores.github.io/en/search/"
                 />
+  </url><url>
+    <loc>https://novores.github.io/en/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://novores.github.io/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://novores.github.io/en/series/"
+                />
   </url>
 </urlset>

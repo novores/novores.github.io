@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>thumbnail on My blog</title>
+    <link>https://novores.github.io/tags/thumbnail/</link>
+    <description>Recent content in thumbnail on My blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <lastBuildDate>Sat, 17 Sep 2022 18:20:45 +0700</lastBuildDate><atom:link href="https://novores.github.io/tags/thumbnail/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cara Mudah Menyemat Asciinema Ke Dalam Hugo</title>
+      <link>https://novores.github.io/post/cara_mudah_embed_asciinema_ke_dalam_hugo/</link>
+      <pubDate>Sat, 17 Sep 2022 18:20:45 +0700</pubDate>
+      
+      <guid>https://novores.github.io/post/cara_mudah_embed_asciinema_ke_dalam_hugo/</guid>
+      
+        <description>Sebagai author blog khususnya yang berhubungan dengan perkomputeran, terkadang kita membutuhkan suatu media yang dapat menunjang isi konten. Ada banyak cara untuk menunjang isi konten diantaranya dengan screenshot dan video recording. namun jika kita dihadapkan dengan comandline interactive , rasanya tidak pas jika kita menggunakan screenshot atau video recording sebagai sarana dokumentasinya.
+Saatnya kita berkenalan dengan Asciinema, dengan alat ini mari lupakan aplikasi recording dan video yang tampak mengerikan akibat blur, fitur utama yang ditawarkan asciinema diantaranya.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

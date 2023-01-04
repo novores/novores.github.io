@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tips on Novores</title>
+    <title>tips on My blog</title>
     <link>https://novores.github.io/tags/tips/</link>
-    <description>Recent content in tips on Novores</description>
-    <image>
-      <url>https://novores.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://novores.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
+    <description>Recent content in tips on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
     <lastBuildDate>Mon, 07 Feb 2022 23:01:42 +0700</lastBuildDate><atom:link href="https://novores.github.io/tags/tips/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cara Aktifkan bluetooth Cukup dengan Terminal di Linux</title>
@@ -16,9 +13,11 @@
       <pubDate>Mon, 07 Feb 2022 23:01:42 +0700</pubDate>
       
       <guid>https://novores.github.io/post/bluetoothctl/</guid>
-      <description>Intro Bluetooth merupakan salah satu teknologi yang wajib ada di setiap perangkat komputer, karena kegunaanya yang sangat-sangat banyak, bukan hanya untuk transfer file, namun bluetooth juga dapat digunakan untuk menyambungkan suara secara wireless.
+      
+        <description>Intro Bluetooth merupakan salah satu teknologi yang wajib ada di setiap perangkat komputer, karena kegunaanya yang sangat-sangat banyak, bukan hanya untuk transfer file, namun bluetooth juga dapat digunakan untuk menyambungkan suara secara wireless.
 Dilansir dari wikipedia
 Bluetooth adalah spesifikasi industri untuk jaringan kawasan pribadi (personal area networks atau PAN) tanpa kabel. Bluetooth menghubungkan dan dapat dipakai untuk melakukan tukar-menukar informasi di antara peralatan-peralatan. Spesifikasi dari peralatan Bluetooth ini dikembangkan dan didistribusikan oleh kelompok Bluetooth Special Interest Group.</description>
+      
     </item>
     
     <item>
@@ -27,8 +26,10 @@ Bluetooth adalah spesifikasi industri untuk jaringan kawasan pribadi (personal a
       <pubDate>Sat, 29 Jan 2022 07:02:58 +0700</pubDate>
       
       <guid>https://novores.github.io/post/mengabaikan-package-archlinux/</guid>
-      <description>Background Terkadang ketika kita ingin meng-update package, ada hal yang ingin kita abaikan untuk diupdate. contohnya jika kekurangan kuota saya akan menjadikan salah satu package yang berukuran besar untuk diabaikan, salah satu nya libreoffice, package ini salah satu package besar dan tidak terlalu penting untuk di upgrade menurut saya, yang saya miliki
+      
+        <description>Background Terkadang ketika kita ingin meng-update package, ada hal yang ingin kita abaikan untuk diupdate. contohnya jika kekurangan kuota saya akan menjadikan salah satu package yang berukuran besar untuk diabaikan, salah satu nya libreoffice, package ini salah satu package besar dan tidak terlalu penting untuk di upgrade menurut saya, yang saya miliki
 PERHATIAN hati-hati ketika memilih package yang akan diabaikan untuk diupgrade pastikan tidak ada dependensi yang bergantung kepada utamanya kernel linux</description>
+      
     </item>
     
     <item>
@@ -37,7 +38,9 @@ PERHATIAN hati-hati ketika memilih package yang akan diabaikan untuk diupgrade p
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       
       <guid>https://novores.github.io/post/cara-mengaktifkan-tap-to-click-on-linux/</guid>
-      <description>Aktifkan tap2click di touchpad</description>
+      
+        <description>Aktifkan tap2click di touchpad</description>
+      
     </item>
     
   </channel>

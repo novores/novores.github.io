@@ -1,22 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Novores</title>
+    <title>Tags on My blog</title>
     <link>https://novores.github.io/tags/</link>
-    <description>Recent content in Tags on Novores</description>
-    <image>
-      <url>https://novores.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://novores.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
+    <description>Recent content in Tags on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 17 Sep 2022 18:20:45 +0700</lastBuildDate><atom:link href="https://novores.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>id</language>
+    <lastBuildDate>Mon, 19 Sep 2022 06:20:11 +0700</lastBuildDate><atom:link href="https://novores.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>linuxupskillchallenge</title>
+      <link>https://novores.github.io/tags/linuxupskillchallenge/</link>
+      <pubDate>Mon, 19 Sep 2022 06:20:11 +0700</pubDate>
+      
+      <guid>https://novores.github.io/tags/linuxupskillchallenge/</guid>
+      
+        <description></description>
+      
+    </item>
+    
     <item>
       <title>asciinema</title>
       <link>https://novores.github.io/tags/asciinema/</link>
       <pubDate>Sat, 17 Sep 2022 18:20:45 +0700</pubDate>
       
       <guid>https://novores.github.io/tags/asciinema/</guid>
-      <description></description>
+      
+        <description></description>
+      
     </item>
     
     <item>
@@ -25,16 +35,20 @@
       <pubDate>Sat, 17 Sep 2022 18:20:45 +0700</pubDate>
       
       <guid>https://novores.github.io/tags/hugo/</guid>
-      <description></description>
+      
+        <description></description>
+      
     </item>
     
     <item>
-      <title>linuxupskillchallenge</title>
-      <link>https://novores.github.io/tags/linuxupskillchallenge/</link>
-      <pubDate>Thu, 15 Sep 2022 07:10:42 +0700</pubDate>
+      <title>thumbnail</title>
+      <link>https://novores.github.io/tags/thumbnail/</link>
+      <pubDate>Sat, 17 Sep 2022 18:20:45 +0700</pubDate>
       
-      <guid>https://novores.github.io/tags/linuxupskillchallenge/</guid>
-      <description></description>
+      <guid>https://novores.github.io/tags/thumbnail/</guid>
+      
+        <description></description>
+      
     </item>
     
     <item>
@@ -43,7 +57,9 @@
       <pubDate>Wed, 13 Apr 2022 06:31:13 +0700</pubDate>
       
       <guid>https://novores.github.io/tags/tutorial/</guid>
-      <description></description>
+      
+        <description></description>
+      
     </item>
     
     <item>
@@ -52,7 +68,9 @@
       <pubDate>Sat, 12 Mar 2022 07:02:58 +0700</pubDate>
       
       <guid>https://novores.github.io/tags/linux/</guid>
-      <description></description>
+      
+        <description></description>
+      
     </item>
     
     <item>
@@ -61,7 +79,9 @@
       <pubDate>Sat, 12 Mar 2022 07:02:58 +0700</pubDate>
       
       <guid>https://novores.github.io/tags/review/</guid>
-      <description></description>
+      
+        <description></description>
+      
     </item>
     
     <item>
@@ -70,7 +90,9 @@
       <pubDate>Mon, 07 Feb 2022 23:01:42 +0700</pubDate>
       
       <guid>https://novores.github.io/tags/tips/</guid>
-      <description></description>
+      
+        <description></description>
+      
     </item>
     
     <item>
@@ -79,7 +101,9 @@
       <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://novores.github.io/tags/how-to/</guid>
-      <description></description>
+      
+        <description></description>
+      
     </item>
     
   </channel>

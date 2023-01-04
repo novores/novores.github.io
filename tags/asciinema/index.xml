@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>asciinema on Novores</title>
+    <title>asciinema on My blog</title>
     <link>https://novores.github.io/tags/asciinema/</link>
-    <description>Recent content in asciinema on Novores</description>
-    <image>
-      <url>https://novores.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://novores.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
+    <description>Recent content in asciinema on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
     <lastBuildDate>Sat, 17 Sep 2022 18:20:45 +0700</lastBuildDate><atom:link href="https://novores.github.io/tags/asciinema/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cara Mudah Menyemat Asciinema Ke Dalam Hugo</title>
@@ -16,8 +13,10 @@
       <pubDate>Sat, 17 Sep 2022 18:20:45 +0700</pubDate>
       
       <guid>https://novores.github.io/post/cara_mudah_embed_asciinema_ke_dalam_hugo/</guid>
-      <description>Sebagai author blog khususnya yang berhubungan dengan perkomputeran, terkadang kita membutuhkan suatu media yang dapat menunjang isi konten. Ada banyak cara untuk menunjang isi konten diantaranya dengan screenshot dan video recording. namun jika kita dihadapkan dengan comandline interactive , rasanya tidak pas jika kita menggunakan screenshot atau video recording sebagai sarana dokumentasinya.
+      
+        <description>Sebagai author blog khususnya yang berhubungan dengan perkomputeran, terkadang kita membutuhkan suatu media yang dapat menunjang isi konten. Ada banyak cara untuk menunjang isi konten diantaranya dengan screenshot dan video recording. namun jika kita dihadapkan dengan comandline interactive , rasanya tidak pas jika kita menggunakan screenshot atau video recording sebagai sarana dokumentasinya.
 Saatnya kita berkenalan dengan Asciinema, dengan alat ini mari lupakan aplikasi recording dan video yang tampak mengerikan akibat blur, fitur utama yang ditawarkan asciinema diantaranya.</description>
+      
     </item>
     
   </channel>
