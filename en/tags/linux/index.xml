@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>linux on My blog</title>
+    <title>linux on Novores&#39;s Blog</title>
     <link>https://novores.github.io/en/tags/linux/</link>
-    <description>Recent content in linux on My blog</description>
+    <description>Recent content in linux on Novores&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id</language>
     <lastBuildDate>Sat, 12 Mar 2022 07:02:58 +0700</lastBuildDate><atom:link href="https://novores.github.io/en/tags/linux/index.xml" rel="self" type="application/rss+xml" />
@@ -53,6 +53,18 @@ Attention be careful when choosing packages to ignore for upgrading make sure th
         <description>description emptty itself is cli based, this is what makes it quite simple to operate, emptty is a simple display manager, emptty is written in the go language. but there are some configurations that we must determine first, so that emptty can work as we want.
 Installing unfortunately emptty is only available in the aur and void repos. but calm down you can install emptty via cloning.
 type the following command</description>
+      
+    </item>
+    
+    <item>
+      <title>Set Touchpad Configuration in Linux</title>
+      <link>https://novores.github.io/en/post/cara-mengaktifkan-tap-to-click-on-linux/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      
+      <guid>https://novores.github.io/en/post/cara-mengaktifkan-tap-to-click-on-linux/</guid>
+      
+        <description>Intro when using linux we sometimes don&amp;rsquo;t find the computer working system properly, we are required to be do it yourself.
+therefore we must really understand how computers actually work, and are required to independently solve existing problems. One of the first problems that I felt when I first tried Linux was the problem of not working tap on the laptop touchpad, I will try to solve this problem in detail so that it is easy for you to understand.</description>
       
     </item>
     

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hugo on My blog</title>
+    <title>hugo on Novores&#39;s Blog</title>
     <link>https://novores.github.io/tags/hugo/</link>
-    <description>Recent content in hugo on My blog</description>
+    <description>Recent content in hugo on Novores&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id</language>
     <lastBuildDate>Sat, 17 Sep 2022 18:20:45 +0700</lastBuildDate><atom:link href="https://novores.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
@@ -26,7 +26,9 @@ Saatnya kita berkenalan dengan Asciinema, dengan alat ini mari lupakan aplikasi 
       
       <guid>https://novores.github.io/post/cactus-comment/</guid>
       
-        <description>Menambahkan kolom komentar dalam hugo dengan Cactus Comment</description>
+        <description>Pengantar Hugo merupakan salah satu Static Site Generator yang kaya akan fitur. Salah satunya fitur komentar, untuk menambahkan fitur komentar ini kita hanya perlu menambahkan shortcode ke dalam fronmatter Blog kita. namun sayangnta fitur ini hanya tersedia untuk Disqus. saya pribadi tidak terlalu menyukai disquss karena proprietary-nya.
+jika kita ingin menambahkan komentar dari provider yang lain, maka kita harus menulis shortcode itu sendiri.
+saya lebih memilih Cactus Comment yang dimana komentar yang masuk kedalam blog/website akan langsung terhubung melalui akun Matrix.</description>
       
     </item>
     

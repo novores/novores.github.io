@@ -124,7 +124,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://novores.github.io/contact/" /><meta property="og:image" content="https://novores.github.io/images/site-feature-image.png"/><meta property="article:section" content="" />
 <meta property="article:published_time" content="2019-03-08T00:00:00+00:00" />
-<meta property="article:modified_time" content="2019-03-08T00:00:00+00:00" /><meta property="og:site_name" content="My blog" />
+<meta property="article:modified_time" content="2019-03-08T00:00:00+00:00" /><meta property="og:site_name" content="Novores&#39;s Blog" />
 
 
 
@@ -221,7 +221,7 @@
       />
       
         <div class="sidebar__introduction-title">
-          <a href="/">My blog</a>
+          <a href="/">Novores&#39;s Blog</a>
         </div>
       
       <div class="sidebar__introduction-description">
@@ -393,6 +393,29 @@
     </ul>
     <ul class="nav__list nav__list--end">
       
+        <li class="nav__list-item">
+          <div class="optionswitch">
+            <input class="optionswitch__picker" type="checkbox" id="languagepicker" hidden />
+            <label class="optionswitch__label" for="languagepicker"
+              >ID <i class="fa fa-angle-down" aria-hidden="true"></i
+            ></label>
+            <div class="optionswitch__triangle"></div>
+            <ul class="optionswitch__list">
+              
+                <li class="optionswitch__list-item">
+                  <a href="/en/contact/" title="EN"
+                    ><span
+                      
+                      aria-label="EN"
+                      >EN</span
+                    >
+                  </a>
+                </li>
+              
+            </ul>
+          </div>
+        </li>
+      
       
         <li class="nav__list-item">
           <div class="themeswitch">
@@ -419,22 +442,22 @@
   <form class="form-style" method="POST" action="https://formspree.io/f/mayzyekw" data-toggle="validator">
     <ul>
       <li>
-        <label for="username"></label>
-        <input class="field-style field-full" type="text" name="username" id="username" placeholder="" required>
+        <label for="username">Nama</label>
+        <input class="field-style field-full" type="text" name="username" id="username" placeholder="Nama" required>
       </li>
       <li>
-        <label for="email"></label>
-        <input class="field-style field-full" type="email" id="email" name="email" placeholder="" required>
+        <label for="email">Email</label>
+        <input class="field-style field-full" type="email" id="email" name="email" placeholder="Email" required>
       </li>
       <li>
-        <label for="message"></label>
-        <textarea class="field-style" name="message" id="message" rows="6" placeholder=""></textarea>
+        <label for="message">Pesan</label>
+        <textarea class="field-style" name="message" id="message" rows="6" placeholder="Pesan"></textarea>
       </li>
       <li>
         <div class="g-recaptcha" data-sitekey=""></div>
       </li>
       <li>
-        <input class="field-style" type="submit" value="" />
+        <input class="field-style" type="submit" value="Kirim" />
       </li>
       <li>
         <input type="text" name="_gotcha" style="display:none" />

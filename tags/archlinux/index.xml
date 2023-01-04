@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Archlinux on Novores&#39;s Blog</title>
+    <link>https://novores.github.io/tags/archlinux/</link>
+    <description>Recent content in Archlinux on Novores&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate><atom:link href="https://novores.github.io/tags/archlinux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cara mengaktifkan Tap-to-Click di Archlinux</title>
+      <link>https://novores.github.io/post/cara-mengaktifkan-tap-to-click-on-linux/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      
+      <guid>https://novores.github.io/post/cara-mengaktifkan-tap-to-click-on-linux/</guid>
+      
+        <description>Intro Ketika menggunakan linux kita kadang-kadang tidak mendapati Sistem kerja komputer yang semestinya, kita dituntut untuk bersikap do it yourself.
+maka dari itu kita harus benar-benar memahami cara kerja komputer yang sesungguhnya, dan dituntut mandiri menyelesaikan masalah yang ada. salah satu masalah yang pertama kali dirasakan ketika pertama kali mencoba linux adalah masalah tidak berfungsinya tap di touchpad laptop, saya akan mencoba memecahkan masalah ini secara runut agar mudah dipahami oleh anda.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

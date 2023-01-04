@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My blog</title>
+    <title>Novores&#39;s Blog</title>
     <link>https://novores.github.io/</link>
-    <description>Recent content on My blog</description>
+    <description>Recent content on Novores&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id</language>
-    <lastBuildDate>Mon, 19 Sep 2022 06:20:11 +0700</lastBuildDate><atom:link href="https://novores.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Linux Upskill Challenge: Day 2</title>
-      <link>https://novores.github.io/post/linuxupskillchallenge-day2/</link>
-      <pubDate>Mon, 19 Sep 2022 06:20:11 +0700</pubDate>
-      
-      <guid>https://novores.github.io/post/linuxupskillchallenge-day2/</guid>
-      
-        <description>Basic Navigation</description>
-      
-    </item>
-    
+    <lastBuildDate>Sat, 17 Sep 2022 18:20:45 +0700</lastBuildDate><atom:link href="https://novores.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cara Mudah Menyemat Asciinema Ke Dalam Hugo</title>
       <link>https://novores.github.io/post/cara_mudah_embed_asciinema_ke_dalam_hugo/</link>
@@ -59,7 +48,9 @@ Saatnya kita berkenalan dengan Asciinema, dengan alat ini mari lupakan aplikasi 
       
       <guid>https://novores.github.io/post/cactus-comment/</guid>
       
-        <description>Menambahkan kolom komentar dalam hugo dengan Cactus Comment</description>
+        <description>Pengantar Hugo merupakan salah satu Static Site Generator yang kaya akan fitur. Salah satunya fitur komentar, untuk menambahkan fitur komentar ini kita hanya perlu menambahkan shortcode ke dalam fronmatter Blog kita. namun sayangnta fitur ini hanya tersedia untuk Disqus. saya pribadi tidak terlalu menyukai disquss karena proprietary-nya.
+jika kita ingin menambahkan komentar dari provider yang lain, maka kita harus menulis shortcode itu sendiri.
+saya lebih memilih Cactus Comment yang dimana komentar yang masuk kedalam blog/website akan langsung terhubung melalui akun Matrix.</description>
       
     </item>
     
@@ -130,7 +121,8 @@ ketikan perintah berikut untuk menduplikat source file dari repo github.</descri
       
       <guid>https://novores.github.io/post/cara-mengaktifkan-tap-to-click-on-linux/</guid>
       
-        <description>Aktifkan tap2click di touchpad</description>
+        <description>Intro Ketika menggunakan linux kita kadang-kadang tidak mendapati Sistem kerja komputer yang semestinya, kita dituntut untuk bersikap do it yourself.
+maka dari itu kita harus benar-benar memahami cara kerja komputer yang sesungguhnya, dan dituntut mandiri menyelesaikan masalah yang ada. salah satu masalah yang pertama kali dirasakan ketika pertama kali mencoba linux adalah masalah tidak berfungsinya tap di touchpad laptop, saya akan mencoba memecahkan masalah ini secara runut agar mudah dipahami oleh anda.</description>
       
     </item>
     

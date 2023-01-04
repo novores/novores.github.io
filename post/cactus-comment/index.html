@@ -20,7 +20,7 @@
   <meta name="author" content="Novores" />
   <meta
     name="description"
-    content="Menambahkan kolom komentar dalam hugo dengan Cactus Comment"
+    content="Dokumentasi Pribadi"
   />
   
   
@@ -114,17 +114,21 @@
 <meta name="twitter:image" content="https://novores.github.io/images/site-feature-image.png"/>
 
 <meta name="twitter:title" content="Menambahkan Cactus Comments ke dalam Hugo"/>
-<meta name="twitter:description" content="Menambahkan kolom komentar dalam hugo dengan Cactus Comment"/>
+<meta name="twitter:description" content="Pengantar Hugo merupakan salah satu Static Site Generator yang kaya akan fitur. Salah satunya fitur komentar, untuk menambahkan fitur komentar ini kita hanya perlu menambahkan shortcode ke dalam fronmatter Blog kita. namun sayangnta fitur ini hanya tersedia untuk Disqus. saya pribadi tidak terlalu menyukai disquss karena proprietary-nya.
+jika kita ingin menambahkan komentar dari provider yang lain, maka kita harus menulis shortcode itu sendiri.
+saya lebih memilih Cactus Comment yang dimana komentar yang masuk kedalam blog/website akan langsung terhubung melalui akun Matrix."/>
 
 
 
   
   <meta property="og:title" content="Menambahkan Cactus Comments ke dalam Hugo" />
-<meta property="og:description" content="Menambahkan kolom komentar dalam hugo dengan Cactus Comment" />
+<meta property="og:description" content="Pengantar Hugo merupakan salah satu Static Site Generator yang kaya akan fitur. Salah satunya fitur komentar, untuk menambahkan fitur komentar ini kita hanya perlu menambahkan shortcode ke dalam fronmatter Blog kita. namun sayangnta fitur ini hanya tersedia untuk Disqus. saya pribadi tidak terlalu menyukai disquss karena proprietary-nya.
+jika kita ingin menambahkan komentar dari provider yang lain, maka kita harus menulis shortcode itu sendiri.
+saya lebih memilih Cactus Comment yang dimana komentar yang masuk kedalam blog/website akan langsung terhubung melalui akun Matrix." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://novores.github.io/post/cactus-comment/" /><meta property="og:image" content="https://novores.github.io/images/site-feature-image.png"/><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2022-04-13T06:31:13+07:00" />
-<meta property="article:modified_time" content="2022-04-13T06:31:13+07:00" /><meta property="og:site_name" content="My blog" />
+<meta property="article:modified_time" content="2022-04-13T06:31:13+07:00" /><meta property="og:site_name" content="Novores&#39;s Blog" />
 
 
 
@@ -141,7 +145,11 @@
         "headline": "Menambahkan Cactus Comments ke dalam Hugo",
         "alternativeHeadline": "",
         "description": "
-      Menambahkan kolom komentar dalam hugo dengan Cactus Comment
+      
+        Pengantar Hugo merupakan salah satu Static Site Generator yang kaya akan fitur. Salah satunya fitur komentar, untuk menambahkan fitur komentar ini kita hanya perlu menambahkan shortcode ke dalam fronmatter Blog kita. namun sayangnta fitur ini hanya tersedia untuk Disqus. saya pribadi tidak terlalu menyukai disquss karena proprietary-nya.\njika kita ingin menambahkan komentar dari provider yang lain, maka kita harus menulis shortcode itu sendiri.\nsaya lebih memilih Cactus Comment yang dimana komentar yang masuk kedalam blog\/website akan langsung terhubung melalui akun Matrix.
+
+
+      
 
 
     ",
@@ -232,7 +240,7 @@
       />
       
         <div class="sidebar__introduction-title">
-          <a href="/">My blog</a>
+          <a href="/">Novores&#39;s Blog</a>
         </div>
       
       <div class="sidebar__introduction-description">
@@ -444,6 +452,10 @@
     "
   >
     
+      <div class="post__thumbnail-wrapper">
+        <img class="post__thumbnail" src="/images/bckgrnd.png" alt="Thumbnail image" />
+      </div>
+    
     <div class="post__content">
       <h1>Menambahkan Cactus Comments Ke Dalam Hugo</h1>
       
@@ -461,17 +473,36 @@
           </li>
           <li class="post__meta-item">
             <em class="fas fa-stopwatch post__meta-icon"></em>
-            <span class="post__meta-text"></span>
+            <span class="post__meta-text">3 menit membaca</span>
           </li>
         </ul>
-      <h1 id="pengantar">Pengantar</h1>
+      <h3>Table of Contents</h3>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#pengantar">Pengantar</a></li>
+    <li><a href="#persyaratan">Persyaratan</a>
+      <ul>
+        <li><a href="#daftarkan-situs-mu">Daftarkan situs mu</a></li>
+      </ul>
+    </li>
+    <li><a href="#tahap-integrasi">Tahap Integrasi</a>
+      <ul>
+        <li><a href="#buat-shortcode">Buat Shortcode</a></li>
+        <li><a href="#tambahkan-comment">Tambahkan Comment</a></li>
+      </ul>
+    </li>
+    <li><a href="#testing">Testing</a></li>
+    <li><a href="#referensi">Referensi</a></li>
+  </ul>
+</nav>
+<h2 id="pengantar">Pengantar</h2>
 <p><a href="https://gohugo.io/">Hugo</a> merupakan salah satu Static Site Generator yang kaya akan fitur. Salah satunya fitur komentar, untuk menambahkan fitur komentar ini kita hanya perlu menambahkan shortcode ke dalam fronmatter Blog kita. namun sayangnta fitur ini hanya tersedia untuk <a href="https://disqus.com/">Disqus</a>. saya pribadi tidak terlalu menyukai disquss karena <em>proprietary</em>-nya.</p>
 <p>jika kita ingin menambahkan komentar dari provider yang lain, maka kita harus menulis shortcode itu sendiri.</p>
 <p>saya lebih memilih <a href="https://cactus.chat/docs/getting-started/introduction/">Cactus Comment</a> yang dimana komentar yang masuk kedalam blog/website akan langsung terhubung melalui akun Matrix.</p>
 <hr>
-<h1 id="persyaratan">Persyaratan</h1>
+<h2 id="persyaratan">Persyaratan</h2>
 <p>Pastikan kamu punya akun Matrix. Jika belum punya silahkan register <a href="https://app.element.io/#/login">disini</a>. link tersebut mengarah ke Element, salah satu client matrix. UI/UX element sangat mudah dimengerti sehingga cocok untuk pengguna baru matrix.</p>
-<h2 id="daftarkan-situs-mu">Daftarkan situs mu</h2>
+<h3 id="daftarkan-situs-mu">Daftarkan situs mu</h3>
 <p>jika sudah register dan login, hal pertama yang harus dilakukan adalah mendaftarkan situs mu dengan Cactus Comment.
 Buat <a href="https://matrix.to/#/@cactusbot:cactus.chat">chat baru dengan @cactusbot:cactus.chat</a></p>
 <p>lalu ketik.</p>
@@ -479,9 +510,9 @@ Buat <a href="https://matrix.to/#/@cactusbot:cactus.chat">chat baru dengan @cact
 </code></pre><p>nama situs tidak harus sama dengan nama domain, buat nama situs yang unik</p>
 <p>jika sudah selesai kita lanjut ke tahap selanjutnya.</p>
 <hr>
-<h1 id="tahap-integrasi">Tahap Integrasi</h1>
+<h2 id="tahap-integrasi">Tahap Integrasi</h2>
 <p>Sekarang kita memasuki tahap Integrasi Cactus Comment dengan Hugo.</p>
-<h2 id="buat-shortcode">Buat Shortcode</h2>
+<h3 id="buat-shortcode">Buat Shortcode</h3>
 <p>untuk membuat shortcode di hugo, kita tinggal menyalin code berikut ke dalam folder <code>layout/shortcodes/</code>. dalam kasus saya,  folder tersebut terdapat dalam folder <code>theme/&lt;theme-name&gt;</code>.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">script</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text/javascript&#34;</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://latest.cactus.chat/cactus.js&#34;</span><span style="color:#f92672">&gt;&lt;</span><span style="color:#960050;background-color:#1e0010">/script&gt;</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">link</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stylesheet&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://latest.cactus.chat/style.css&#34;</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text/css&#34;</span><span style="color:#f92672">&gt;</span>
@@ -497,14 +528,14 @@ Buat <a href="https://matrix.to/#/@cactusbot:cactus.chat">chat baru dengan @cact
 </span></span><span style="display:flex;"><span><span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/script&gt;</span>
 </span></span></code></pre></div><p>jangan lupa untuk mencantumkan nama situs mu di kolom <code>siteName</code> di atas.
 Baris code diatas sangat dapat dicostumisasi lihat panduan nya <a href="https://cactus.chat/docs/client/customisation/">disini</a></p>
-<h2 id="tambahkan-comment">Tambahkan Comment</h2>
+<h3 id="tambahkan-comment">Tambahkan Comment</h3>
 <p>Untuk menambahkan komentar ke dalam post kita hanya perlu menambahkan baris berikut</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#f92672">{{</span>&lt; chat room-chat &gt;<span style="color:#f92672">}}</span>
 </span></span></code></pre></div><p>di akhir setiap post yang telah kita buat.</p>
 <p>fungsi <code>room-chat</code>, sebagai nama ruang chat kamu di dalam matrix.
 kamu dapat membuat pilihan apakah akan memisahkan ruang chat untuk setiap postingan (misalnya nama room diubah menjadi title postingan kamu) atau menyamakan room untuk setiap postingan (setiap postingan diberi nama room yang sama)</p>
 <hr>
-<h1 id="testing">Testing</h1>
+<h2 id="testing">Testing</h2>
 <p>Untuk berkomentar di cactus comment, kamu mendapatkan 2 opsi. pertama berkomentar sebagai akun anonymous(tanpa login) dan yang kedua
 menggunakan akun matrix(dengan login)</p>
 <p>berikut tampilan jika cactus comment berhasil dimasukkan.
@@ -518,7 +549,7 @@ username akun matrix mu yang biasanya berformat <code>@username:matrix.org</code
 <p>hanya itu yang perlu dilakukan untuk menambahkan cactus-comments kedalam blog hugo.</p>
 <p>Terimakasih telah membaca..</p>
 <hr>
-<h1 id="referensi">Referensi</h1>
+<h2 id="referensi">Referensi</h2>
 <ul>
 <li><a href="https://cactus.chat/docs/getting-started/quick-start/">https://cactus.chat/docs/getting-started/quick-start/</a></li>
 <li><a href="https://cactus.chat/docs/integrations/hugo/">https://cactus.chat/docs/integrations/hugo/</a></li>

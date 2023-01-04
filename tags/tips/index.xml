@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tips on My blog</title>
+    <title>tips on Novores&#39;s Blog</title>
     <link>https://novores.github.io/tags/tips/</link>
-    <description>Recent content in tips on My blog</description>
+    <description>Recent content in tips on Novores&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id</language>
     <lastBuildDate>Mon, 07 Feb 2022 23:01:42 +0700</lastBuildDate><atom:link href="https://novores.github.io/tags/tips/index.xml" rel="self" type="application/rss+xml" />
@@ -29,17 +29,6 @@ Bluetooth adalah spesifikasi industri untuk jaringan kawasan pribadi (personal a
       
         <description>Background Terkadang ketika kita ingin meng-update package, ada hal yang ingin kita abaikan untuk diupdate. contohnya jika kekurangan kuota saya akan menjadikan salah satu package yang berukuran besar untuk diabaikan, salah satu nya libreoffice, package ini salah satu package besar dan tidak terlalu penting untuk di upgrade menurut saya, yang saya miliki
 PERHATIAN hati-hati ketika memilih package yang akan diabaikan untuk diupgrade pastikan tidak ada dependensi yang bergantung kepada utamanya kernel linux</description>
-      
-    </item>
-    
-    <item>
-      <title>Cara mengaktifkan Tap-to-Click di Archlinux</title>
-      <link>https://novores.github.io/post/cara-mengaktifkan-tap-to-click-on-linux/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      
-      <guid>https://novores.github.io/post/cara-mengaktifkan-tap-to-click-on-linux/</guid>
-      
-        <description>Aktifkan tap2click di touchpad</description>
       
     </item>
     

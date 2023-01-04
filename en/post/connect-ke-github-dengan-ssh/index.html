@@ -20,7 +20,7 @@
   <meta name="author" content="Novores" />
   <meta
     name="description"
-    content="after reading this article you can connect git with ssh in terminal"
+    content="Dokumentasi Pribadi"
   />
   
   
@@ -114,17 +114,21 @@
 <meta name="twitter:image" content="https://novores.github.io/images/site-feature-image.png"/>
 
 <meta name="twitter:title" content="Authenticate Git With SSH"/>
-<meta name="twitter:description" content="after reading this article you can connect git with ssh in terminal"/>
+<meta name="twitter:description" content="Intro authenticating git with ssh is by generating a pair of encryption keys asymmetrically, where the key is stored on the system and the other is stored on the server.
+in other words the computer will not get access rights if the key that is paired is wrong or different, so this allows a very, very secure connection than we use https.
+and another advantage that we no longer use tokens when setting up the repository but just the password we set if you set it later when generating or generating ssh keys."/>
 
 
 
   
   <meta property="og:title" content="Authenticate Git With SSH" />
-<meta property="og:description" content="after reading this article you can connect git with ssh in terminal" />
+<meta property="og:description" content="Intro authenticating git with ssh is by generating a pair of encryption keys asymmetrically, where the key is stored on the system and the other is stored on the server.
+in other words the computer will not get access rights if the key that is paired is wrong or different, so this allows a very, very secure connection than we use https.
+and another advantage that we no longer use tokens when setting up the repository but just the password we set if you set it later when generating or generating ssh keys." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://novores.github.io/en/post/connect-ke-github-dengan-ssh/" /><meta property="og:image" content="https://novores.github.io/images/site-feature-image.png"/><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2021-12-26T00:00:00+00:00" />
-<meta property="article:modified_time" content="2021-12-26T00:00:00+00:00" /><meta property="og:site_name" content="My blog" />
+<meta property="article:modified_time" content="2021-12-26T00:00:00+00:00" /><meta property="og:site_name" content="Novores&#39;s Blog" />
 
 
 
@@ -141,7 +145,11 @@
         "headline": "Authenticate Git With SSH",
         "alternativeHeadline": "",
         "description": "
-      after reading this article you can connect git with ssh in terminal
+      
+        Intro authenticating git with ssh is by generating a pair of encryption keys asymmetrically, where the key is stored on the system and the other is stored on the server.\nin other words the computer will not get access rights if the key that is paired is wrong or different, so this allows a very, very secure connection than we use https.\nand another advantage that we no longer use tokens when setting up the repository but just the password we set if you set it later when generating or generating ssh keys.
+
+
+      
 
 
     ",
@@ -153,19 +161,19 @@
         },
         "author" : {
             "@type": "Person",
-            "name": "Me"
+            "name": "Novores"
         },
         "creator" : {
             "@type": "Person",
-            "name": "Me"
+            "name": "Novores"
         },
         "accountablePerson" : {
             "@type": "Person",
-            "name": "Me"
+            "name": "Novores"
         },
         "copyrightHolder" : {
             "@type": "Person",
-            "name": "Me"
+            "name": "Novores"
         },
         "copyrightYear" : "2021",
         "dateCreated": "2021-12-26T00:00:00.00Z",
@@ -173,7 +181,7 @@
         "dateModified": "2021-12-26T00:00:00.00Z",
         "publisher":{
             "@type":"Organization",
-            "name": "Me",
+            "name": "Novores",
             "url": "https://novores.github.io",
             "logo": {
                 "@type": "ImageObject",
@@ -225,7 +233,7 @@
       />
       
         <div class="sidebar__introduction-title">
-          <a href="/en">My blog</a>
+          <a href="/en">Novores&#39;s Blog</a>
         </div>
       
       <div class="sidebar__introduction-description">
@@ -448,6 +456,10 @@
     "
   >
     
+      <div class="post__thumbnail-wrapper">
+        <img class="post__thumbnail" src="/images/github-image.jpg" alt="Thumbnail image" />
+      </div>
+    
     <div class="post__content">
       <h1>Authenticate Git With SSH</h1>
       
@@ -468,7 +480,16 @@
             <span class="post__meta-text">2-minute read</span>
           </li>
         </ul>
-      <h2 id="intro">Intro</h2>
+      <h3>Table of Contents</h3>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#intro">Intro</a></li>
+    <li><a href="#preparation">Preparation</a></li>
+    <li><a href="#generate-ssh-key">generate ssh key</a></li>
+    <li><a href="#copy-key-to-github">copy key to github</a></li>
+  </ul>
+</nav>
+<h2 id="intro">Intro</h2>
 <p>authenticating git with ssh is by generating a pair of encryption keys asymmetrically, where the key is stored on the system and the other is stored on the server.</p>
 <p>in other words the computer will not get access rights if the key that is paired is wrong or different, so this allows a very, very secure connection than we use https.</p>
 <p>and another advantage that we no longer use tokens when setting up the repository but just the password we set if you set it later when generating or generating ssh keys.</p>

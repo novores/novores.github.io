@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My blog</title>
+    <title>Novores&#39;s Blog</title>
     <link>https://novores.github.io/en/</link>
-    <description>Recent content on My blog</description>
+    <description>Recent content on Novores&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id</language>
     <lastBuildDate>Sat, 17 Sep 2022 18:20:45 +0700</lastBuildDate><atom:link href="https://novores.github.io/en/index.xml" rel="self" type="application/rss+xml" />
@@ -95,7 +95,9 @@ Attention be careful when choosing packages to ignore for upgrading make sure th
       
       <guid>https://novores.github.io/en/post/connect-ke-github-dengan-ssh/</guid>
       
-        <description>after reading this article you can connect git with ssh in terminal</description>
+        <description>Intro authenticating git with ssh is by generating a pair of encryption keys asymmetrically, where the key is stored on the system and the other is stored on the server.
+in other words the computer will not get access rights if the key that is paired is wrong or different, so this allows a very, very secure connection than we use https.
+and another advantage that we no longer use tokens when setting up the repository but just the password we set if you set it later when generating or generating ssh keys.</description>
       
     </item>
     
@@ -121,6 +123,17 @@ type the following command</description>
       
         <description>Intro when using linux we sometimes don&amp;rsquo;t find the computer working system properly, we are required to be do it yourself.
 therefore we must really understand how computers actually work, and are required to independently solve existing problems. One of the first problems that I felt when I first tried Linux was the problem of not working tap on the laptop touchpad, I will try to solve this problem in detail so that it is easy for you to understand.</description>
+      
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://novores.github.io/en/contact/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://novores.github.io/en/contact/</guid>
+      
+        <description>Contact Page</description>
       
     </item>
     

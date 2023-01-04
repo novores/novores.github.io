@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>How to on My blog</title>
+    <title>How to on Novores&#39;s Blog</title>
     <link>https://novores.github.io/en/tags/how-to/</link>
-    <description>Recent content in How to on My blog</description>
+    <description>Recent content in How to on Novores&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id</language>
     <lastBuildDate>Sun, 26 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://novores.github.io/en/tags/how-to/index.xml" rel="self" type="application/rss+xml" />
@@ -14,7 +14,9 @@
       
       <guid>https://novores.github.io/en/post/connect-ke-github-dengan-ssh/</guid>
       
-        <description>after reading this article you can connect git with ssh in terminal</description>
+        <description>Intro authenticating git with ssh is by generating a pair of encryption keys asymmetrically, where the key is stored on the system and the other is stored on the server.
+in other words the computer will not get access rights if the key that is paired is wrong or different, so this allows a very, very secure connection than we use https.
+and another advantage that we no longer use tokens when setting up the repository but just the password we set if you set it later when generating or generating ssh keys.</description>
       
     </item>
     

@@ -124,7 +124,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://novores.github.io/en/post/cactus-comment/" /><meta property="og:image" content="https://novores.github.io/images/site-feature-image.png"/><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2022-04-13T06:31:13+07:00" />
-<meta property="article:modified_time" content="2022-04-13T06:31:13+07:00" /><meta property="og:site_name" content="My blog" />
+<meta property="article:modified_time" content="2022-04-13T06:31:13+07:00" /><meta property="og:site_name" content="Novores&#39;s Blog" />
 
 
 
@@ -153,19 +153,19 @@
         },
         "author" : {
             "@type": "Person",
-            "name": "Noval"
+            "name": "Novores"
         },
         "creator" : {
             "@type": "Person",
-            "name": "Noval"
+            "name": "Novores"
         },
         "accountablePerson" : {
             "@type": "Person",
-            "name": "Noval"
+            "name": "Novores"
         },
         "copyrightHolder" : {
             "@type": "Person",
-            "name": "Noval"
+            "name": "Novores"
         },
         "copyrightYear" : "2022",
         "dateCreated": "2022-04-13T06:31:13.00Z",
@@ -173,7 +173,7 @@
         "dateModified": "2022-04-13T06:31:13.00Z",
         "publisher":{
             "@type":"Organization",
-            "name": "Noval",
+            "name": "Novores",
             "url": "https://novores.github.io",
             "logo": {
                 "@type": "ImageObject",
@@ -232,7 +232,7 @@
       />
       
         <div class="sidebar__introduction-title">
-          <a href="/en">My blog</a>
+          <a href="/en">Novores&#39;s Blog</a>
         </div>
       
       <div class="sidebar__introduction-description">
@@ -455,6 +455,10 @@
     "
   >
     
+      <div class="post__thumbnail-wrapper">
+        <img class="post__thumbnail" src="/images/bckgrnd.png" alt="Thumbnail image" />
+      </div>
+    
     <div class="post__content">
       <h1>Added Cactus Comments to Hugo</h1>
       
@@ -475,14 +479,32 @@
             <span class="post__meta-text">3-minute read</span>
           </li>
         </ul>
-      <h1 id="introduction">Introduction</h1>
+      <h3>Table of Contents</h3>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#condition">Condition</a>
+      <ul>
+        <li><a href="#register-your-site">Register Your Site</a></li>
+      </ul>
+    </li>
+    <li><a href="#integration-stage">Integration Stage</a>
+      <ul>
+        <li><a href="#create-a-shortcode">Create A Shortcode</a></li>
+        <li><a href="#add-comment">Add Comment</a></li>
+      </ul>
+    </li>
+    <li><a href="#testing">Testing</a></li>
+  </ul>
+</nav>
+<h2 id="introduction">Introduction</h2>
 <p><a href="https://gohugo.io/">hugo</a> is a feature-rich static site generator. one of them is the comment feature, to add this comment feature we only need to add a shortcode to the frontmatter of our blog. but unfortunately this feature is only available for <a href="https://disqus.com/">disqus</a>. I personally don&rsquo;t really like disquss because of its <em>proprietary</em>.</p>
 <p>if we want to add comments from other providers, then we have to write the shortcode itself.</p>
 <p>I prefer <a href="https://cactus.chat/docs/getting-started/introduction/">cactus comment</a> where comments that enter the blog/website will be directly linked through the matrix account.</p>
 <hr>
-<h1 id="condition">Condition</h1>
+<h2 id="condition">Condition</h2>
 <p>make sure you have a matrix account. if you don&rsquo;t have it, please register <a href="https://app.element.io/#/login">here</a>. the link leads to the element, one of the client matrix. The ui/ux element is very easy to understand making it suitable for new users of matrix.</p>
-<h2 id="register-your-site">Register Your Site</h2>
+<h3 id="register-your-site">Register Your Site</h3>
 <p>If you have registered and logged in, the first thing to do is register your site with cactus comment.
 create [new chat with @cactusbot: cactus.chat] (<a href="https://matrix.to/#/@cactusbot:cactus.chat">https://matrix.to/#/@cactusbot:cactus.chat</a>)</p>
 <p>then type.</p>
@@ -490,9 +512,9 @@ create [new chat with @cactusbot: cactus.chat] (<a href="https://matrix.to/#/@ca
 </code></pre><p>the site name does not have to be the same as the domain name, create a unique site name</p>
 <p>if it is finished we move on to the next stage.</p>
 <hr>
-<h1 id="integration-stage">Integration Stage</h1>
+<h2 id="integration-stage">Integration Stage</h2>
 <p>Now we enter the stage of integration of cactus comment with hugo.</p>
-<h2 id="create-a-shortcode">Create A Shortcode</h2>
+<h3 id="create-a-shortcode">Create A Shortcode</h3>
 <p>to create a shortcode in hugo, we just need to copy the following code into the <code>layout/shortcodes/</code> folder. in my case the folder is in the <code>theme/&lt;theme-name&gt;</code> folder.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">script</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text/javascript&#34;</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://latest.cactus.chat/cactus.js&#34;</span><span style="color:#f92672">&gt;&lt;</span><span style="color:#960050;background-color:#1e0010">/script&gt;</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">link</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stylesheet&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://latest.cactus.chat/style.css&#34;</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text/css&#34;</span><span style="color:#f92672">&gt;</span>
@@ -508,14 +530,14 @@ create [new chat with @cactusbot: cactus.chat] (<a href="https://matrix.to/#/@ca
 </span></span><span style="display:flex;"><span><span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/script&gt;</span>
 </span></span></code></pre></div><p>Don&rsquo;t forget to include your site name in the <code>site name</code> column above.
 the line of code above is very customizable, see the guide <a href="https://cactus.chat/docs/client/customisation/">here</a></p>
-<h2 id="add-comment">Add Comment</h2>
+<h3 id="add-comment">Add Comment</h3>
 <p>to add a comment to a post we just need to add the following line</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#f92672">{{</span>&lt; chat room-chat &gt;<span style="color:#f92672">}}</span>
 </span></span></code></pre></div><p>at the end of each post we have made.</p>
 <p>function <code>room-chat</code>, as the name of your chat room in the matrix.
 You can make the choice whether to separate the chat rooms for each post (eg changing the room name to the title of your post) or the same room for each post (each post is given the same room name)</p>
 <hr>
-<h1 id="testing">Testing</h1>
+<h2 id="testing">Testing</h2>
 <p>to comment on cactus comment, you get 2 options. first comment as anonymous account(without login) and second
 use matrix account(with login)</p>
 <p>the following display if the cactus comment is successfully entered.

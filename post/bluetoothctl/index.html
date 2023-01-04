@@ -128,7 +128,7 @@ Bluetooth adalah spesifikasi industri untuk jaringan kawasan pribadi (personal a
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://novores.github.io/post/bluetoothctl/" /><meta property="og:image" content="https://novores.github.io/images/site-feature-image.png"/><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2022-02-07T23:01:42+07:00" />
-<meta property="article:modified_time" content="2022-02-07T23:01:42+07:00" /><meta property="og:site_name" content="My blog" />
+<meta property="article:modified_time" content="2022-02-07T23:01:42+07:00" /><meta property="og:site_name" content="Novores&#39;s Blog" />
 
 
 
@@ -240,7 +240,7 @@ Bluetooth adalah spesifikasi industri untuk jaringan kawasan pribadi (personal a
       />
       
         <div class="sidebar__introduction-title">
-          <a href="/">My blog</a>
+          <a href="/">Novores&#39;s Blog</a>
         </div>
       
       <div class="sidebar__introduction-description">
@@ -452,6 +452,10 @@ Bluetooth adalah spesifikasi industri untuk jaringan kawasan pribadi (personal a
     "
   >
     
+      <div class="post__thumbnail-wrapper">
+        <img class="post__thumbnail" src="/images/rect863.png" alt="Thumbnail image" />
+      </div>
+    
     <div class="post__content">
       <h1>Cara Aktifkan Bluetooth Cukup Dengan Terminal Di Linux</h1>
       
@@ -469,10 +473,19 @@ Bluetooth adalah spesifikasi industri untuk jaringan kawasan pribadi (personal a
           </li>
           <li class="post__meta-item">
             <em class="fas fa-stopwatch post__meta-icon"></em>
-            <span class="post__meta-text"></span>
+            <span class="post__meta-text">2 menit membaca</span>
           </li>
         </ul>
-      <h1 id="intro">Intro</h1>
+      <h3>Table of Contents</h3>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#intro">Intro</a></li>
+    <li><a href="#requirements">Requirements</a></li>
+    <li><a href="#step-by-step">Step-by-step</a></li>
+    <li><a href="#outro">Outro</a></li>
+  </ul>
+</nav>
+<h2 id="intro">Intro</h2>
 <p>Bluetooth merupakan salah satu teknologi yang wajib ada di setiap perangkat komputer, karena kegunaanya yang sangat-sangat banyak, bukan hanya untuk transfer file, namun bluetooth juga dapat digunakan untuk menyambungkan suara secara <em>wireless</em>.</p>
 <p>Dilansir dari <a href="https://id.wikipedia.org/wiki/Bluetooth">wikipedia</a></p>
 <blockquote>
@@ -481,10 +494,10 @@ karena skala penggunaannya yang relatif besar bluetooth cukup sering digunakan.<
 </blockquote>
 <p>dalam artikel ini saya akan memberikan tutorial Cara Aktifkan Bluetooth dengan simple, cukup menggunakan shell terminal.</p>
 <hr>
-<h1 id="requirements">Requirements</h1>
+<h2 id="requirements">Requirements</h2>
 <p><code>bluez-utils</code> <code>bluez</code></p>
 <hr>
-<h1 id="step-by-step">Step-by-step</h1>
+<h2 id="step-by-step">Step-by-step</h2>
 <ol>
 <li>
 <p>install <code>bluez</code> dan <code>bluez-utils</code>, keduanya merupakan package dasar untuk mengaktifkan bluetooth di linux.</p>
@@ -492,35 +505,35 @@ karena skala penggunaannya yang relatif besar bluetooth cukup sering digunakan.<
 <li>
 <p>setelah selesai instal keduanya, berlanjut mengaktifkan service <code>bluetooth</code> agar berjalan di daemon.
 jika kamu menggunakan Systemd ketikan perintah berikut:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>systemctl start bluetoothd
-</span></span></code></pre></div><p>sedangkan jika kamu menggunakan OpenRC maka perintahnya berikut:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo rc-service bluetoothd start
-</span></span></code></pre></div></li>
+<pre tabindex="0"><code>systemctl start bluetoothd
+</code></pre><p>sedangkan jika kamu menggunakan OpenRC maka perintahnya berikut:</p>
+<pre tabindex="0"><code>sudo rc-service bluetoothd start
+</code></pre></li>
 <li>
 <p>sekarang kita akan menggunakan rangkaian perintah <code>bluetoothctl</code></p>
 <ul>
 <li>buka controller bluetooth bluetooth
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>bluetoothctl
-</span></span></code></pre></div><blockquote>
+<pre tabindex="0"><code>bluetoothctl
+</code></pre><blockquote>
 <p>jalankan <code>help</code> untuk melihat daftar command yang dapat dieksekusi</p>
 </blockquote>
 </li>
 <li>untuk mengaktifkan controller bluetooth ketik
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#f92672">[</span>bluetooth<span style="color:#f92672">]</span><span style="color:#75715e"># power on</span>
-</span></span></code></pre></div></li>
+<pre tabindex="0"><code>[bluetooth]# power on
+</code></pre></li>
 <li>scan <em>device</em> yang akan disambungkan
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#f92672">[</span>bluetooth<span style="color:#f92672">]</span><span style="color:#75715e"># scan on</span>
-</span></span></code></pre></div>setelah di-scan akan muncul angka yang menuju pada device yang dimaksud</li>
+<pre tabindex="0"><code>[bluetooth]# scan on
+</code></pre>setelah di-scan akan muncul angka yang menuju pada device yang dimaksud</li>
 <li>koneksikan bluetooth pada device yang dimaksud, contoh, device saya adalah <code>22:22:0A:53:72:C9</code>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#f92672">[</span>bluetooth<span style="color:#f92672">]</span><span style="color:#75715e"># connect 22:22:0A:53:72:C9</span>
-</span></span></code></pre></div>jika kamu tidak yakin device mana yang akan kamu koneksikan, cek device yang terdaftar/ter-scan dengan mengetikkan <code>devices</code>, akan muncul nama device dengan nomornya.</li>
+<pre tabindex="0"><code>[bluetooth]# connect 22:22:0A:53:72:C9
+</code></pre>jika kamu tidak yakin device mana yang akan kamu koneksikan, cek device yang terdaftar/ter-scan dengan mengetikkan <code>devices</code>, akan muncul nama device dengan nomornya.</li>
 <li>pair antara 2 device</li>
 <li>voila..! bluetooth sudah tersambung</li>
 </ul>
 </li>
 </ol>
 <hr>
-<h1 id="outro">Outro</h1>
+<h2 id="outro">Outro</h2>
 <p>mengaktifkan mengkoneksikan bluetooth dengan mengetikan perintah, sangat menyenangkan bukan? <em>yeah I see</em> .
 saya yakin anda merasa sedang <em>ngehack</em>, atau bergumam dalam hati <em>i&rsquo;m hacker</em>. tapi terus terang saja, cara ini sangat keren dilakukan,
 di depan teman-teman saya, hehe..</p>
