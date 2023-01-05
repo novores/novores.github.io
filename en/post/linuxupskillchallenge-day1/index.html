@@ -72,8 +72,8 @@
   
   <link
     rel="stylesheet"
-    href="/fontawesome/css/brands.min.9ed75a5d670c953fe4df935937674b4646f92674367e9e66eb995bb04e821647.css"
-    integrity="sha256-ntdaXWcMlT/k35NZN2dLRkb5JnQ2fp5m65lbsE6CFkc="
+    href="/fontawesome/css/brands.min.d201b0fa25e71a00abfbfa8aafc3ceccb94c524ef0bfc0dcc01678a3a9848ab6.css"
+    integrity="sha256-0gGw&#43;iXnGgCr&#43;/qKr8POzLlMUk7wv8DcwBZ4o6mEirY="
     crossorigin="anonymous"
     type="text/css"
   />
@@ -272,13 +272,25 @@
       
         <li class="sidebar__list-item">
           <a
-            href="mailto:mail@example.com"
+            href="mailto:novalhidayat@duck.com"
             target="_blank"
             rel="noopener me"
             aria-label="e-mail"
             title="e-mail"
           >
             <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="/index.xml"
+            target="_blank"
+            rel="noopener me"
+            aria-label="RSS"
+            title="RSS"
+          >
+            <i class="fas fa-rss fa-2x" aria-hidden="true"></i>
           </a>
         </li>
       
@@ -468,17 +480,34 @@
             <span class="post__meta-text">3-minute read</span>
           </li>
         </ul>
-      <blockquote>
+      <h3>Table of Contents</h3>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#todays-task">Today&rsquo;s Task</a></li>
+    <li><a href="#connect-server">Connect Server</a></li>
+    <li><a href="#run-basic-commands">Run Basic Commands</a>
+      <ul>
+        <li><a href="#ls">ls</a></li>
+        <li><a href="#uptime">uptime</a></li>
+        <li><a href="#free">free</a></li>
+        <li><a href="#df">df</a></li>
+        <li><a href="#uname">uname</a></li>
+      </ul>
+    </li>
+    <li><a href="#wrap">Wrap</a></li>
+  </ul>
+</nav>
+<blockquote>
 <p><em>this blog is part of the <a href="https://novores.xyz/tags/linuxupskillchallenge/">linux upskill challenge series</a>.</em>
 <em>contains notes of my learning process in following the [linux upskill challenge] guide(<a href="https://github.com/livialima/linuxupskillchallenge">https://github.com/livialima/linuxupskillchallenge</a>)</em></p>
 </blockquote>
 <p>the other day you have successfully created a server. You yourself will manage the server, of course. to become a linux server admin, we are required to be comfortable working with various linux variants. but for now ubuntu is the best choice.</p>
-<h1 id="todays-task">Today&rsquo;s Task</h1>
+<h2 id="todays-task">Today&rsquo;s Task</h2>
 <ul>
 <li><em>connect</em> and log in remotely to the server</li>
 <li>run some simple commands, to check server status</li>
 </ul>
-<h1 id="connect-server">Connect Server</h1>
+<h2 id="connect-server">Connect Server</h2>
 <p>yesterday we tried to connect to the server using ssh using a private key. in yesterday&rsquo;s discussion on <a href="https://novores.xyz/blog/linuxupskillchallenge-day0/">day 0</a> I used the configuration file
 to connect now I will try to connect without a config file or manually.</p>
 <p>previously we have created a key pair using ssh keygen into the <code>.ssh</code> directory with the name <strong>ed25519</strong>
@@ -507,8 +536,8 @@ AsciinemaPlayer.create("ssh.cast", document.getElementById('demo1'), {
 
 <p>I use the ssh command with the hostname <strong>ecs</strong> based on the contents of the configuration.
 seen when we enter the server, the username is <strong>ech-user</strong> with the hostname <strong>sarvis</strong></p>
-<h1 id="run-basic-commands">Run Basic Commands</h1>
-<h2 id="ls">ls</h2>
+<h2 id="run-basic-commands">Run Basic Commands</h2>
+<h3 id="ls">ls</h3>
 <p>Used to view a list of files and directories. see manpage <code>man ls</code>
 
 
@@ -522,7 +551,7 @@ AsciinemaPlayer.create("ls.cast", document.getElementById('demo2'), {
 </p>
 <p>If the ls command returns nothing, it means you don&rsquo;t have any directories or files. to prepare the contents of the home directory you need to install
 <code>xdg-user-dirs</code> and run the command <code>xdg-user-dirs-update</code>. later you will have a default unix directory such as desktop, images, documents and so on.</p>
-<h2 id="uptime">uptime</h2>
+<h3 id="uptime">uptime</h3>
 <p>tells you how long the machine/server has been running and other information. see <code>man uptime</code>
 
 
@@ -534,7 +563,7 @@ AsciinemaPlayer.create("uptime.cast", document.getElementById('demo3'), {
 </script>
 <noscript><blockquote><p>To run this asciicast without javascript, use <code>asciinema play https://novores.github.io/uptime.cast</code> with <a href="https://asciinema.org/">Asciinema</a></p></blockquote></noscript>
 </p>
-<h2 id="free">free</h2>
+<h3 id="free">free</h3>
 <p>displays the amount of free and used memory in the system. see <code>man free</code>
 
 
@@ -546,7 +575,7 @@ AsciinemaPlayer.create("free.cast", document.getElementById('demo4'), {
 </script>
 <noscript><blockquote><p>To run this asciicast without javascript, use <code>asciinema play https://novores.github.io/free.cast</code> with <a href="https://asciinema.org/">Asciinema</a></p></blockquote></noscript>
 </p>
-<h2 id="df">df</h2>
+<h3 id="df">df</h3>
 <p>gives a big picture of the used file system disk space
 
 
@@ -558,7 +587,7 @@ AsciinemaPlayer.create("df.cast", document.getElementById('demo5'), {
 </script>
 <noscript><blockquote><p>To run this asciicast without javascript, use <code>asciinema play https://novores.github.io/df.cast</code> with <a href="https://asciinema.org/">Asciinema</a></p></blockquote></noscript>
 </p>
-<h2 id="uname">uname</h2>
+<h3 id="uname">uname</h3>
 <p>displays information about the server and its operating system
 
 
@@ -573,7 +602,7 @@ AsciinemaPlayer.create("uname.cast", document.getElementById('demo6'), {
 <p>the above command is sufficient to know the big picture of system information.</p>
 <p><em>wait.. then how to log out?</em></p>
 <p>calm down we just need to press <code>ctrl + d</code> or by typing <code>exit</code></p>
-<h1 id="wrap">Wrap</h1>
+<h2 id="wrap">Wrap</h2>
 <p>You are now able to login remotely to your server. maybe you are also interested in opening it on your smartphone, with <strong>termux</strong>
 for example. however most sysadmins prefer to access it via the production system.</p>
 <p><em>Oh.. Here you are, thanks for reading.</em></p>
@@ -590,6 +619,15 @@ initComments({
   commentSectionId: "title"
 })
 </script>
+
+
+
+  <h3>Related Posts</h3>
+  <ul>
+    
+      <li><a href="/en/post/linuxupskillchallenge-day0/">Linux Upskill Challenge: Day 0</a></li>
+    
+  </ul>
 
 </div>
     <div class="post__footer">
