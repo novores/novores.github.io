@@ -337,6 +337,18 @@
                 href="https://novores.github.io/en/categories/"
                 />
   </url><url>
+    <loc>https://novores.github.io/en/portfolio/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://novores.github.io/portfolio/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://novores.github.io/en/portfolio/"
+                />
+  </url><url>
     <loc>https://novores.github.io/en/search/</loc>
     <xhtml:link
                 rel="alternate"
