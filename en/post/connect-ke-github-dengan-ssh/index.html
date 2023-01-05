@@ -229,7 +229,7 @@ and another advantage that we no longer use tokens when setting up the repositor
     <div class="sidebar__introduction">
       <img
         class="sidebar__introduction-profileimage"
-        src="/images/logo.png"
+        src="/thumbnails/logo.png"
         alt="profile picture"
       />
       
@@ -528,9 +528,16 @@ if it already exists you can skip these steps and go to point <strong>copy the k
 <ol>
 <li>login to your github account then go to <code>settings</code> page &gt; <code>ssh and gpg keys</code> &gt; <code>new ssh keys</code></li>
 <li>The next screen will be as below, enter whatever ssh key name is in the <code>title</code> column, for example <code>my-ssh-key</code> then <em>paste</em> the contents of the <code>id rsa.pub</code> file in the key column.
-<figure>
-    <img loading="lazy" src="github-ssh.png"/> 
-</figure>
+
+<link rel="stylesheet" href=/css/hugo-easy-gallery.css />
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/github-ssh.png" />
+    </div>
+    <a href="/github-ssh.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
 </li>
 <li>Click <code>Add SSH Key</code></li>
 </ol>

@@ -221,7 +221,7 @@
     <div class="sidebar__introduction">
       <img
         class="sidebar__introduction-profileimage"
-        src="/images/logo.png"
+        src="/thumbnails/logo.png"
         alt="profile picture"
       />
       
@@ -514,12 +514,19 @@ jika sudah ada kamu bisa melewati langkah langkah ini dan ke poin <strong>Salin 
 <ol>
 <li>Login ke akun Github kamu lalu masuk ke halaman <code>settings</code> &gt; <code>SSH and GPG keys</code> &gt; <code>New SSH keys</code></li>
 <li>Tampilan selanjutnya akan seperti di bawah ini, masukkan nama kunci ssh terserah apa aja di kolom <code>title</code>, misal <code>my-ssh-key</code> lalu <em>paste</em>-kan isi dari file <code>id_rsa.pub</code> di kolom key.
-<figure>
-       <img loading="lazy" src="github-ssh.png"
-            alt="Screenshot"/> <figcaption>
-               <p>Screenshot</p>
-           </figcaption>
-   </figure>
+
+   <link rel="stylesheet" href=/css/hugo-easy-gallery.css />
+   <div class="box" >
+     <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+       <div class="img">
+         <img itemprop="thumbnail" src="/github-ssh.png" alt="Screenshot"/>
+       </div>
+       <a href="/github-ssh.png" itemprop="contentUrl"></a>
+         <figcaption>
+             <p>Screenshot</p>
+         </figcaption>
+     </figure>
+   </div>
 </li>
 <li>Klik <code>Add SSH Key</code></li>
 </ol>
