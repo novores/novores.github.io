@@ -115,15 +115,13 @@
 <meta name="twitter:image" content="https://novores.github.io/images/site-feature-image.png"/>
 
 <meta name="twitter:title" content="Easy Way To Embed Asciinema Into Hugo"/>
-<meta name="twitter:description" content="As a blog author, especially those related to computing, sometimes we need a media that can support the content. There are many ways to support content, including screenshots and video recording. but if we are faced with commandline interactive, it doesn&rsquo;t feel right if we use screenshots or video recording as a means of documentation.
-it&rsquo;s time for us to get acquainted Asciinema, with this tool let&rsquo;s forget about recording and video applications that look terrible due to blur The main features offered by Asciinema include:"/>
+<meta name="twitter:description" content="As a blog author, especially those related to computing, sometimes we need a media that can support the content."/>
 
 
 
   
   <meta property="og:title" content="Easy Way To Embed Asciinema Into Hugo" />
-<meta property="og:description" content="As a blog author, especially those related to computing, sometimes we need a media that can support the content. There are many ways to support content, including screenshots and video recording. but if we are faced with commandline interactive, it doesn&rsquo;t feel right if we use screenshots or video recording as a means of documentation.
-it&rsquo;s time for us to get acquainted Asciinema, with this tool let&rsquo;s forget about recording and video applications that look terrible due to blur The main features offered by Asciinema include:" />
+<meta property="og:description" content="As a blog author, especially those related to computing, sometimes we need a media that can support the content." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://novores.github.io/en/post/cara_mudah_embed_asciinema_ke_dalam_hugo/" /><meta property="og:image" content="https://novores.github.io/images/site-feature-image.png"/><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2022-09-17T18:20:45+07:00" />
@@ -145,7 +143,7 @@ it&rsquo;s time for us to get acquainted Asciinema, with this tool let&rsquo;s f
         "alternativeHeadline": "",
         "description": "
       
-        As a blog author, especially those related to computing, sometimes we need a media that can support the content. There are many ways to support content, including screenshots and video recording. but if we are faced with commandline interactive, it doesn\u0026rsquo;t feel right if we use screenshots or video recording as a means of documentation.\nit\u0026rsquo;s time for us to get acquainted Asciinema, with this tool let\u0026rsquo;s forget about recording and video applications that look terrible due to blur The main features offered by Asciinema include:
+        As a blog author, especially those related to computing, sometimes we need a media that can support the content.
 
 
       
@@ -520,29 +518,29 @@ simple and easy asciinema embedding function</p>
 <h1 id="installation">Installation</h1>
 <p>the hugo module is powered by go modules. and we need <a href="https://go.dev/">go compiler</a> to run it.
 in voidlinux you can run the command to install it.</p>
-<pre tabindex="0"><code>sudo xbps-install -S go
-</code></pre><p>ok, time to install</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo xbps-install -S go
+</span></span></code></pre></div><p>ok, time to install</p>
 <ul>
 <li>run the following command, to make our blog repo a module place.</li>
 </ul>
-<pre tabindex="0"><code>hugo mod init gitlab.com/novores/blog-repo
-</code></pre><ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo mod init gitlab.com/novores/blog-repo
+</span></span></code></pre></div><ul>
 <li>next, we fulfill the dependency of gohugo-asciinema with the command.</li>
 </ul>
-<pre tabindex="0"><code>hugo mod get -u -v cj.rs/gohugo-asciinema
-</code></pre><ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo mod get -u -v cj.rs/gohugo-asciinema
+</span></span></code></pre></div><ul>
 <li>then edit your config,<code>config.yaml</code>/<code>config.toml</code> by adding the module reference.
 <ul>
 <li>yaml
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">module</span>:
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">replacements</span>: <span style="color:#e6db74">&#34;cj.rs/gohugo-asciinema-&gt;gohugo-asciinema&#34;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">imports</span>:
-</span></span><span style="display:flex;"><span>    - <span style="color:#f92672">path</span>: <span style="color:#ae81ff">cj.rs/gohugo-asciinema</span>
-</span></span></code></pre></div></li>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">module</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">replacements</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;cj.rs/gohugo-asciinema-&gt;gohugo-asciinema&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">imports</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="nt">path</span><span class="p">:</span><span class="w"> </span><span class="l">cj.rs/gohugo-asciinema</span><span class="w">
+</span></span></span></code></pre></div></li>
 <li>toml
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[<span style="color:#a6e22e">module</span>]
-</span></span><span style="display:flex;"><span>[[<span style="color:#a6e22e">module</span>.<span style="color:#a6e22e">imports</span>]]
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">path</span> = <span style="color:#e6db74">&#34;cj.rs/gohugo-asciinema&#34;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">module</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">module</span><span class="p">.</span><span class="nx">imports</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">path</span> <span class="p">=</span> <span class="s2">&#34;cj.rs/gohugo-asciinema&#34;</span>
 </span></span></code></pre></div></li>
 </ul>
 </li>
@@ -550,20 +548,20 @@ in voidlinux you can run the command to install it.</p>
 <h2 id="usage">Usage</h2>
 <p>use the following shortcode into the page you want to embed asciinema.</p>
 <p>example:</p>
-<pre tabindex="0"><code>{{&lt; asciicast src=&#34;free.cast&#34; poster=&#34;npt:0:04&#34; autoPlay=true loop=true rows=&#34;10&#34; cols=&#34;80&#34; &gt;}}
-</code></pre><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{{&lt; asciicast src=&#34;free.cast&#34; poster=&#34;npt:0:04&#34; autoPlay=true loop=true rows=&#34;10&#34; cols=&#34;80&#34; &gt;}}
+</span></span></code></pre></div><blockquote>
 <p><strong>NOTE</strong><br>
 make sure the files are placed in the same folder as <code>index.md</code>, this is an example of my system file tree</p>
-<pre tabindex="0"><code>content/blog/linuxupskillchallenge-day1/
-├── cover.png
-├── df.cast
-├── free.cast
-├── index.id.md
-├── ls.cast
-├── ssh.cast
-├── uname.cast
-└── uptime.cast
-</code></pre></blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">content/blog/linuxupskillchallenge-day1/
+</span></span><span class="line"><span class="cl">├── cover.png
+</span></span><span class="line"><span class="cl">├── df.cast
+</span></span><span class="line"><span class="cl">├── free.cast
+</span></span><span class="line"><span class="cl">├── index.id.md
+</span></span><span class="line"><span class="cl">├── ls.cast
+</span></span><span class="line"><span class="cl">├── ssh.cast
+</span></span><span class="line"><span class="cl">├── uname.cast
+</span></span><span class="line"><span class="cl">└── uptime.cast
+</span></span></code></pre></div></blockquote>
 <p>in addition to the above parameters we can also use other parameters see <a href="https://github.com/asciinema/asciinema-player#options">asciinema-player options</a></p>
 <p>and the result will be like this.</p>
 <p>
@@ -579,7 +577,7 @@ AsciinemaPlayer.create("free.cast", document.getElementById('demo1'), {
 <noscript><blockquote><p>To run this asciicast without javascript, use <code>asciinema play https://novores.github.io/free.cast</code> with <a href="https://asciinema.org/">Asciinema</a></p></blockquote></noscript>
 
 <br /></p>
-<p>thanks for reading :wave:</p>
+<p>thanks for reading 👋</p>
 <h1 id="reference">Reference</h1>
 <ul>
 <li><a href="https://asciinema.org/">https://asciinema.org/</a></li>

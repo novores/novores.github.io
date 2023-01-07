@@ -561,16 +561,16 @@ to the alibaba cloud dashboard page.
 <h3 id="create-ssh-key">create ssh key</h3>
 <p>Well, now that you have an active server for a year, it&rsquo;s time to dive into the server. we will create ssh key pair</p>
 <p><em>open</em> your terminal, enter the command:</p>
-<pre tabindex="0"><code>ssh-keygen -t ed25519 -a 100
-</code></pre><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ssh-keygen -t ed25519 -a 100
+</span></span></code></pre></div><blockquote>
 <p><code>-t</code> option to select key type
 <code>-a</code> option key derivation function (increases immunity against brute-force cracking when keys are stolen)</p>
 </blockquote>
 <p>the resulting output will be like this</p>
-<pre tabindex="0"><code>$ ssh-keygen -t ed25519 -a 100
-  Generating public/private ed25519 key pair.
-  Enter file in which to save the key (/home/novores/.ssh/id_ed25519):
-</code></pre><p>enter the desired key location path (by filling absolute path). press <code>enter</code> will directly save the key in the directory <code>/home/novores/.ssh/id ed25519</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$ ssh-keygen -t ed25519 -a 100
+</span></span><span class="line"><span class="cl">  Generating public/private ed25519 key pair.
+</span></span><span class="line"><span class="cl">  Enter file in which to save the key (/home/novores/.ssh/id_ed25519):
+</span></span></code></pre></div><p>enter the desired key location path (by filling absolute path). press <code>enter</code> will directly save the key in the directory <code>/home/novores/.ssh/id ed25519</code></p>
 <p>make sure the key was generated successfully by checking into the location where the key was stored. because we generate key to connect between remote machine
 with local machine then in the directory where the keys are stored, you will see 2 pairs of key names, one with a <code>.pub</code> ending and one without. Now, the ending is <code>.pub</code>. This is what you will use later on into the remote machine, by copying the contents of the file into the ecs console.</p>
 <h3 id="enter-the-public-key-pub-into-the-ecs-console">Enter The Public Key (.pub) Into The ECS Console</h3>
@@ -585,23 +585,23 @@ with local machine then in the directory where the keys are stored, you will see
 </ul>
 <h3 id="make-config">Make Config</h3>
 <p>create config directory</p>
-<pre tabindex="0"><code>cd .ssh
-vim config
-</code></pre><p>then add and edit the configuration below into the config file</p>
-<pre tabindex="0"><code># Enter the alias of the ECS instance to connect to the instance by using an SSH key pair. 
-Host ecs
-# Enter the public IP address of the instance. 
-HostName 121.196.**.**
-# Enter the port number. The default port number is 22. 
-Port 22
-# Enter the logon account. 
-User root
-# Enter the address of the private key file on your PC. 
-IdentityFile ~/.ssh/id_ed25519
-</code></pre><h3 id="login-to-server">Login to Server</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">cd .ssh
+</span></span><span class="line"><span class="cl">vim config
+</span></span></code></pre></div><p>then add and edit the configuration below into the config file</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># Enter the alias of the ECS instance to connect to the instance by using an SSH key pair. 
+</span></span><span class="line"><span class="cl">Host ecs
+</span></span><span class="line"><span class="cl"># Enter the public IP address of the instance. 
+</span></span><span class="line"><span class="cl">HostName 121.196.**.**
+</span></span><span class="line"><span class="cl"># Enter the port number. The default port number is 22. 
+</span></span><span class="line"><span class="cl">Port 22
+</span></span><span class="line"><span class="cl"># Enter the logon account. 
+</span></span><span class="line"><span class="cl">User root
+</span></span><span class="line"><span class="cl"># Enter the address of the private key file on your PC. 
+</span></span><span class="line"><span class="cl">IdentityFile ~/.ssh/id_ed25519
+</span></span></code></pre></div><h3 id="login-to-server">Login to Server</h3>
 <p>with the config above it will make it easier for us to enter the server, we only need to type the ssh command along with the alias (the configuration above the alias is ecs)</p>
-<pre tabindex="0"><code>ssh ecs
-</code></pre><p>voila!! it&rsquo;s time to be a sysadmin</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ssh ecs
+</span></span></code></pre></div><p>voila!! it&rsquo;s time to be a sysadmin</p>
 <blockquote>
 <p>in the next day I will try to dive into the server with basic commands.</p>
 </blockquote>

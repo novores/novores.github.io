@@ -115,17 +115,13 @@
 <meta name="twitter:image" content="https://novores.github.io/images/site-feature-image.png"/>
 
 <meta name="twitter:title" content="How to Activate Bluetooth With Just A Terminal on Linux"/>
-<meta name="twitter:description" content="Intro bluetooth is one of the technologies that must exist in every computer device, because of its many, many uses, not only for file transfers, but bluetooth can also be used to connect sound wirelessly.
-according to wikipedia
-Bluetooth is the industry specification for wireless personal area networks (PAN). bluetooth connects and can be used to exchange information between devices. The specifications of this bluetooth device are developed and distributed by the bluetooth special interest group."/>
+<meta name="twitter:description" content="Intro bluetooth is one of the technologies that must exist in every computer device, because of its many, many uses, not only for file transfers, but bluetooth can also be used to connect sound wirelessly."/>
 
 
 
   
   <meta property="og:title" content="How to Activate Bluetooth With Just A Terminal on Linux" />
-<meta property="og:description" content="Intro bluetooth is one of the technologies that must exist in every computer device, because of its many, many uses, not only for file transfers, but bluetooth can also be used to connect sound wirelessly.
-according to wikipedia
-Bluetooth is the industry specification for wireless personal area networks (PAN). bluetooth connects and can be used to exchange information between devices. The specifications of this bluetooth device are developed and distributed by the bluetooth special interest group." />
+<meta property="og:description" content="Intro bluetooth is one of the technologies that must exist in every computer device, because of its many, many uses, not only for file transfers, but bluetooth can also be used to connect sound wirelessly." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://novores.github.io/en/post/bluetoothctl/" /><meta property="og:image" content="https://novores.github.io/images/site-feature-image.png"/><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2022-02-07T23:01:42+07:00" />
@@ -147,7 +143,7 @@ Bluetooth is the industry specification for wireless personal area networks (PAN
         "alternativeHeadline": "",
         "description": "
       
-        Intro bluetooth is one of the technologies that must exist in every computer device, because of its many, many uses, not only for file transfers, but bluetooth can also be used to connect sound wirelessly.\naccording to wikipedia\nBluetooth is the industry specification for wireless personal area networks (PAN). bluetooth connects and can be used to exchange information between devices. The specifications of this bluetooth device are developed and distributed by the bluetooth special interest group.
+        Intro bluetooth is one of the technologies that must exist in every computer device, because of its many, many uses, not only for file transfers, but bluetooth can also be used to connect sound wirelessly.
 
 
       
@@ -519,23 +515,23 @@ Bluetooth is the industry specification for wireless personal area networks (PAN
 <li>install <code>bluez</code> and <code>bluez-utils</code>, both are basic packages to enable bluetooth on linux.</li>
 <li>After installing both, continue to enable the <code>bluetooth</code> service to run on the daemon.
 if you are using systemd type the following command:
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>systemctl start bluetoothd
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">systemctl start bluetoothd
 </span></span></code></pre></div>whereas if you use openrc then the following command:
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span> sudo rc-service bluetoothd start
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"> sudo rc-service bluetoothd start
 </span></span></code></pre></div></li>
 <li>now we will use the <code>bluetoothctl</code> command line
 <ul>
 <li>buka controller bluetooth bluetooth
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>bluetoothctl
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">bluetoothctl
 </span></span></code></pre></div></li>
 <li>to activate the bluetooth controller type
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#f92672">[</span>bluetooth<span style="color:#f92672">]</span><span style="color:#75715e"># power on</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="o">[</span>bluetooth<span class="o">]</span><span class="c1"># power on</span>
 </span></span></code></pre></div></li>
 <li>scan the * device * to be connected
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#f92672">[</span>bluetooth<span style="color:#f92672">]</span><span style="color:#75715e"># scan on</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="o">[</span>bluetooth<span class="o">]</span><span class="c1"># scan on</span>
 </span></span></code></pre></div>after being scanned, a number will appear which leads to the device in question</li>
 <li>connect bluetooth on the device in question, for example, my device is <code>22:22:0a:53:72:c9</code>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#f92672">[</span>bluetooth<span style="color:#f92672">]</span><span style="color:#75715e"># connect 22:22:0A:53:72:C9</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="o">[</span>bluetooth<span class="o">]</span><span class="c1"># connect 22:22:0A:53:72:C9</span>
 </span></span></code></pre></div>if you are not sure which device you want to connect, check the registered/scanned devices by typing <code>devices</code>, a device name with number will appear.</li>
 <li>pair beetween 2 device</li>
 <li>voila..! bluetooth is connected</li>

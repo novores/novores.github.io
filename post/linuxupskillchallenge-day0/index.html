@@ -550,16 +550,16 @@ ke halaman dashboard Alibaba Cloud.
 <h3 id="buat-ssh-key">Buat SSH Key</h3>
 <p>Nah, sekarang kamu sudah punya server yang aktif selama satu tahun, saatnya terjun ke dalam server. Kita akan membuat pasangan kunci SSH</p>
 <p><em>buka</em> terminal mu, masukkan perintah:</p>
-<pre tabindex="0"><code>ssh-keygen -t ed25519 -a 100
-</code></pre><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ssh-keygen -t ed25519 -a 100
+</span></span></code></pre></div><blockquote>
 <p>opsi <code>-t</code> untuk memilih type kunci<br>
 opsi <code>-a</code> fungsi derivasi kunci (meningkatkan kekebalan terhadap pemecahan brute-force ketika kunci dicuri)</p>
 </blockquote>
 <p>output yang dihasilkan akan seperti ini</p>
-<pre tabindex="0"><code>$ ssh-keygen -t ed25519 -a 100
-  Generating public/private ed25519 key pair.
-  Enter file in which to save the key (/home/novores/.ssh/id_ed25519):
-</code></pre><p>masukkan path lokasi kunci yang diinginkan (dengan mengisi absolute path). tekan <code>enter</code> langsung akan menyimpan key di directory <code>/home/novores/.ssh/id_ed25519</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$ ssh-keygen -t ed25519 -a 100
+</span></span><span class="line"><span class="cl">  Generating public/private ed25519 key pair.
+</span></span><span class="line"><span class="cl">  Enter file in which to save the key (/home/novores/.ssh/id_ed25519):
+</span></span></code></pre></div><p>masukkan path lokasi kunci yang diinginkan (dengan mengisi absolute path). tekan <code>enter</code> langsung akan menyimpan key di directory <code>/home/novores/.ssh/id_ed25519</code></p>
 <p>pastikan kunci berhasil dibuat dengan mengecek ke dalam lokasi tempat disimpannya kunci. karena kita membuat kunci untuk menghubungkan antara remote machine
 dengan local machine maka di dalam direktori tempat kunci, kamu akan melihat 2 pasang nama kunci, yang ada akhiran <code>.pub</code> dan yang
 tidak ada akhirannya. nah yang akhirannya <code>.pub</code> inilah nanti kamu akan menggunakannya ke dalam remote machine, dengan mengcopy isi file ke dalam ECS console.</p>
@@ -578,23 +578,23 @@ tidak ada akhirannya. nah yang akhirannya <code>.pub</code> inilah nanti kamu ak
 </ul>
 <h3 id="buat-config">Buat config</h3>
 <p>buat direktori config</p>
-<pre tabindex="0"><code>cd .ssh
-vim config
-</code></pre><p>lalu tambahkan dan edit konfigurasi dibawah ke dalam file config</p>
-<pre tabindex="0"><code># Enter the alias of the ECS instance to connect to the instance by using an SSH key pair. 
-Host ecs
-# Enter the public IP address of the instance. 
-HostName 121.196.**.**
-# Enter the port number. The default port number is 22. 
-Port 22
-# Enter the logon account. 
-User root
-# Enter the address of the private key file on your PC. 
-IdentityFile ~/.ssh/id_ed25519
-</code></pre><h3 id="masuk-ke-dalam-server">Masuk ke dalam server</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">cd .ssh
+</span></span><span class="line"><span class="cl">vim config
+</span></span></code></pre></div><p>lalu tambahkan dan edit konfigurasi dibawah ke dalam file config</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># Enter the alias of the ECS instance to connect to the instance by using an SSH key pair. 
+</span></span><span class="line"><span class="cl">Host ecs
+</span></span><span class="line"><span class="cl"># Enter the public IP address of the instance. 
+</span></span><span class="line"><span class="cl">HostName 121.196.**.**
+</span></span><span class="line"><span class="cl"># Enter the port number. The default port number is 22. 
+</span></span><span class="line"><span class="cl">Port 22
+</span></span><span class="line"><span class="cl"># Enter the logon account. 
+</span></span><span class="line"><span class="cl">User root
+</span></span><span class="line"><span class="cl"># Enter the address of the private key file on your PC. 
+</span></span><span class="line"><span class="cl">IdentityFile ~/.ssh/id_ed25519
+</span></span></code></pre></div><h3 id="masuk-ke-dalam-server">Masuk ke dalam server</h3>
 <p>dengan adanya config diatas maka akan memudahkan kita untuk masuk kedalam server, kita hanya tinggal mengetik perintah ssh beserta aliasnya saja (config diatas aliasnya adalah ecs)</p>
-<pre tabindex="0"><code>ssh ecs
-</code></pre><p>voila!! it&rsquo;s time to be a sysadmin</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ssh ecs
+</span></span></code></pre></div><p>voila!! it&rsquo;s time to be a sysadmin</p>
 <blockquote>
 <p>di hari selanjutnya saya akan mencoba untuk menyelam ke dalam server dengan perintah-perintah dasar.</p>
 </blockquote>

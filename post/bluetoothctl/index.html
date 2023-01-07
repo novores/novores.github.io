@@ -115,17 +115,13 @@
 <meta name="twitter:image" content="https://novores.github.io/images/site-feature-image.png"/>
 
 <meta name="twitter:title" content="Cara Aktifkan bluetooth Cukup dengan Terminal di Linux"/>
-<meta name="twitter:description" content="Intro Bluetooth merupakan salah satu teknologi yang wajib ada di setiap perangkat komputer, karena kegunaanya yang sangat-sangat banyak, bukan hanya untuk transfer file, namun bluetooth juga dapat digunakan untuk menyambungkan suara secara wireless.
-Dilansir dari wikipedia
-Bluetooth adalah spesifikasi industri untuk jaringan kawasan pribadi (personal area networks atau PAN) tanpa kabel. Bluetooth menghubungkan dan dapat dipakai untuk melakukan tukar-menukar informasi di antara peralatan-peralatan. Spesifikasi dari peralatan Bluetooth ini dikembangkan dan didistribusikan oleh kelompok Bluetooth Special Interest Group."/>
+<meta name="twitter:description" content="Intro Bluetooth merupakan salah satu teknologi yang wajib ada di setiap perangkat komputer, karena kegunaanya yang sangat-sangat banyak, bukan hanya untuk transfer file, namun bluetooth juga dapat digunakan untuk menyambungkan suara secara wireless."/>
 
 
 
   
   <meta property="og:title" content="Cara Aktifkan bluetooth Cukup dengan Terminal di Linux" />
-<meta property="og:description" content="Intro Bluetooth merupakan salah satu teknologi yang wajib ada di setiap perangkat komputer, karena kegunaanya yang sangat-sangat banyak, bukan hanya untuk transfer file, namun bluetooth juga dapat digunakan untuk menyambungkan suara secara wireless.
-Dilansir dari wikipedia
-Bluetooth adalah spesifikasi industri untuk jaringan kawasan pribadi (personal area networks atau PAN) tanpa kabel. Bluetooth menghubungkan dan dapat dipakai untuk melakukan tukar-menukar informasi di antara peralatan-peralatan. Spesifikasi dari peralatan Bluetooth ini dikembangkan dan didistribusikan oleh kelompok Bluetooth Special Interest Group." />
+<meta property="og:description" content="Intro Bluetooth merupakan salah satu teknologi yang wajib ada di setiap perangkat komputer, karena kegunaanya yang sangat-sangat banyak, bukan hanya untuk transfer file, namun bluetooth juga dapat digunakan untuk menyambungkan suara secara wireless." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://novores.github.io/post/bluetoothctl/" /><meta property="og:image" content="https://novores.github.io/images/site-feature-image.png"/><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2022-02-07T23:01:42+07:00" />
@@ -147,7 +143,7 @@ Bluetooth adalah spesifikasi industri untuk jaringan kawasan pribadi (personal a
         "alternativeHeadline": "",
         "description": "
       
-        Intro Bluetooth merupakan salah satu teknologi yang wajib ada di setiap perangkat komputer, karena kegunaanya yang sangat-sangat banyak, bukan hanya untuk transfer file, namun bluetooth juga dapat digunakan untuk menyambungkan suara secara wireless.\nDilansir dari wikipedia\nBluetooth adalah spesifikasi industri untuk jaringan kawasan pribadi (personal area networks atau PAN) tanpa kabel. Bluetooth menghubungkan dan dapat dipakai untuk melakukan tukar-menukar informasi di antara peralatan-peralatan. Spesifikasi dari peralatan Bluetooth ini dikembangkan dan didistribusikan oleh kelompok Bluetooth Special Interest Group.
+        Intro Bluetooth merupakan salah satu teknologi yang wajib ada di setiap perangkat komputer, karena kegunaanya yang sangat-sangat banyak, bukan hanya untuk transfer file, namun bluetooth juga dapat digunakan untuk menyambungkan suara secara wireless.
 
 
       
@@ -518,28 +514,28 @@ karena skala penggunaannya yang relatif besar bluetooth cukup sering digunakan.<
 <li>
 <p>setelah selesai instal keduanya, berlanjut mengaktifkan service <code>bluetooth</code> agar berjalan di daemon.
 jika kamu menggunakan Systemd ketikan perintah berikut:</p>
-<pre tabindex="0"><code>systemctl start bluetoothd
-</code></pre><p>sedangkan jika kamu menggunakan OpenRC maka perintahnya berikut:</p>
-<pre tabindex="0"><code>sudo rc-service bluetoothd start
-</code></pre></li>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">systemctl start bluetoothd
+</span></span></code></pre></div><p>sedangkan jika kamu menggunakan OpenRC maka perintahnya berikut:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo rc-service bluetoothd start
+</span></span></code></pre></div></li>
 <li>
 <p>sekarang kita akan menggunakan rangkaian perintah <code>bluetoothctl</code></p>
 <ul>
 <li>buka controller bluetooth bluetooth
-<pre tabindex="0"><code>bluetoothctl
-</code></pre><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">bluetoothctl
+</span></span></code></pre></div><blockquote>
 <p>jalankan <code>help</code> untuk melihat daftar command yang dapat dieksekusi</p>
 </blockquote>
 </li>
 <li>untuk mengaktifkan controller bluetooth ketik
-<pre tabindex="0"><code>[bluetooth]# power on
-</code></pre></li>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">[bluetooth]# power on
+</span></span></code></pre></div></li>
 <li>scan <em>device</em> yang akan disambungkan
-<pre tabindex="0"><code>[bluetooth]# scan on
-</code></pre>setelah di-scan akan muncul angka yang menuju pada device yang dimaksud</li>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">[bluetooth]# scan on
+</span></span></code></pre></div>setelah di-scan akan muncul angka yang menuju pada device yang dimaksud</li>
 <li>koneksikan bluetooth pada device yang dimaksud, contoh, device saya adalah <code>22:22:0A:53:72:C9</code>
-<pre tabindex="0"><code>[bluetooth]# connect 22:22:0A:53:72:C9
-</code></pre>jika kamu tidak yakin device mana yang akan kamu koneksikan, cek device yang terdaftar/ter-scan dengan mengetikkan <code>devices</code>, akan muncul nama device dengan nomornya.</li>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">[bluetooth]# connect 22:22:0A:53:72:C9
+</span></span></code></pre></div>jika kamu tidak yakin device mana yang akan kamu koneksikan, cek device yang terdaftar/ter-scan dengan mengetikkan <code>devices</code>, akan muncul nama device dengan nomornya.</li>
 <li>pair antara 2 device</li>
 <li>voila..! bluetooth sudah tersambung</li>
 </ul>

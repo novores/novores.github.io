@@ -115,15 +115,13 @@
 <meta name="twitter:image" content="https://novores.github.io/images/site-feature-image.png"/>
 
 <meta name="twitter:title" content="Cara Mengabaikan package tertentu untuk di Upgrade di Archlinux"/>
-<meta name="twitter:description" content="Background Terkadang ketika kita ingin meng-update package, ada hal yang ingin kita abaikan untuk diupdate. contohnya jika kekurangan kuota saya akan menjadikan salah satu package yang berukuran besar untuk diabaikan, salah satu nya libreoffice, package ini salah satu package besar dan tidak terlalu penting untuk di upgrade menurut saya, yang saya miliki
-PERHATIAN hati-hati ketika memilih package yang akan diabaikan untuk diupgrade pastikan tidak ada dependensi yang bergantung kepada utamanya kernel linux"/>
+<meta name="twitter:description" content="Background Terkadang ketika kita ingin meng-update package, ada hal yang ingin kita abaikan untuk diupdate."/>
 
 
 
   
   <meta property="og:title" content="Cara Mengabaikan package tertentu untuk di Upgrade di Archlinux" />
-<meta property="og:description" content="Background Terkadang ketika kita ingin meng-update package, ada hal yang ingin kita abaikan untuk diupdate. contohnya jika kekurangan kuota saya akan menjadikan salah satu package yang berukuran besar untuk diabaikan, salah satu nya libreoffice, package ini salah satu package besar dan tidak terlalu penting untuk di upgrade menurut saya, yang saya miliki
-PERHATIAN hati-hati ketika memilih package yang akan diabaikan untuk diupgrade pastikan tidak ada dependensi yang bergantung kepada utamanya kernel linux" />
+<meta property="og:description" content="Background Terkadang ketika kita ingin meng-update package, ada hal yang ingin kita abaikan untuk diupdate." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://novores.github.io/post/mengabaikan-package-archlinux/" /><meta property="og:image" content="https://novores.github.io/images/site-feature-image.png"/><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2022-01-29T07:02:58+07:00" />
@@ -145,7 +143,7 @@ PERHATIAN hati-hati ketika memilih package yang akan diabaikan untuk diupgrade p
         "alternativeHeadline": "",
         "description": "
       
-        Background Terkadang ketika kita ingin meng-update package, ada hal yang ingin kita abaikan untuk diupdate. contohnya jika kekurangan kuota saya akan menjadikan salah satu package yang berukuran besar untuk diabaikan, salah satu nya libreoffice, package ini salah satu package besar dan tidak terlalu penting untuk di upgrade menurut saya, yang saya miliki\nPERHATIAN hati-hati ketika memilih package yang akan diabaikan untuk diupgrade pastikan tidak ada dependensi yang bergantung kepada utamanya kernel linux
+        Background Terkadang ketika kita ingin meng-update package, ada hal yang ingin kita abaikan untuk diupdate.
 
 
       
@@ -500,16 +498,16 @@ akan diugrade.</p>
 <h2 id="cara-pertama">Cara pertama</h2>
 <p>Cara pertama untuk mengabaikan package yang akan diugrade adalah dengan mengedit file &ldquo;/etc/pacman.conf&rdquo; uncomment baris <code>IgnorePkg</code> lalu
 masukkan nama package yang akan di abaikan atau <em>ignore</em>. Misal, saya memasukkan <code>firefox</code> dan <code>libreoffice</code>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#IgnorePkg = firefox libreoffice-still</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1">#IgnorePkg = firefox libreoffice-still</span>
 </span></span></code></pre></div><p>kita juga dapat mengabaikan grup package disini dengan uncomment baris</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#IgnoreGroup=gnome</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1">#IgnoreGroup=gnome</span>
 </span></span></code></pre></div><hr>
 <h2 id="cara-kedua">Cara kedua</h2>
 <p>Cara yang kedua untuk mengabaikan package yang akan diupgrade adalah dengan menambahkan string <code>--ignore=firefox</code> ketika akan memgupgrade
 package contoh:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo pacman -Syu --ignore<span style="color:#f92672">=</span>firefox
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo pacman -Syu --ignore<span class="o">=</span>firefox
 </span></span></code></pre></div><p>sedangkan, untuk package grup, berikut contohnya:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo pacman -Syu --ignoregroup<span style="color:#f92672">=</span>gnome
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo pacman -Syu --ignoregroup<span class="o">=</span>gnome
 </span></span></code></pre></div><hr>
 <h1 id="referensi">Referensi</h1>
 <ul>

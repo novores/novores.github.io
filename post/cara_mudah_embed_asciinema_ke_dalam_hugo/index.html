@@ -115,15 +115,13 @@
 <meta name="twitter:image" content="https://novores.github.io/images/site-feature-image.png"/>
 
 <meta name="twitter:title" content="Cara Mudah Menyemat Asciinema Ke Dalam Hugo"/>
-<meta name="twitter:description" content="Sebagai author blog khususnya yang berhubungan dengan perkomputeran, terkadang kita membutuhkan suatu media yang dapat menunjang isi konten. Ada banyak cara untuk menunjang isi konten diantaranya dengan screenshot dan video recording. namun jika kita dihadapkan dengan comandline interactive , rasanya tidak pas jika kita menggunakan screenshot atau video recording sebagai sarana dokumentasinya.
-Saatnya kita berkenalan dengan Asciinema, dengan alat ini mari lupakan aplikasi recording dan video yang tampak mengerikan akibat blur, fitur utama yang ditawarkan asciinema diantaranya."/>
+<meta name="twitter:description" content="Sebagai author blog khususnya yang berhubungan dengan perkomputeran, terkadang kita membutuhkan suatu media yang dapat menunjang isi konten."/>
 
 
 
   
   <meta property="og:title" content="Cara Mudah Menyemat Asciinema Ke Dalam Hugo" />
-<meta property="og:description" content="Sebagai author blog khususnya yang berhubungan dengan perkomputeran, terkadang kita membutuhkan suatu media yang dapat menunjang isi konten. Ada banyak cara untuk menunjang isi konten diantaranya dengan screenshot dan video recording. namun jika kita dihadapkan dengan comandline interactive , rasanya tidak pas jika kita menggunakan screenshot atau video recording sebagai sarana dokumentasinya.
-Saatnya kita berkenalan dengan Asciinema, dengan alat ini mari lupakan aplikasi recording dan video yang tampak mengerikan akibat blur, fitur utama yang ditawarkan asciinema diantaranya." />
+<meta property="og:description" content="Sebagai author blog khususnya yang berhubungan dengan perkomputeran, terkadang kita membutuhkan suatu media yang dapat menunjang isi konten." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://novores.github.io/post/cara_mudah_embed_asciinema_ke_dalam_hugo/" /><meta property="og:image" content="https://novores.github.io/images/site-feature-image.png"/><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2022-09-17T18:20:45+07:00" />
@@ -145,7 +143,7 @@ Saatnya kita berkenalan dengan Asciinema, dengan alat ini mari lupakan aplikasi 
         "alternativeHeadline": "",
         "description": "
       
-        Sebagai author blog khususnya yang berhubungan dengan perkomputeran, terkadang kita membutuhkan suatu media yang dapat menunjang isi konten. Ada banyak cara untuk menunjang isi konten diantaranya dengan screenshot dan video recording. namun jika kita dihadapkan dengan comandline interactive , rasanya tidak pas jika kita menggunakan screenshot atau video recording sebagai sarana dokumentasinya.\nSaatnya kita berkenalan dengan Asciinema, dengan alat ini mari lupakan aplikasi recording dan video yang tampak mengerikan akibat blur, fitur utama yang ditawarkan asciinema diantaranya.
+        Sebagai author blog khususnya yang berhubungan dengan perkomputeran, terkadang kita membutuhkan suatu media yang dapat menunjang isi konten.
 
 
       
@@ -513,29 +511,29 @@ fungsi penyematan Asciinema secara simple dan mudah</p>
 <h1 id="penginstalan">Penginstalan</h1>
 <p>modul hugo ditenagai oleh Go Modules. dan kita perlu  <a href="https://go.dev/">go compiler</a> untuk menjalankannya.
 Di Voidlinux kamu bisa menjalankan perintah  untuk menginstalnya.</p>
-<pre tabindex="0"><code>sudo xbps-install -S go
-</code></pre><p>oke, saatnya instalasi</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo xbps-install -S go
+</span></span></code></pre></div><p>oke, saatnya instalasi</p>
 <ul>
 <li>jalankan perintah berikut, untuk menjadikan repo blog kita sebagai tempat module.</li>
 </ul>
-<pre tabindex="0"><code>hugo mod init gitlab.com/novores/blog-repo
-</code></pre><ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo mod init gitlab.com/novores/blog-repo
+</span></span></code></pre></div><ul>
 <li>selanjutnya, kita memenuhi dependency dari gohugo-asciinema dengan perintah.</li>
 </ul>
-<pre tabindex="0"><code>hugo mod get -u -v cj.rs/gohugo-asciinema
-</code></pre><ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo mod get -u -v cj.rs/gohugo-asciinema
+</span></span></code></pre></div><ul>
 <li>lalu edit konfigurasi mu,<code>config.yaml</code>/<code>config.toml</code> dengan menambahkan referensi modul.
 <ul>
 <li>yaml
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">module</span>:
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">replacements</span>: <span style="color:#e6db74">&#34;cj.rs/gohugo-asciinema-&gt;gohugo-asciinema&#34;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">imports</span>:
-</span></span><span style="display:flex;"><span>    - <span style="color:#f92672">path</span>: <span style="color:#ae81ff">cj.rs/gohugo-asciinema</span>
-</span></span></code></pre></div></li>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">module</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">replacements</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;cj.rs/gohugo-asciinema-&gt;gohugo-asciinema&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">imports</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="nt">path</span><span class="p">:</span><span class="w"> </span><span class="l">cj.rs/gohugo-asciinema</span><span class="w">
+</span></span></span></code></pre></div></li>
 <li>toml
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[<span style="color:#a6e22e">module</span>]
-</span></span><span style="display:flex;"><span>[[<span style="color:#a6e22e">module</span>.<span style="color:#a6e22e">imports</span>]]
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">path</span> = <span style="color:#e6db74">&#34;cj.rs/gohugo-asciinema&#34;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">module</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">module</span><span class="p">.</span><span class="nx">imports</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">path</span> <span class="p">=</span> <span class="s2">&#34;cj.rs/gohugo-asciinema&#34;</span>
 </span></span></code></pre></div></li>
 </ul>
 </li>
@@ -543,20 +541,20 @@ Di Voidlinux kamu bisa menjalankan perintah  untuk menginstalnya.</p>
 <h2 id="penggunaan">Penggunaan</h2>
 <p>gunakan shorcode berikut ke dalam page yang ingin kamu sematkan asciinema.</p>
 <p>contoh:</p>
-<pre tabindex="0"><code>{{&lt; asciicast src=&#34;free.cast&#34; poster=&#34;npt:0:04&#34; autoPlay=true loop=true rows=&#34;10&#34; cols=&#34;80&#34; &gt;}}
-</code></pre><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{{&lt; asciicast src=&#34;free.cast&#34; poster=&#34;npt:0:04&#34; autoPlay=true loop=true rows=&#34;10&#34; cols=&#34;80&#34; &gt;}}
+</span></span></code></pre></div><blockquote>
 <p><strong>NOTE</strong><br>
 pastikan file ditempatkan dalam folder yang sama dengan <code>index.md</code>, ini contoh pohon file sistem saya</p>
-<pre tabindex="0"><code>content/blog/linuxupskillchallenge-day1/
-├── cover.png
-├── df.cast
-├── free.cast
-├── index.id.md
-├── ls.cast
-├── ssh.cast
-├── uname.cast
-└── uptime.cast
-</code></pre></blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">content/blog/linuxupskillchallenge-day1/
+</span></span><span class="line"><span class="cl">├── cover.png
+</span></span><span class="line"><span class="cl">├── df.cast
+</span></span><span class="line"><span class="cl">├── free.cast
+</span></span><span class="line"><span class="cl">├── index.id.md
+</span></span><span class="line"><span class="cl">├── ls.cast
+</span></span><span class="line"><span class="cl">├── ssh.cast
+</span></span><span class="line"><span class="cl">├── uname.cast
+</span></span><span class="line"><span class="cl">└── uptime.cast
+</span></span></code></pre></div></blockquote>
 <p>Selain parameter diatas kita juga dapat menggunakan parameter yang lain lihat <a href="https://github.com/asciinema/asciinema-player#options">asciinema-player options</a></p>
 <p>dan hasilnya akan seperti ini.</p>
 <p>
@@ -572,7 +570,7 @@ AsciinemaPlayer.create("free.cast", document.getElementById('demo1'), {
 <noscript><blockquote><p>To run this asciicast without javascript, use <code>asciinema play https://novores.github.io/free.cast</code> with <a href="https://asciinema.org/">Asciinema</a></p></blockquote></noscript>
 
 <br /></p>
-<p>Terimakasih telah membaca :wave:</p>
+<p>Terimakasih telah membaca 👋</p>
 <h1 id="referensi">Referensi</h1>
 <ul>
 <li><a href="https://asciinema.org/">https://asciinema.org/</a></li>

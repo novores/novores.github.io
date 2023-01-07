@@ -14,8 +14,7 @@
       
       <guid>https://novores.github.io/post/cara_mudah_embed_asciinema_ke_dalam_hugo/</guid>
       
-        <description>Sebagai author blog khususnya yang berhubungan dengan perkomputeran, terkadang kita membutuhkan suatu media yang dapat menunjang isi konten. Ada banyak cara untuk menunjang isi konten diantaranya dengan screenshot dan video recording. namun jika kita dihadapkan dengan comandline interactive , rasanya tidak pas jika kita menggunakan screenshot atau video recording sebagai sarana dokumentasinya.
-Saatnya kita berkenalan dengan Asciinema, dengan alat ini mari lupakan aplikasi recording dan video yang tampak mengerikan akibat blur, fitur utama yang ditawarkan asciinema diantaranya.</description>
+        <description>Sebagai author blog khususnya yang berhubungan dengan perkomputeran, terkadang kita membutuhkan suatu media yang dapat menunjang isi konten.</description>
       
     </item>
     
@@ -26,9 +25,7 @@ Saatnya kita berkenalan dengan Asciinema, dengan alat ini mari lupakan aplikasi 
       
       <guid>https://novores.github.io/post/cactus-comment/</guid>
       
-        <description>Pengantar Hugo merupakan salah satu Static Site Generator yang kaya akan fitur. Salah satunya fitur komentar, untuk menambahkan fitur komentar ini kita hanya perlu menambahkan shortcode ke dalam fronmatter Blog kita. namun sayangnta fitur ini hanya tersedia untuk Disqus. saya pribadi tidak terlalu menyukai disquss karena proprietary-nya.
-jika kita ingin menambahkan komentar dari provider yang lain, maka kita harus menulis shortcode itu sendiri.
-saya lebih memilih Cactus Comment yang dimana komentar yang masuk kedalam blog/website akan langsung terhubung melalui akun Matrix.</description>
+        <description>Pengantar Hugo merupakan salah satu Static Site Generator yang kaya akan fitur.</description>
       
     </item>
     

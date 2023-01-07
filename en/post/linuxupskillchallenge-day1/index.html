@@ -460,6 +460,10 @@
     "
   >
     
+      <div class="post__thumbnail-wrapper">
+        <img class="post__thumbnail" src="/thumbnails/luc-1.png" alt="Thumbnail image" />
+      </div>
+    
     <div class="post__content">
       <h1>Linux Upskill Challenge: Day 1</h1>
       
@@ -512,8 +516,8 @@
 to connect now I will try to connect without a config file or manually.</p>
 <p>previously we have created a key pair using ssh keygen into the <code>.ssh</code> directory with the name <strong>ed25519</strong>
 the following command will give us access to alibaba cloud ecs (elastic compute service) server.</p>
-<pre tabindex="0"><code>ssh -i path/to/key_file &lt;username&gt;@&lt;remote_host&gt;
-</code></pre><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ssh -i path/to/key_file &lt;username&gt;@&lt;remote_host&gt;
+</span></span></code></pre></div><blockquote>
 <p>flag <code>-i</code> atau kepanjangan dari <code>--identity_file</code> tempat kita menginput jalur ke file private key kita.</p>
 </blockquote>
 <p><em>why do we use the config file instead of the way above?</em> so that it doesn&rsquo;t waste time and of course it&rsquo;s easier to manage everything

@@ -449,6 +449,10 @@
     "
   >
     
+      <div class="post__thumbnail-wrapper">
+        <img class="post__thumbnail" src="/thumbnails/luc-1.png" alt="Thumbnail image" />
+      </div>
+    
     <div class="post__content">
       <h1>Linux Upskill Challenge: Day 1</h1>
       
@@ -469,7 +473,24 @@
             <span class="post__meta-text">3 menit membaca</span>
           </li>
         </ul>
-      <blockquote>
+      <h3>Table of Contents</h3>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#tugas-hari-ini">Tugas Hari Ini</a></li>
+    <li><a href="#connect-server">Connect Server</a></li>
+    <li><a href="#menjalankan-perintah-dasar">Menjalankan Perintah Dasar</a>
+      <ul>
+        <li><a href="#ls">ls</a></li>
+        <li><a href="#uptime">uptime</a></li>
+        <li><a href="#free">free</a></li>
+        <li><a href="#df">df</a></li>
+        <li><a href="#uname">uname</a></li>
+      </ul>
+    </li>
+    <li><a href="#simpulan">Simpulan</a></li>
+  </ul>
+</nav>
+<blockquote>
 <p><em>blog ini merupakan bagian dari <a href="https://novores.xyz/tags/linuxupskillchallenge/">linux upskill challenge series</a>.</em>
 <em>berisi catatan proses belajar saya dalam mengikuti panduan <a href="https://github.com/livialima/linuxupskillchallenge">Linux Upskill Chalenge</a></em></p>
 </blockquote>
@@ -484,8 +505,8 @@
 untuk connect sekarang saya akan mencoba connect tanpa config file atau dengan cara manual.</p>
 <p>sebelumnya kita sudah membuat sepasang kunci menggunakan ssh_keygen ke dalam direktori <code>.ssh</code> dengan nama <strong>ed25519</strong>
 perintah berikut akan memberikan kita akses ke server Alibaba Cloud ECS (Elastic Compute Service).</p>
-<pre tabindex="0"><code>ssh -i path/to/key_file &lt;username&gt;@&lt;remote_host&gt;
-</code></pre><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ssh -i path/to/key_file &lt;username&gt;@&lt;remote_host&gt;
+</span></span></code></pre></div><blockquote>
 <p>flag <code>-i</code> atau kepanjangan dari <code>--identity_file</code> tempat kita menginput jalur ke file private key kita.</p>
 </blockquote>
 <p><em>kenapa kita mengunakan config file alih-alih dengan cara seperti diatas?</em> agar tidak buang-buang waktu dan tentunya lebih mudah untuk mengatur semua

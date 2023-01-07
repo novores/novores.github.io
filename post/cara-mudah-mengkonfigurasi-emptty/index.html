@@ -115,17 +115,13 @@
 <meta name="twitter:image" content="https://novores.github.io/images/site-feature-image.png"/>
 
 <meta name="twitter:title" content="Emptty: Display Manager yang Sangat Simple"/>
-<meta name="twitter:description" content="Gambaran Emptty merupakan salah satu Display manager yang simple, emptty ditulis dalam bahasa Go. Emptty sendiri berbasis CLI, inilah yang membuatnya cukup simple untuk dioperasikan, namun ada beberapa konfigurasi yang harus kita tentukan terlebih dahulu, agar emptty dapat bekerja sesuai keinginan kita.
-Pemasangan Sayangnya emptty hanya tersedia di repo AUR dan Void saja. tapi tenang kamu bisa menginstall emptty dengan cara menduplikat dari sumber resminya di github.
-ketikan perintah berikut untuk menduplikat source file dari repo github."/>
+<meta name="twitter:description" content="Gambaran Emptty merupakan salah satu Display manager yang simple, emptty ditulis dalam bahasa Go."/>
 
 
 
   
   <meta property="og:title" content="Emptty: Display Manager yang Sangat Simple" />
-<meta property="og:description" content="Gambaran Emptty merupakan salah satu Display manager yang simple, emptty ditulis dalam bahasa Go. Emptty sendiri berbasis CLI, inilah yang membuatnya cukup simple untuk dioperasikan, namun ada beberapa konfigurasi yang harus kita tentukan terlebih dahulu, agar emptty dapat bekerja sesuai keinginan kita.
-Pemasangan Sayangnya emptty hanya tersedia di repo AUR dan Void saja. tapi tenang kamu bisa menginstall emptty dengan cara menduplikat dari sumber resminya di github.
-ketikan perintah berikut untuk menduplikat source file dari repo github." />
+<meta property="og:description" content="Gambaran Emptty merupakan salah satu Display manager yang simple, emptty ditulis dalam bahasa Go." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://novores.github.io/post/cara-mudah-mengkonfigurasi-emptty/" /><meta property="og:image" content="https://novores.github.io/images/site-feature-image.png"/><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2021-12-26T00:00:00+00:00" />
@@ -147,7 +143,7 @@ ketikan perintah berikut untuk menduplikat source file dari repo github." />
         "alternativeHeadline": "",
         "description": "
       
-        Gambaran Emptty merupakan salah satu Display manager yang simple, emptty ditulis dalam bahasa Go. Emptty sendiri berbasis CLI, inilah yang membuatnya cukup simple untuk dioperasikan, namun ada beberapa konfigurasi yang harus kita tentukan terlebih dahulu, agar emptty dapat bekerja sesuai keinginan kita.\nPemasangan Sayangnya emptty hanya tersedia di repo AUR dan Void saja. tapi tenang kamu bisa menginstall emptty dengan cara menduplikat dari sumber resminya di github.\nketikan perintah berikut untuk menduplikat source file dari repo github.
+        Gambaran Emptty merupakan salah satu Display manager yang simple, emptty ditulis dalam bahasa Go.
 
 
       
@@ -502,51 +498,51 @@ bekerja sesuai keinginan kita.</p>
 <p>Sayangnya emptty hanya tersedia di repo AUR dan Void saja.
 tapi tenang kamu bisa menginstall emptty dengan cara menduplikat dari sumber resminya di github.</p>
 <p>ketikan perintah berikut untuk menduplikat <em>source file</em> dari repo github.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ git clone https://github.com/tvrzna/emptty.git
-</span></span><span style="display:flex;"><span>$ cd emptty
-</span></span><span style="display:flex;"><span>$ sudo make Makefile
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ git clone https://github.com/tvrzna/emptty.git
+</span></span><span class="line"><span class="cl">$ <span class="nb">cd</span> emptty
+</span></span><span class="line"><span class="cl">$ sudo make Makefile
 </span></span></code></pre></div><h2 id="setelan">Setelan</h2>
 <ul>
 <li>
 <p>Selanjutnya ketikkan <strong>perintah</strong> berikut untuk mengetahui bahwa <code>emptty</code> terinstall dengan benar</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ emptty -v
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ emptty -v
 </span></span></code></pre></div></li>
 <li>
 <p>sekarang kita akan mengedit file config <code>emptty</code> di <code>/etc/emptty/conf</code>.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ sudo nano /etc/emptty/conf
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># TTY, dimana emptty dimulai.</span>
-</span></span><span style="display:flex;"><span>TTY_NUMBER<span style="color:#f92672">=</span><span style="color:#ae81ff">2</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># mengizinkan untuk beralih antar TTY.</span>
-</span></span><span style="display:flex;"><span>SWITCH_TTY<span style="color:#f92672">=</span>true
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># mengizinkan untuk membuat output dari /etc/issue di daemon mode.</span>
-</span></span><span style="display:flex;"><span>PRINT_ISSUE<span style="color:#f92672">=</span>true
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># namas user untuk ditentukan, jika AUTOLOGIN diizinkan, pengguna ini akan otomatis masuk.</span>
-</span></span><span style="display:flex;"><span>DEFAULT_USER<span style="color:#f92672">=</span>noval
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># mengizinkan Autologin, jika DEFAULT_USER telah ditentukan, dan bagian dari nopasswdlogin group.</span>
-</span></span><span style="display:flex;"><span>AUTOLOGIN<span style="color:#f92672">=</span>false
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># default session yang digunakan, jika Autologin diizinkan. jika session tidak ditemukan dalam daftar session, itu akan diproses dengan cara manual.</span>
-</span></span><span style="display:flex;"><span>AUTOLOGIN_SESSION<span style="color:#f92672">=</span>bspwm
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># bahasa default, jika pengguan belum mengaturnya dalam init script.</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">#LANG=en_US.UTF-8</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># memulai desktop dengan memanggil &#34;dbus-launch&#34;.</span>
-</span></span><span style="display:flex;"><span>DBUS_LAUNCH<span style="color:#f92672">=</span>true
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># memulai Xorg desktop dengan memulai &#34;~/.xinitrc&#34; skrip, jika bernilai true, file ada dan wm/de yang dipilih adalah sesi xorg, itu mengesampingkan peluncuran dbus.</span>
-</span></span><span style="display:flex;"><span>XINITRC_LAUNCH<span style="color:#f92672">=</span>false
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Prints available WM/DE each on new line instead of printing on single line.</span>
-</span></span><span style="display:flex;"><span>VERTICAL_SELECTION<span style="color:#f92672">=</span>false
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ sudo nano /etc/emptty/conf
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># TTY, dimana emptty dimulai.</span>
+</span></span><span class="line"><span class="cl"><span class="nv">TTY_NUMBER</span><span class="o">=</span><span class="m">2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># mengizinkan untuk beralih antar TTY.</span>
+</span></span><span class="line"><span class="cl"><span class="nv">SWITCH_TTY</span><span class="o">=</span><span class="nb">true</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># mengizinkan untuk membuat output dari /etc/issue di daemon mode.</span>
+</span></span><span class="line"><span class="cl"><span class="nv">PRINT_ISSUE</span><span class="o">=</span><span class="nb">true</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># namas user untuk ditentukan, jika AUTOLOGIN diizinkan, pengguna ini akan otomatis masuk.</span>
+</span></span><span class="line"><span class="cl"><span class="nv">DEFAULT_USER</span><span class="o">=</span>noval
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># mengizinkan Autologin, jika DEFAULT_USER telah ditentukan, dan bagian dari nopasswdlogin group.</span>
+</span></span><span class="line"><span class="cl"><span class="nv">AUTOLOGIN</span><span class="o">=</span><span class="nb">false</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># default session yang digunakan, jika Autologin diizinkan. jika session tidak ditemukan dalam daftar session, itu akan diproses dengan cara manual.</span>
+</span></span><span class="line"><span class="cl"><span class="nv">AUTOLOGIN_SESSION</span><span class="o">=</span>bspwm
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># bahasa default, jika pengguan belum mengaturnya dalam init script.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#LANG=en_US.UTF-8</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># memulai desktop dengan memanggil &#34;dbus-launch&#34;.</span>
+</span></span><span class="line"><span class="cl"><span class="nv">DBUS_LAUNCH</span><span class="o">=</span><span class="nb">true</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># memulai Xorg desktop dengan memulai &#34;~/.xinitrc&#34; skrip, jika bernilai true, file ada dan wm/de yang dipilih adalah sesi xorg, itu mengesampingkan peluncuran dbus.</span>
+</span></span><span class="line"><span class="cl"><span class="nv">XINITRC_LAUNCH</span><span class="o">=</span><span class="nb">false</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Prints available WM/DE each on new line instead of printing on single line.</span>
+</span></span><span class="line"><span class="cl"><span class="nv">VERTICAL_SELECTION</span><span class="o">=</span><span class="nb">false</span>
 </span></span></code></pre></div></li>
 <li>
 <p>dan terakhir, untuk mengaktifkan emptty saat booting, ketik perintah berikut di shell.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>systemctl enable emptty.service
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">systemctl <span class="nb">enable</span> emptty.service
 </span></span></code></pre></div><blockquote>
 <p>perintah diatas hanya diperuntukan untuk pengguna systemd</p>
 </blockquote>
@@ -554,7 +550,7 @@ tapi tenang kamu bisa menginstall emptty dengan cara menduplikat dari sumber res
 <p>emptty telah menyediakan berbagai init script dalam source foldernya dan semuanya akan terinstal otomatis
 ketika kamu menginstall emptty melalui script Makefile. Kamu hanya perlu mengetikan perintah berikut
 untuk mengaktifkan emptty.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo rc-update add emptty
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo rc-update add emptty
 </span></span></code></pre></div></blockquote>
 </li>
 <li>

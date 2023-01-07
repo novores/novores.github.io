@@ -25,9 +25,7 @@
       
       <guid>https://novores.github.io/en/post/cara-mudah-mengkonfigurasi-emptty/</guid>
       
-        <description>description emptty itself is cli based, this is what makes it quite simple to operate, emptty is a simple display manager, emptty is written in the go language. but there are some configurations that we must determine first, so that emptty can work as we want.
-Installing unfortunately emptty is only available in the aur and void repos. but calm down you can install emptty via cloning.
-type the following command</description>
+        <description>description emptty itself is cli based, this is what makes it quite simple to operate, emptty is a simple display manager, emptty is written in the go language.</description>
       
     </item>
     

@@ -14,9 +14,7 @@
       
       <guid>https://novores.github.io/post/cactus-comment/</guid>
       
-        <description>Pengantar Hugo merupakan salah satu Static Site Generator yang kaya akan fitur. Salah satunya fitur komentar, untuk menambahkan fitur komentar ini kita hanya perlu menambahkan shortcode ke dalam fronmatter Blog kita. namun sayangnta fitur ini hanya tersedia untuk Disqus. saya pribadi tidak terlalu menyukai disquss karena proprietary-nya.
-jika kita ingin menambahkan komentar dari provider yang lain, maka kita harus menulis shortcode itu sendiri.
-saya lebih memilih Cactus Comment yang dimana komentar yang masuk kedalam blog/website akan langsung terhubung melalui akun Matrix.</description>
+        <description>Pengantar Hugo merupakan salah satu Static Site Generator yang kaya akan fitur.</description>
       
     </item>
     

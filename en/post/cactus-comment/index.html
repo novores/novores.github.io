@@ -521,31 +521,31 @@
 <p>If you have registered and logged in, the first thing to do is register your site with cactus comment.
 create [new chat with @cactusbot: cactus.chat] (<a href="https://matrix.to/#/@cactusbot:cactus.chat">https://matrix.to/#/@cactusbot:cactus.chat</a>)</p>
 <p>then type.</p>
-<pre tabindex="0"><code>register &lt;your site name&gt;
-</code></pre><p>the site name does not have to be the same as the domain name, create a unique site name</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">register &lt;your site name&gt;
+</span></span></code></pre></div><p>the site name does not have to be the same as the domain name, create a unique site name</p>
 <p>if it is finished we move on to the next stage.</p>
 <hr>
 <h2 id="integration-stage">Integration Stage</h2>
 <p>Now we enter the stage of integration of cactus comment with hugo.</p>
 <h3 id="create-a-shortcode">Create A Shortcode</h3>
 <p>to create a shortcode in hugo, we just need to copy the following code into the <code>layout/shortcodes/</code> folder. in my case the folder is in the <code>theme/&lt;theme-name&gt;</code> folder.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">script</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text/javascript&#34;</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://latest.cactus.chat/cactus.js&#34;</span><span style="color:#f92672">&gt;&lt;</span><span style="color:#960050;background-color:#1e0010">/script&gt;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">link</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stylesheet&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://latest.cactus.chat/style.css&#34;</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text/css&#34;</span><span style="color:#f92672">&gt;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;comment-section&#34;</span><span style="color:#f92672">&gt;&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">script</span><span style="color:#f92672">&gt;</span>
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">initComments</span>({
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">node</span><span style="color:#f92672">:</span> document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;comment-section&#34;</span>),
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">defaultHomeserverUrl</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;https://matrix.cactus.chat:8448&#34;</span>,
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">serverName</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;cactus.chat&#34;</span>,
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">siteName</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;&lt;YOUR-SITE-NAME&gt;&#34;</span>,
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">commentSectionId</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;{{ index .Params 0 }}&#34;</span>
-</span></span><span style="display:flex;"><span>})
-</span></span><span style="display:flex;"><span><span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/script&gt;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&#34;text/javascript&#34;</span> <span class="nx">src</span><span class="o">=</span><span class="s2">&#34;https://latest.cactus.chat/cactus.js&#34;</span><span class="o">&gt;&lt;</span><span class="err">/script&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="nx">link</span> <span class="nx">rel</span><span class="o">=</span><span class="s2">&#34;stylesheet&#34;</span> <span class="nx">href</span><span class="o">=</span><span class="s2">&#34;https://latest.cactus.chat/style.css&#34;</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&#34;text/css&#34;</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="nx">div</span> <span class="nx">id</span><span class="o">=</span><span class="s2">&#34;comment-section&#34;</span><span class="o">&gt;&lt;</span><span class="err">/div&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="nx">script</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">initComments</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">node</span><span class="o">:</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">&#34;comment-section&#34;</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">defaultHomeserverUrl</span><span class="o">:</span> <span class="s2">&#34;https://matrix.cactus.chat:8448&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">serverName</span><span class="o">:</span> <span class="s2">&#34;cactus.chat&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">siteName</span><span class="o">:</span> <span class="s2">&#34;&lt;YOUR-SITE-NAME&gt;&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">commentSectionId</span><span class="o">:</span> <span class="s2">&#34;{{ index .Params 0 }}&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">})</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="err">/script&gt;</span>
 </span></span></code></pre></div><p>Don&rsquo;t forget to include your site name in the <code>site name</code> column above.
 the line of code above is very customizable, see the guide <a href="https://cactus.chat/docs/client/customisation/">here</a></p>
 <h3 id="add-comment">Add Comment</h3>
 <p>to add a comment to a post we just need to add the following line</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#f92672">{{</span>&lt; chat room-chat &gt;<span style="color:#f92672">}}</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="o">{{</span>&lt; chat room-chat &gt;<span class="o">}}</span>
 </span></span></code></pre></div><p>at the end of each post we have made.</p>
 <p>function <code>room-chat</code>, as the name of your chat room in the matrix.
 You can make the choice whether to separate the chat rooms for each post (eg changing the room name to the title of your post) or the same room for each post (each post is given the same room name)</p>

@@ -500,13 +500,13 @@ jika sudah ada kamu bisa melewati langkah langkah ini dan ke poin <strong>Salin 
 </li>
 <li>
 <p>install package yang diperlukan, karena saya memakai Archlinux jadi saya mengetikan ini:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo pacman -S git openssh
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo pacman -S git openssh
 </span></span></code></pre></div></li>
 </ol>
 <hr>
 <h2 id="membuat-kunci-ssh">Membuat Kunci SSH</h2>
 <p>setelah semuanya sudah siap, <em>generate</em> ssh key dengan mengetikan:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ssh-keygen -C <span style="color:#e6db74">&#34;&lt;comment&gt;&#34;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ssh-keygen -C <span class="s2">&#34;&lt;comment&gt;&#34;</span>
 </span></span></code></pre></div><p>Perintah ini menghasilkan 2 kunci yang diperlukan untuk mengautentikasi SSH: file <code>rsa_id</code> dan <code>rsa_id.pub</code> yang tersimpan di direktori <code>.ssh</code>.</p>
 <hr>
 <h2 id="salin-kunci-ke-github">Salin Kunci ke Github</h2>
@@ -531,7 +531,7 @@ jika sudah ada kamu bisa melewati langkah langkah ini dan ke poin <strong>Salin 
 <li>Klik <code>Add SSH Key</code></li>
 </ol>
 <p>Selanjutnya, periksa apakah kunci SSH sudah terhubung.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ssh -T git@github.com
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ssh -T git@github.com
 </span></span></code></pre></div><blockquote>
 <p>ketika menggunakan SSH kita tidak lagi mengetikan
 <code>git add https://github.com/yourname/repository.git</code> lagi,
