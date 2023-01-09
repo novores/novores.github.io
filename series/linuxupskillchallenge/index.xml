@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linuxupskillchallenge on Novores&#39;s Blog</title>
+    <link>https://novores.github.io/series/linuxupskillchallenge/</link>
+    <description>Recent content in linuxupskillchallenge on Novores&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <lastBuildDate>Thu, 15 Sep 2022 07:10:42 +0700</lastBuildDate><atom:link href="https://novores.github.io/series/linuxupskillchallenge/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux Upskill Challenge: Day 1</title>
+      <link>https://novores.github.io/post/linuxupskillchallenge-day1/</link>
+      <pubDate>Thu, 15 Sep 2022 07:10:42 +0700</pubDate>
+      
+      <guid>https://novores.github.io/post/linuxupskillchallenge-day1/</guid>
+      
+        <description>Get to know your server</description>
+      
+    </item>
+    
+    <item>
+      <title>Linux Upskill Challenge: Day 0</title>
+      <link>https://novores.github.io/post/linuxupskillchallenge-day0/</link>
+      <pubDate>Tue, 30 Aug 2022 20:58:30 +0700</pubDate>
+      
+      <guid>https://novores.github.io/post/linuxupskillchallenge-day0/</guid>
+      
+        <description>Make Your Own Server</description>
+      
+    </item>
+    
+  </channel>
+</rss>

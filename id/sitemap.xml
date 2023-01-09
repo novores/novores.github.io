@@ -106,6 +106,32 @@
                 href="https://novores.github.io/tags/linuxupskillchallenge/"
                 />
   </url><url>
+    <loc>https://novores.github.io/series/linuxupskillchallenge/</loc>
+    <lastmod>2022-09-15T07:10:42+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://novores.github.io/en/series/linuxupskillchallenge/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://novores.github.io/series/linuxupskillchallenge/"
+                />
+  </url><url>
+    <loc>https://novores.github.io/series/</loc>
+    <lastmod>2022-09-15T07:10:42+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://novores.github.io/en/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://novores.github.io/series/"
+                />
+  </url><url>
     <loc>https://novores.github.io/post/linuxupskillchallenge-day0/</loc>
     <lastmod>2022-08-30T20:58:30+07:00</lastmod>
     <xhtml:link
@@ -338,18 +364,6 @@
                 />
   </url><url>
     <loc>https://novores.github.io/portfolio/</loc>
-  </url><url>
-    <loc>https://novores.github.io/series/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://novores.github.io/en/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://novores.github.io/series/"
-                />
   </url><url>
     <loc>https://novores.github.io/about/</loc>
     <xhtml:link
