@@ -1,2 +1,2 @@
-# novores.github.io
-gitlab CI
+''' This is the source of deployed blog [] (https://novores.github.io)'''
+
