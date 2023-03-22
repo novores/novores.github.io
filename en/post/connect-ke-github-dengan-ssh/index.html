@@ -16,7 +16,7 @@
   </title>
 
   
-  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.109.0"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.111.3"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <meta name="author" content="Novores" />
   <meta
     name="description"
@@ -199,7 +199,7 @@
 
     ,
         "url" : "https:\/\/novores.github.io\/en\/post\/connect-ke-github-dengan-ssh\/",
-        "wordCount" : "298",
+        "wordCount" : "300",
         "genre" : [ ],
         "keywords" : [ 
       
@@ -505,13 +505,8 @@
 <p>and another advantage that we no longer use tokens when setting up the repository but just the password we set if you set it later when generating or generating ssh keys.</p>
 <h2 id="preparation">Preparation</h2>
 <ol>
-<li>first check your <code>~/.ssh</code> directory if it already contains files. files in the ~/.ssh directory usually contain:
-<ul>
-<li>id_rsa</li>
-<li>id_rsa.pub
+<li>first check your <code>~/.ssh</code> directory if it already contains files. files in the ~/.ssh directory usually contain: - id_rsa - id_rsa.pub
 if it already exists you can skip these steps and go to point <strong>copy the key to github</strong></li>
-</ul>
-</li>
 <li>install the necessary packages, because I use archlinux so I typed this:
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo pacman -S git openssh
 </span></span></code></pre></div></li>
@@ -526,15 +521,15 @@ if it already exists you can skip these steps and go to point <strong>copy the k
 <li>login to your github account then go to <code>settings</code> page &gt; <code>ssh and gpg keys</code> &gt; <code>new ssh keys</code></li>
 <li>The next screen will be as below, enter whatever ssh key name is in the <code>title</code> column, for example <code>my-ssh-key</code> then <em>paste</em> the contents of the <code>id rsa.pub</code> file in the key column.
 
-<link rel="stylesheet" href=/css/hugo-easy-gallery.css />
-<div class="box" >
-  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <div class="img">
-      <img itemprop="thumbnail" src="/github-ssh.png" />
-    </div>
-    <a href="/github-ssh.png" itemprop="contentUrl"></a>
-  </figure>
-</div>
+   <link rel="stylesheet" href=/css/hugo-easy-gallery.css />
+   <div class="box" >
+     <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+       <div class="img">
+         <img itemprop="thumbnail" src="/github-ssh.png" />
+       </div>
+       <a href="/github-ssh.png" itemprop="contentUrl"></a>
+     </figure>
+   </div>
 </li>
 <li>Click <code>Add SSH Key</code></li>
 </ol>
