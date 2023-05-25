@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Novores&#39;s Blog</title>
+    <title></title>
     <link>https://novores.github.io/en/</link>
-    <description>Recent content on Novores&#39;s Blog</description>
+    <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id</language>
     <lastBuildDate>Sat, 17 Sep 2022 18:20:45 +0700</lastBuildDate><atom:link href="https://novores.github.io/en/index.xml" rel="self" type="application/rss+xml" />
