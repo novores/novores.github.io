@@ -327,6 +327,20 @@
                 href="https://novores.github.io/contact/"
                 />
   </url><url>
+    <loc>https://novores.github.io/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://novores.github.io/en/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://novores.github.io/about/"
+                />
+  </url><url>
+    <loc>https://novores.github.io/portfolio/</loc>
+  </url><url>
     <loc>https://novores.github.io/archives/</loc>
     <xhtml:link
                 rel="alternate"
@@ -361,20 +375,6 @@
                 rel="alternate"
                 hreflang="id"
                 href="https://novores.github.io/categories/"
-                />
-  </url><url>
-    <loc>https://novores.github.io/portfolio/</loc>
-  </url><url>
-    <loc>https://novores.github.io/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://novores.github.io/en/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://novores.github.io/about/"
                 />
   </url>
 </urlset>
