@@ -6,7 +6,18 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id</language>
-    <lastBuildDate>Sat, 17 Sep 2022 18:20:45 +0700</lastBuildDate><atom:link href="https://novores.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Oct 2023 09:19:13 +0700</lastBuildDate><atom:link href="https://novores.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Menyambung PostgreSQL DB ke LibreOffice Base</title>
+      <link>https://novores.github.io/post/connect_ps_db_to_lobase/</link>
+      <pubDate>Sat, 21 Oct 2023 09:19:13 +0700</pubDate>
+      
+      <guid>https://novores.github.io/post/connect_ps_db_to_lobase/</guid>
+      
+        <description>✨ Latar Belakang Bayangkan ketika kita memiliki data dalam PostgreSQL dan ingin menggunakan data tersebut untuk keperluan surat menyurat, misal mailing list, maka kita harus mengintegrasikan data tersebut dengan platform dokumen yang kita punya misalnya LibreOffice, LibreOffice memiliki yang namanya LibreOffice base alat yang sangat powerful dalam mengintegrasikan database yang kita punya baik dalam PostgreSQL, mariadb/MySQL, maupun MS Access sekalipun ke dalam seluruh platform LibreOffice.</description>
+      
+    </item>
+    
     <item>
       <title>Cara Mudah Menyemat Asciinema Ke Dalam Hugo</title>
       <link>https://novores.github.io/post/cara_mudah_embed_asciinema_ke_dalam_hugo/</link>
@@ -91,7 +102,7 @@
       
       <guid>https://novores.github.io/post/cara-mudah-mengkonfigurasi-emptty/</guid>
       
-        <description>Gambaran Emptty merupakan salah satu Display manager yang simple, emptty ditulis dalam bahasa Go.</description>
+        <description>✨ Pendahuluan Emptty merupakan salah satu Display manager yang simple, emptty ditulis dalam bahasa Go.</description>
       
     </item>
     

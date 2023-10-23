@@ -10,7 +10,7 @@
   <title>
     
       
-        Mengautentikasi Git dengan SSH |
+        Menyambung PostgreSQL DB ke LibreOffice Base |
       Novores
 
   </title>
@@ -20,7 +20,7 @@
   <meta name="author" content="Novores" />
   <meta
     name="description"
-    content="setelah membaca artikel ini kamu dapat menyambungkan git dengan ssh di terminal"
+    content="Dokumentasi Pribadi 📒 "
   />
   
     <meta name="google-site-verification" content="Gg-0HqhO9aFGCyubx39zma2ZTodrTh6jnHlPQlAr3CY" />
@@ -83,7 +83,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
 
-  <link rel="canonical" href="https://novores.github.io/post/connect-ke-github-dengan-ssh/" />
+  <link rel="canonical" href="https://novores.github.io/post/connect_ps_db_to_lobase/" />
 
   
   
@@ -114,18 +114,18 @@
   <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://novores.github.io/images/site-feature-image.png"/>
 
-<meta name="twitter:title" content="Mengautentikasi Git dengan SSH"/>
-<meta name="twitter:description" content="setelah membaca artikel ini kamu dapat menyambungkan git dengan ssh di terminal"/>
+<meta name="twitter:title" content="Menyambung PostgreSQL DB ke LibreOffice Base"/>
+<meta name="twitter:description" content="✨ Latar Belakang Bayangkan ketika kita memiliki data dalam PostgreSQL dan ingin menggunakan data tersebut untuk keperluan surat menyurat, misal mailing list, maka kita harus mengintegrasikan data tersebut dengan platform dokumen yang kita punya misalnya LibreOffice, LibreOffice memiliki yang namanya LibreOffice base alat yang sangat powerful dalam mengintegrasikan database yang kita punya baik dalam PostgreSQL, mariadb/MySQL, maupun MS Access sekalipun ke dalam seluruh platform LibreOffice."/>
 
 
 
   
-  <meta property="og:title" content="Mengautentikasi Git dengan SSH" />
-<meta property="og:description" content="setelah membaca artikel ini kamu dapat menyambungkan git dengan ssh di terminal" />
+  <meta property="og:title" content="Menyambung PostgreSQL DB ke LibreOffice Base" />
+<meta property="og:description" content="✨ Latar Belakang Bayangkan ketika kita memiliki data dalam PostgreSQL dan ingin menggunakan data tersebut untuk keperluan surat menyurat, misal mailing list, maka kita harus mengintegrasikan data tersebut dengan platform dokumen yang kita punya misalnya LibreOffice, LibreOffice memiliki yang namanya LibreOffice base alat yang sangat powerful dalam mengintegrasikan database yang kita punya baik dalam PostgreSQL, mariadb/MySQL, maupun MS Access sekalipun ke dalam seluruh platform LibreOffice." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://novores.github.io/post/connect-ke-github-dengan-ssh/" /><meta property="og:image" content="https://novores.github.io/images/site-feature-image.png"/><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2021-12-26T00:00:00+00:00" />
-<meta property="article:modified_time" content="2021-12-26T00:00:00+00:00" /><meta property="og:site_name" content="Novores&#39; Blog" />
+<meta property="og:url" content="https://novores.github.io/post/connect_ps_db_to_lobase/" /><meta property="og:image" content="https://novores.github.io/images/site-feature-image.png"/><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-10-21T09:19:13+07:00" />
+<meta property="article:modified_time" content="2023-10-21T09:19:13+07:00" /><meta property="og:site_name" content="Novores&#39; Blog" />
 
 
 
@@ -139,11 +139,15 @@
         "@context": "http://schema.org",
         "@type": "BlogPosting",
         "articleSection": "post",
-        "name": "Mengautentikasi Git dengan SSH",
-        "headline": "Mengautentikasi Git dengan SSH",
+        "name": "Menyambung PostgreSQL DB ke LibreOffice Base",
+        "headline": "Menyambung PostgreSQL DB ke LibreOffice Base",
         "alternativeHeadline": "",
         "description": "
-      setelah membaca artikel ini kamu dapat menyambungkan git dengan ssh di terminal
+      
+        ✨ Latar Belakang Bayangkan ketika kita memiliki data dalam PostgreSQL dan ingin menggunakan data tersebut untuk keperluan surat menyurat, misal mailing list, maka kita harus mengintegrasikan data tersebut dengan platform dokumen yang kita punya misalnya LibreOffice, LibreOffice memiliki yang namanya LibreOffice base alat yang sangat powerful dalam mengintegrasikan database yang kita punya baik dalam PostgreSQL, mariadb\/MySQL, maupun MS Access sekalipun ke dalam seluruh platform LibreOffice.
+
+
+      
 
 
     ",
@@ -151,7 +155,7 @@
         "isFamilyFriendly": "true",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/novores.github.io\/post\/connect-ke-github-dengan-ssh\/"
+            "@id": "https:\/\/novores.github.io\/post\/connect_ps_db_to_lobase\/"
         },
         "author" : {
             "@type": "Person",
@@ -169,10 +173,10 @@
             "@type": "Person",
             "name": "Novores"
         },
-        "copyrightYear" : "2021",
-        "dateCreated": "2021-12-26T00:00:00.00Z",
-        "datePublished": "2021-12-26T00:00:00.00Z",
-        "dateModified": "2021-12-26T00:00:00.00Z",
+        "copyrightYear" : "2023",
+        "dateCreated": "2023-10-21T09:19:13.00Z",
+        "datePublished": "2023-10-21T09:19:13.00Z",
+        "dateModified": "2023-10-21T09:19:13.00Z",
         "publisher":{
             "@type":"Organization",
             "name": "Novores",
@@ -194,12 +198,26 @@
       ]
 
     ,
-        "url" : "https:\/\/novores.github.io\/post\/connect-ke-github-dengan-ssh\/",
-        "wordCount" : "271",
+        "url" : "https:\/\/novores.github.io\/post\/connect_ps_db_to_lobase\/",
+        "wordCount" : "287",
         "genre" : [ ],
         "keywords" : [ 
       
       "How to"
+
+    
+      
+        ,
+
+      
+      "Office"
+
+    
+      
+        ,
+
+      
+      "Database"
 
     ]
     }
@@ -400,29 +418,6 @@
     </ul>
     <ul class="nav__list nav__list--end">
       
-        <li class="nav__list-item">
-          <div class="optionswitch">
-            <input class="optionswitch__picker" type="checkbox" id="languagepicker" hidden />
-            <label class="optionswitch__label" for="languagepicker"
-              >ID <i class="fa fa-angle-down" aria-hidden="true"></i
-            ></label>
-            <div class="optionswitch__triangle"></div>
-            <ul class="optionswitch__list">
-              
-                <li class="optionswitch__list-item">
-                  <a href="/en/post/connect-ke-github-dengan-ssh/" title="EN"
-                    ><span
-                      
-                      aria-label="EN"
-                      >EN</span
-                    >
-                  </a>
-                </li>
-              
-            </ul>
-          </div>
-        </li>
-      
       
         <li class="nav__list-item">
           <div class="themeswitch">
@@ -443,18 +438,18 @@
   >
     
       <div class="post__thumbnail-wrapper">
-        <img class="post__thumbnail" src="/thumbnails/github-image.jpg" alt="Thumbnail image" />
+        <img class="post__thumbnail" src="/thumbnails/postgresql-lobase-logo.webp" alt="Thumbnail image" />
       </div>
     
     <div class="post__content">
-      <h1>Mengautentikasi Git Dengan SSH</h1>
+      <h1>Menyambung PostgreSQL DB Ke LibreOffice Base</h1>
       
         <ul class="post__meta">
           <li class="post__meta-item">
             <em class="fas fa-calendar-day post__meta-icon"></em>
             <span class="post__meta-text">
-              <time datetime="2021-12-26 00:00:00 &#43;0000 UTC" title="2021-12-26 00:00:00 &#43;0000 UTC">
-                  26/12/2021
+              <time datetime="2023-10-21 09:19:13 &#43;0700 &#43;0700" title="2023-10-21 09:19:13 &#43;0700 &#43;0700">
+                  21/10/2023
               </time>
             </span>
           </li>
@@ -466,73 +461,55 @@
             
           </li>
         </ul>
-      <div class="alert">
-      <div class="alert__indicator">!</div>
-      Peringatan: postingan ini berumur lebih dari 365 hari. Informasi nya mungkin sudah kadaluwarsa .
-    </div><h3>Table of Contents</h3>
+      <h3>Table of Contents</h3>
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#intro">Intro</a></li>
-    <li><a href="#persiapan">Persiapan</a></li>
-    <li><a href="#membuat-kunci-ssh">Membuat Kunci SSH</a></li>
-    <li><a href="#salin-kunci-ke-github">Salin Kunci ke Github</a></li>
+    <li><a href="#-latar-belakang">✨ Latar Belakang</a></li>
+    <li><a href="#-asumsi">❗ Asumsi</a></li>
+    <li><a href="#-pemecahan-masalah">🔥 Pemecahan Masalah</a></li>
   </ul>
 </nav>
-<h2 id="intro">Intro</h2>
-<p>Mengautentikasi Git dengan SSH adalah dengan menghasilkan sepasang kunci enkripsi secara asimetris, dimana kunci disimpan di sistem dan yang satunya lagi di disimpan di server.</p>
-<p>dengan kata lain komputer tidak akan mendapat hak akses jika kunci yang dipasangkan salah atau berbeda, sehinga ini memungkinkan koneksi yang sangat-sangat aman dibanding kita menggunakan HTTPS.</p>
-<p>Dan keuntungan lainnya kita tidak lagi menggunakan token ketika akan mengatur repositori tapi cukup dengan password yang kita setel jika kamu menyetelnya nanti saat membuat atau meng-generate kunci SSH.</p>
-<hr>
-<h2 id="persiapan">Persiapan</h2>
+<!-- latar belakang -->
+<h2 id="-latar-belakang">✨ Latar Belakang</h2>
+<p>Bayangkan ketika kita memiliki data dalam PostgreSQL dan ingin menggunakan data tersebut untuk keperluan surat menyurat, misal <em>mailing list</em>,
+maka kita harus mengintegrasikan data tersebut dengan platform dokumen yang kita punya misalnya LibreOffice,
+LibreOffice memiliki yang namanya LibreOffice base alat yang sangat powerful dalam mengintegrasikan database yang kita punya baik
+dalam PostgreSQL, mariadb/MySQL, maupun MS Access sekalipun ke dalam seluruh platform LibreOffice.</p>
+<!-- asumsi -->
+<h2 id="-asumsi">❗ Asumsi</h2>
 <ol>
-<li>
-<p>Pertama periksa direktori <code>~/.ssh</code> kamu apakah sudah berisi file. file di direktori ~/.ssh biasanya berisi:</p>
-<ul>
-<li>id_rsa</li>
-<li>id_rsa.pub
-jika sudah ada kamu bisa melewati langkah langkah ini dan ke poin <strong>Salin Kunci ke Github</strong></li>
-</ul>
-</li>
-<li>
-<p>install package yang diperlukan, karena saya memakai Archlinux jadi saya mengetikan ini:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo pacman -S git openssh
-</span></span></code></pre></div></li>
+<li>Kamu sudah familiar dengan PostgreSQL dan LibreOffice Base</li>
+<li>PostgreSQL sudah terinstall di dalam PC-mu. (baca: <a href="https://wiki.archlinux.org/title/PostgreSQL">PostgreSQL Archwiki</a>)</li>
+<li>memiliki database yang dapat diakses.</li>
+<li>Pastikan PostgreSQL daemon berjalan dalam PC-mu.</li>
 </ol>
-<hr>
-<h2 id="membuat-kunci-ssh">Membuat Kunci SSH</h2>
-<p>setelah semuanya sudah siap, <em>generate</em> ssh key dengan mengetikan:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ssh-keygen -C <span class="s2">&#34;&lt;comment&gt;&#34;</span>
-</span></span></code></pre></div><p>Perintah ini menghasilkan 2 kunci yang diperlukan untuk mengautentikasi SSH: file <code>rsa_id</code> dan <code>rsa_id.pub</code> yang tersimpan di direktori <code>.ssh</code>.</p>
-<hr>
-<h2 id="salin-kunci-ke-github">Salin Kunci ke Github</h2>
-<p>selanjutnya masuk ke folder <code>.ssh</code> salin kunci yang berakhiran <code>.pub</code> ke dalam github.</p>
+<!-- pemecahan masalah -->
+<h2 id="-pemecahan-masalah">🔥 Pemecahan Masalah</h2>
+<p>Setelah semua poin dalam seksi <a href="##Asumsi">asumsi</a> telah terpenuhi. lakukan langkah berikut.</p>
 <ol>
-<li>Login ke akun Github kamu lalu masuk ke halaman <code>settings</code> &gt; <code>SSH and GPG keys</code> &gt; <code>New SSH keys</code></li>
-<li>Tampilan selanjutnya akan seperti di bawah ini, masukkan nama kunci ssh terserah apa aja di kolom <code>title</code>, misal <code>my-ssh-key</code> lalu <em>paste</em>-kan isi dari file <code>id_rsa.pub</code> di kolom key.
-
-   <link rel="stylesheet" href=/css/hugo-easy-gallery.css />
-   <div class="box" >
-     <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-       <div class="img">
-         <img itemprop="thumbnail" src="/github-ssh.png" alt="Screenshot"/>
-       </div>
-       <a href="/github-ssh.png" itemprop="contentUrl"></a>
-         <figcaption>
-             <p>Screenshot</p>
-         </figcaption>
-     </figure>
-   </div>
-</li>
-<li>Klik <code>Add SSH Key</code></li>
+<li>buka <strong>LibreOffice Base</strong> .</li>
+<li>di dalam Database LibreOffice Wizard, dalam tab <strong>Select database</strong> centang pilihan <strong>Connect to an existing database</strong>.</li>
+<li>Pilih <strong>PostgreSQL</strong>, lalu click <strong>Next</strong> <img src="./1.webp" alt="ss 1"></li>
+<li>dalam tab <strong>Connection settings</strong> (lihat gambar di bawah) ada form untuk memasukkan konfigurasi yang tepat untuk membuat koneksi yang tepat
+ke PostgreSQL. formatnya esensial yang dimasukkan adalah <code>dbname=&lt;nama database&gt; hostaddr=&lt;letak database disimpan&gt;</code>.
+contoh aku memiliki database dengan nama <strong>customers</strong> dalam local server. maka aku memasukkan <code>dbname=custumers hostaddr=127.0.0.1</code>.
+jika database-mu terletak di remote server kamu bisa memasukkan alamat terkait di <code>hostaddr</code>. klik <strong>Next</strong>. <img src="./2.webp" alt="ss 2"></li>
 </ol>
-<p>Selanjutnya, periksa apakah kunci SSH sudah terhubung.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ssh -T git@github.com
-</span></span></code></pre></div><blockquote>
-<p>ketika menggunakan SSH kita tidak lagi mengetikan
-<code>git add https://github.com/yourname/repository.git</code> lagi,
-tapi dengan mengetikan <code>git add git@github.com:yourname/repository.git</code></p>
-</blockquote>
-<p>Voila! kamu sudah menghubungkan github dengan SSH key.</p>
+<div
+  class="notice"
+>
+  <span
+    class="notice__title"
+  >Info</span><div class="notice__content">
+    kamu juga bisa memasukkan atribut lain seperti <code>port</code>, <code>user</code>, dan <code>password</code>
+  </div>
+</div>
+<ol start="5">
+<li>masuk ke tab <strong>set up user authentication</strong> masukkan <strong>user name</strong> yang dipakai untuk membuka database mu. centang <strong>password required</strong> jika kamu menggunakan password. Jika tidak, abaikan saja. pastikan database berhasil tersambung dengan menekan <strong>Test Connection</strong>. jika popup seperti gambar dibawah muncul, maka tanda bahwa kamu telah berhasil mengkoneksikan libreoffice base dengan Database PostgreSQL yang kamu punya. Klik <strong>OK</strong> <img src="./3.webp" alt="ss 3"></li>
+<li>di tab <strong>Save and Proceed</strong> centang pilihan seperti gambar dibawah <img src="./4.webp" alt="ss 4">. Klik <strong>Finish</strong>.</li>
+<li>masukkan filename dan <strong>Save</strong></li>
+</ol>
+<p>Terimakasih telah membaca 👋</p>
 <hr>
 <script type="text/javascript" src="https://latest.cactus.chat/cactus.js"></script>
 <link rel="stylesheet" href="https://latest.cactus.chat/style.css" type="text/css">
@@ -543,7 +520,7 @@ initComments({
   defaultHomeserverUrl: "https://matrix.cactus.chat:8448",
   serverName: "cactus.chat",
   siteName: "novores.xyz",
-  commentSectionId: "ssh-github"
+  commentSectionId: "title"
 })
 </script>
 
@@ -552,7 +529,7 @@ initComments({
   <h3>Related Posts</h3>
   <ul>
     
-      <li><a href="/post/connect_ps_db_to_lobase/">Menyambung PostgreSQL DB ke LibreOffice Base</a></li>
+      <li><a href="/post/connect-ke-github-dengan-ssh/">Mengautentikasi Git dengan SSH</a></li>
     
   </ul>
 
@@ -561,7 +538,7 @@ initComments({
       
 
       
-        <span><a class="tag" href="/tags/how-to/">How to</a></span>
+        <span><a class="tag" href="/tags/how-to/">How to</a><a class="tag" href="/tags/office/">Office</a><a class="tag" href="/tags/database/">Database</a></span>
 
 
       

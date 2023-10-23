@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://novores.github.io/</loc>
-    <lastmod>2024-04-13T06:31:13+07:00</lastmod>
+    <lastmod>2023-10-23T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -13,6 +13,54 @@
                 rel="alternate"
                 hreflang="id"
                 href="https://novores.github.io/"
+                />
+  </url><url>
+    <loc>https://novores.github.io/tags/database/</loc>
+    <lastmod>2023-10-21T09:19:13+07:00</lastmod>
+  </url><url>
+    <loc>https://novores.github.io/tags/how-to/</loc>
+    <lastmod>2023-10-21T09:19:13+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://novores.github.io/en/tags/how-to/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://novores.github.io/tags/how-to/"
+                />
+  </url><url>
+    <loc>https://novores.github.io/post/connect_ps_db_to_lobase/</loc>
+    <lastmod>2023-10-21T09:19:13+07:00</lastmod>
+  </url><url>
+    <loc>https://novores.github.io/tags/office/</loc>
+    <lastmod>2023-10-21T09:19:13+07:00</lastmod>
+  </url><url>
+    <loc>https://novores.github.io/post/</loc>
+    <lastmod>2023-10-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://novores.github.io/en/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://novores.github.io/post/"
+                />
+  </url><url>
+    <loc>https://novores.github.io/tags/</loc>
+    <lastmod>2023-10-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://novores.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://novores.github.io/tags/"
                 />
   </url><url>
     <loc>https://novores.github.io/tags/asciinema/</loc>
@@ -42,7 +90,7 @@
                 />
   </url><url>
     <loc>https://novores.github.io/tags/hugo/</loc>
-    <lastmod>2024-04-13T06:31:13+07:00</lastmod>
+    <lastmod>2022-09-17T18:20:45+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -52,32 +100,6 @@
                 rel="alternate"
                 hreflang="id"
                 href="https://novores.github.io/tags/hugo/"
-                />
-  </url><url>
-    <loc>https://novores.github.io/post/</loc>
-    <lastmod>2024-04-13T06:31:13+07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://novores.github.io/en/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://novores.github.io/post/"
-                />
-  </url><url>
-    <loc>https://novores.github.io/tags/</loc>
-    <lastmod>2024-04-13T06:31:13+07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://novores.github.io/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://novores.github.io/tags/"
                 />
   </url><url>
     <loc>https://novores.github.io/post/linuxupskillchallenge-day1/</loc>
@@ -146,7 +168,7 @@
                 />
   </url><url>
     <loc>https://novores.github.io/post/cactus-comment/</loc>
-    <lastmod>2024-04-13T06:31:13+07:00</lastmod>
+    <lastmod>2022-04-13T06:31:13+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -159,7 +181,7 @@
                 />
   </url><url>
     <loc>https://novores.github.io/tags/tutorial/</loc>
-    <lastmod>2024-04-13T06:31:13+07:00</lastmod>
+    <lastmod>2022-04-13T06:31:13+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -185,7 +207,7 @@
                 />
   </url><url>
     <loc>https://novores.github.io/tags/linux/</loc>
-    <lastmod>2022-03-12T07:02:58+07:00</lastmod>
+    <lastmod>2023-10-23T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -198,7 +220,7 @@
                 />
   </url><url>
     <loc>https://novores.github.io/tags/review/</loc>
-    <lastmod>2022-03-12T07:02:58+07:00</lastmod>
+    <lastmod>2023-10-23T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -250,7 +272,7 @@
                 />
   </url><url>
     <loc>https://novores.github.io/post/cara-mudah-mengkonfigurasi-emptty/</loc>
-    <lastmod>2021-12-26T00:00:00+00:00</lastmod>
+    <lastmod>2023-10-23T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -260,19 +282,6 @@
                 rel="alternate"
                 hreflang="id"
                 href="https://novores.github.io/post/cara-mudah-mengkonfigurasi-emptty/"
-                />
-  </url><url>
-    <loc>https://novores.github.io/tags/how-to/</loc>
-    <lastmod>2021-12-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://novores.github.io/en/tags/how-to/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://novores.github.io/tags/how-to/"
                 />
   </url><url>
     <loc>https://novores.github.io/post/connect-ke-github-dengan-ssh/</loc>
