@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tips on </title>
+    <title>Tips on </title>
     <link>https://novores.github.io/en/tags/tips/</link>
-    <description>Recent content in tips on </description>
+    <description>Recent content in Tips on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>en-US</language>
     <lastBuildDate>Mon, 07 Feb 2022 23:01:42 +0700</lastBuildDate><atom:link href="https://novores.github.io/en/tags/tips/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Activate Bluetooth With Just A Terminal on Linux</title>
@@ -14,7 +14,8 @@
       
       <guid>https://novores.github.io/en/post/bluetoothctl/</guid>
       
-        <description>Intro bluetooth is one of the technologies that must exist in every computer device, because of its many, many uses, not only for file transfers, but bluetooth can also be used to connect sound wirelessly.</description>
+        <description>&lt;h1 id=&#34;intro&#34;&gt;Intro&lt;/h1&gt;
+&lt;p&gt;bluetooth is one of the technologies that must exist in every computer device, because of its many, many uses, not only for file transfers, but bluetooth can also be used to connect sound wirelessly.&lt;/p&gt;</description>
       
     </item>
     
@@ -25,7 +26,8 @@
       
       <guid>https://novores.github.io/en/post/mengabaikan-package-archlinux/</guid>
       
-        <description>Background sometimes when we want to update a package, there are things we want to ignore to update.</description>
+        <description>&lt;h1 id=&#34;background&#34;&gt;Background&lt;/h1&gt;
+&lt;p&gt;sometimes when we want to update a package, there are things we want to ignore to update. for example, if there is a lack of quota I will make one large package to be ignored, one of which is libreoffice, this package &lt;strong&gt;one of the big packages and not too important to upgrade&lt;/strong&gt; in my opinion, that I have&lt;/p&gt;</description>
       
     </item>
     

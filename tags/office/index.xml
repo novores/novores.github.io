@@ -5,7 +5,7 @@
     <link>https://novores.github.io/tags/office/</link>
     <description>Recent content in Office on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>id</language>
+    <language>id-ID</language>
     <lastBuildDate>Sat, 21 Oct 2023 09:19:13 +0700</lastBuildDate><atom:link href="https://novores.github.io/tags/office/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Menyambungkan PostgreSQL DB ke LibreOffice Base</title>
@@ -14,7 +14,12 @@
       
       <guid>https://novores.github.io/post/connect_ps_db_to_lobase/</guid>
       
-        <description>✨ Latar Belakang Bayangkan ketika kita memiliki data dalam PostgreSQL dan ingin menggunakan data tersebut untuk keperluan surat menyurat, misal mailing list, maka kita harus mengintegrasikan data tersebut dengan platform dokumen yang kita punya misalnya LibreOffice, LibreOffice memiliki yang namanya LibreOffice base alat yang sangat powerful dalam mengintegrasikan database yang kita punya baik dalam PostgreSQL, mariadb/MySQL, maupun MS Access sekalipun ke dalam seluruh platform LibreOffice.</description>
+        <description>&lt;!-- latar belakang --&gt;
+&lt;h2 id=&#34;sparkles-latar-belakang&#34;&gt;&amp;#x2728; Latar Belakang&lt;/h2&gt;
+&lt;p&gt;Bayangkan ketika kita memiliki data dalam PostgreSQL dan ingin menggunakan data tersebut untuk keperluan surat menyurat, misal &lt;em&gt;mailing list&lt;/em&gt;,
+maka kita harus mengintegrasikan data tersebut dengan platform dokumen yang kita punya misalnya LibreOffice,
+LibreOffice memiliki yang namanya LibreOffice base alat yang sangat powerful dalam mengintegrasikan database yang kita punya baik
+dalam PostgreSQL, mariadb/MySQL, maupun MS Access sekalipun ke dalam seluruh platform LibreOffice.&lt;/p&gt;</description>
       
     </item>
     

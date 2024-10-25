@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>review on </title>
+    <title>Review on </title>
     <link>https://novores.github.io/tags/review/</link>
-    <description>Recent content in review on </description>
+    <description>Recent content in Review on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>id</language>
+    <language>id-ID</language>
     <lastBuildDate>Sat, 12 Mar 2022 07:02:58 +0700</lastBuildDate><atom:link href="https://novores.github.io/tags/review/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Berbagi File Antar Device Dengan Wormhole William</title>
@@ -25,7 +25,11 @@
       
       <guid>https://novores.github.io/post/cara-mudah-mengkonfigurasi-emptty/</guid>
       
-        <description>✨ Pendahuluan Emptty merupakan salah satu Display manager yang simple, emptty ditulis dalam bahasa Go.</description>
+        <description>&lt;h2 id=&#34;sparkles-pendahuluan&#34;&gt;&amp;#x2728; Pendahuluan&lt;/h2&gt;
+&lt;p&gt;Emptty merupakan salah satu Display manager yang simple, emptty ditulis dalam bahasa Go.
+Emptty sendiri berbasis CLI, inilah yang membuatnya cukup simple untuk dioperasikan,
+namun ada beberapa konfigurasi yang harus kita tentukan terlebih dahulu, agar emptty dapat
+bekerja sesuai keinginan kita.&lt;/p&gt;</description>
       
     </item>
     

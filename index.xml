@@ -5,8 +5,8 @@
     <link>https://novores.github.io/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>id</language>
-    <lastBuildDate>Sat, 21 Oct 2023 09:19:13 +0700</lastBuildDate><atom:link href="https://novores.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>id-ID</language>
+    <lastBuildDate>Fri, 03 Nov 2023 21:28:16 +0700</lastBuildDate><atom:link href="https://novores.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Menyambungkan PostgreSQL DB ke LibreOffice Base</title>
       <link>https://novores.github.io/post/connect_ps_db_to_lobase/</link>
@@ -14,7 +14,12 @@
       
       <guid>https://novores.github.io/post/connect_ps_db_to_lobase/</guid>
       
-        <description>✨ Latar Belakang Bayangkan ketika kita memiliki data dalam PostgreSQL dan ingin menggunakan data tersebut untuk keperluan surat menyurat, misal mailing list, maka kita harus mengintegrasikan data tersebut dengan platform dokumen yang kita punya misalnya LibreOffice, LibreOffice memiliki yang namanya LibreOffice base alat yang sangat powerful dalam mengintegrasikan database yang kita punya baik dalam PostgreSQL, mariadb/MySQL, maupun MS Access sekalipun ke dalam seluruh platform LibreOffice.</description>
+        <description>&lt;!-- latar belakang --&gt;
+&lt;h2 id=&#34;sparkles-latar-belakang&#34;&gt;&amp;#x2728; Latar Belakang&lt;/h2&gt;
+&lt;p&gt;Bayangkan ketika kita memiliki data dalam PostgreSQL dan ingin menggunakan data tersebut untuk keperluan surat menyurat, misal &lt;em&gt;mailing list&lt;/em&gt;,
+maka kita harus mengintegrasikan data tersebut dengan platform dokumen yang kita punya misalnya LibreOffice,
+LibreOffice memiliki yang namanya LibreOffice base alat yang sangat powerful dalam mengintegrasikan database yang kita punya baik
+dalam PostgreSQL, mariadb/MySQL, maupun MS Access sekalipun ke dalam seluruh platform LibreOffice.&lt;/p&gt;</description>
       
     </item>
     
@@ -25,7 +30,9 @@
       
       <guid>https://novores.github.io/post/cara_mudah_embed_asciinema_ke_dalam_hugo/</guid>
       
-        <description>Sebagai author blog khususnya yang berhubungan dengan perkomputeran, terkadang kita membutuhkan suatu media yang dapat menunjang isi konten.</description>
+        <description>&lt;p&gt;Sebagai author blog khususnya yang berhubungan dengan perkomputeran, terkadang kita membutuhkan suatu media yang dapat menunjang isi konten.
+Ada banyak cara untuk menunjang isi konten diantaranya dengan screenshot dan video recording. namun jika kita dihadapkan dengan comandline interactive
+, rasanya tidak pas jika kita menggunakan screenshot atau video recording sebagai sarana dokumentasinya.&lt;/p&gt;</description>
       
     </item>
     
@@ -58,7 +65,8 @@
       
       <guid>https://novores.github.io/post/cactus-comment/</guid>
       
-        <description>Pengantar Hugo merupakan salah satu Static Site Generator yang kaya akan fitur.</description>
+        <description>&lt;h2 id=&#34;pengantar&#34;&gt;Pengantar&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; merupakan salah satu Static Site Generator yang kaya akan fitur. Salah satunya fitur komentar, untuk menambahkan fitur komentar ini kita hanya perlu menambahkan shortcode ke dalam fronmatter Blog kita. namun sayangnta fitur ini hanya tersedia untuk &lt;a href=&#34;https://disqus.com/&#34;&gt;Disqus&lt;/a&gt;. saya pribadi tidak terlalu menyukai disquss karena &lt;em&gt;proprietary&lt;/em&gt;-nya.&lt;/p&gt;</description>
       
     </item>
     
@@ -80,7 +88,8 @@
       
       <guid>https://novores.github.io/post/bluetoothctl/</guid>
       
-        <description>Intro Bluetooth merupakan salah satu teknologi yang wajib ada di setiap perangkat komputer, karena kegunaanya yang sangat-sangat banyak, bukan hanya untuk transfer file, namun bluetooth juga dapat digunakan untuk menyambungkan suara secara wireless.</description>
+        <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+&lt;p&gt;Bluetooth merupakan salah satu teknologi yang wajib ada di setiap perangkat komputer, karena kegunaanya yang sangat-sangat banyak, bukan hanya untuk transfer file, namun bluetooth juga dapat digunakan untuk menyambungkan suara secara &lt;em&gt;wireless&lt;/em&gt;.&lt;/p&gt;</description>
       
     </item>
     
@@ -91,7 +100,10 @@
       
       <guid>https://novores.github.io/post/mengabaikan-package-archlinux/</guid>
       
-        <description>Background Terkadang ketika kita ingin meng-update package, ada hal yang ingin kita abaikan untuk diupdate.</description>
+        <description>&lt;h1 id=&#34;background&#34;&gt;Background&lt;/h1&gt;
+&lt;p&gt;Terkadang ketika kita ingin meng-update package, ada hal yang ingin kita abaikan untuk diupdate. contohnya
+jika kekurangan kuota saya akan menjadikan salah satu package yang berukuran besar untuk diabaikan, salah satu nya
+libreoffice, package ini &lt;strong&gt;salah satu package besar dan tidak terlalu penting untuk di upgrade&lt;/strong&gt; menurut saya, yang saya miliki&lt;/p&gt;</description>
       
     </item>
     
@@ -102,7 +114,11 @@
       
       <guid>https://novores.github.io/post/cara-mudah-mengkonfigurasi-emptty/</guid>
       
-        <description>✨ Pendahuluan Emptty merupakan salah satu Display manager yang simple, emptty ditulis dalam bahasa Go.</description>
+        <description>&lt;h2 id=&#34;sparkles-pendahuluan&#34;&gt;&amp;#x2728; Pendahuluan&lt;/h2&gt;
+&lt;p&gt;Emptty merupakan salah satu Display manager yang simple, emptty ditulis dalam bahasa Go.
+Emptty sendiri berbasis CLI, inilah yang membuatnya cukup simple untuk dioperasikan,
+namun ada beberapa konfigurasi yang harus kita tentukan terlebih dahulu, agar emptty dapat
+bekerja sesuai keinginan kita.&lt;/p&gt;</description>
       
     </item>
     
@@ -124,7 +140,8 @@
       
       <guid>https://novores.github.io/post/cara-mengaktifkan-tap-to-click-on-linux/</guid>
       
-        <description>Intro Ketika menggunakan linux kita kadang-kadang tidak mendapati Sistem kerja komputer yang semestinya, kita dituntut untuk bersikap do it yourself.</description>
+        <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+&lt;p&gt;Ketika menggunakan linux kita kadang-kadang tidak mendapati Sistem kerja komputer yang semestinya, kita dituntut untuk bersikap &lt;em&gt;do it yourself&lt;/em&gt;.&lt;/p&gt;</description>
       
     </item>
     
@@ -146,7 +163,8 @@
       
       <guid>https://novores.github.io/about/</guid>
       
-        <description>Hi kawan 👋 nama saya Noval Hidayat dan saya penulis blog ini.</description>
+        <description>&lt;h2 id=&#34;hi-kawan-wave&#34;&gt;Hi kawan &amp;#x1f44b;&lt;/h2&gt;
+&lt;p&gt;nama saya &lt;strong&gt;Noval Hidayat&lt;/strong&gt; dan saya penulis blog ini.&lt;/p&gt;</description>
       
     </item>
     

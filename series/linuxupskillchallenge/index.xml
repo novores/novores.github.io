@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>linuxupskillchallenge on </title>
+    <title>Linuxupskillchallenge on </title>
     <link>https://novores.github.io/series/linuxupskillchallenge/</link>
-    <description>Recent content in linuxupskillchallenge on </description>
+    <description>Recent content in Linuxupskillchallenge on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>id</language>
+    <language>id-ID</language>
     <lastBuildDate>Thu, 15 Sep 2022 07:10:42 +0700</lastBuildDate><atom:link href="https://novores.github.io/series/linuxupskillchallenge/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux Upskill Challenge: Day 1</title>

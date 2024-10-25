@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tutorial on </title>
+    <title>Tutorial on </title>
     <link>https://novores.github.io/en/tags/tutorial/</link>
-    <description>Recent content in tutorial on </description>
+    <description>Recent content in Tutorial on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>en-US</language>
     <lastBuildDate>Wed, 13 Apr 2022 06:31:13 +0700</lastBuildDate><atom:link href="https://novores.github.io/en/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Added Cactus Comments to Hugo</title>
