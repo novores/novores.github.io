@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Office on </title>
-    <link>https://novores.github.io/tags/office/</link>
+    <link>https://novalhidayat.com/tags/office/</link>
     <description>Recent content in Office on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-ID</language>
-    <lastBuildDate>Sat, 21 Oct 2023 09:19:13 +0700</lastBuildDate><atom:link href="https://novores.github.io/tags/office/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Oct 2023 09:19:13 +0700</lastBuildDate><atom:link href="https://novalhidayat.com/tags/office/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Menyambungkan PostgreSQL DB ke LibreOffice Base</title>
-      <link>https://novores.github.io/post/connect_ps_db_to_lobase/</link>
+      <link>https://novalhidayat.com/post/connect_ps_db_to_lobase/</link>
       <pubDate>Sat, 21 Oct 2023 09:19:13 +0700</pubDate>
       
-      <guid>https://novores.github.io/post/connect_ps_db_to_lobase/</guid>
+      <guid>https://novalhidayat.com/post/connect_ps_db_to_lobase/</guid>
       
         <description>&lt;!-- latar belakang --&gt;
 &lt;h2 id=&#34;sparkles-latar-belakang&#34;&gt;&amp;#x2728; Latar Belakang&lt;/h2&gt;

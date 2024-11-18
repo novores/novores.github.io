@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on </title>
-    <link>https://novores.github.io/tags/hugo/</link>
+    <link>https://novalhidayat.com/tags/hugo/</link>
     <description>Recent content in Hugo on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-ID</language>
-    <lastBuildDate>Sat, 17 Sep 2022 18:20:45 +0700</lastBuildDate><atom:link href="https://novores.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Sep 2022 18:20:45 +0700</lastBuildDate><atom:link href="https://novalhidayat.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cara Mudah Menyemat Asciinema Ke Dalam Hugo</title>
-      <link>https://novores.github.io/post/cara_mudah_embed_asciinema_ke_dalam_hugo/</link>
+      <link>https://novalhidayat.com/post/cara_mudah_embed_asciinema_ke_dalam_hugo/</link>
       <pubDate>Sat, 17 Sep 2022 18:20:45 +0700</pubDate>
       
-      <guid>https://novores.github.io/post/cara_mudah_embed_asciinema_ke_dalam_hugo/</guid>
+      <guid>https://novalhidayat.com/post/cara_mudah_embed_asciinema_ke_dalam_hugo/</guid>
       
         <description>&lt;p&gt;Sebagai author blog khususnya yang berhubungan dengan perkomputeran, terkadang kita membutuhkan suatu media yang dapat menunjang isi konten.
 Ada banyak cara untuk menunjang isi konten diantaranya dengan screenshot dan video recording. namun jika kita dihadapkan dengan comandline interactive
@@ -22,10 +22,10 @@ Ada banyak cara untuk menunjang isi konten diantaranya dengan screenshot dan vid
     
     <item>
       <title>Menambahkan Cactus Comments ke dalam Hugo</title>
-      <link>https://novores.github.io/post/cactus-comment/</link>
+      <link>https://novalhidayat.com/post/cactus-comment/</link>
       <pubDate>Wed, 13 Apr 2022 06:31:13 +0700</pubDate>
       
-      <guid>https://novores.github.io/post/cactus-comment/</guid>
+      <guid>https://novalhidayat.com/post/cactus-comment/</guid>
       
         <description>&lt;h2 id=&#34;pengantar&#34;&gt;Pengantar&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; merupakan salah satu Static Site Generator yang kaya akan fitur. Salah satunya fitur komentar, untuk menambahkan fitur komentar ini kita hanya perlu menambahkan shortcode ke dalam fronmatter Blog kita. namun sayangnta fitur ini hanya tersedia untuk &lt;a href=&#34;https://disqus.com/&#34;&gt;Disqus&lt;/a&gt;. saya pribadi tidak terlalu menyukai disquss karena &lt;em&gt;proprietary&lt;/em&gt;-nya.&lt;/p&gt;</description>

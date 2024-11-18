@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on </title>
-    <link>https://novores.github.io/tags/linux/</link>
+    <link>https://novalhidayat.com/tags/linux/</link>
     <description>Recent content in Linux on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-ID</language>
-    <lastBuildDate>Sat, 12 Mar 2022 07:02:58 +0700</lastBuildDate><atom:link href="https://novores.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Mar 2022 07:02:58 +0700</lastBuildDate><atom:link href="https://novalhidayat.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Berbagi File Antar Device Dengan Wormhole William</title>
-      <link>https://novores.github.io/post/wormhole/</link>
+      <link>https://novalhidayat.com/post/wormhole/</link>
       <pubDate>Sat, 12 Mar 2022 07:02:58 +0700</pubDate>
       
-      <guid>https://novores.github.io/post/wormhole/</guid>
+      <guid>https://novalhidayat.com/post/wormhole/</guid>
       
         <description>wormhole-william adalah implementasi bahasa go dari magic-wormhole</description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>Cara Aktifkan bluetooth Cukup dengan Terminal di Linux</title>
-      <link>https://novores.github.io/post/bluetoothctl/</link>
+      <link>https://novalhidayat.com/post/bluetoothctl/</link>
       <pubDate>Mon, 07 Feb 2022 23:01:42 +0700</pubDate>
       
-      <guid>https://novores.github.io/post/bluetoothctl/</guid>
+      <guid>https://novalhidayat.com/post/bluetoothctl/</guid>
       
         <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
 &lt;p&gt;Bluetooth merupakan salah satu teknologi yang wajib ada di setiap perangkat komputer, karena kegunaanya yang sangat-sangat banyak, bukan hanya untuk transfer file, namun bluetooth juga dapat digunakan untuk menyambungkan suara secara &lt;em&gt;wireless&lt;/em&gt;.&lt;/p&gt;</description>
@@ -32,10 +32,10 @@
     
     <item>
       <title>Cara Mengabaikan package tertentu untuk di Upgrade di Archlinux</title>
-      <link>https://novores.github.io/post/mengabaikan-package-archlinux/</link>
+      <link>https://novalhidayat.com/post/mengabaikan-package-archlinux/</link>
       <pubDate>Sat, 29 Jan 2022 07:02:58 +0700</pubDate>
       
-      <guid>https://novores.github.io/post/mengabaikan-package-archlinux/</guid>
+      <guid>https://novalhidayat.com/post/mengabaikan-package-archlinux/</guid>
       
         <description>&lt;h1 id=&#34;background&#34;&gt;Background&lt;/h1&gt;
 &lt;p&gt;Terkadang ketika kita ingin meng-update package, ada hal yang ingin kita abaikan untuk diupdate. contohnya
@@ -46,10 +46,10 @@ libreoffice, package ini &lt;strong&gt;salah satu package besar dan tidak terlal
     
     <item>
       <title>Emptty: Display Manager yang Sangat Simple</title>
-      <link>https://novores.github.io/post/cara-mudah-mengkonfigurasi-emptty/</link>
+      <link>https://novalhidayat.com/post/cara-mudah-mengkonfigurasi-emptty/</link>
       <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://novores.github.io/post/cara-mudah-mengkonfigurasi-emptty/</guid>
+      <guid>https://novalhidayat.com/post/cara-mudah-mengkonfigurasi-emptty/</guid>
       
         <description>&lt;h2 id=&#34;sparkles-pendahuluan&#34;&gt;&amp;#x2728; Pendahuluan&lt;/h2&gt;
 &lt;p&gt;Emptty merupakan salah satu Display manager yang simple, emptty ditulis dalam bahasa Go.
@@ -61,10 +61,10 @@ bekerja sesuai keinginan kita.&lt;/p&gt;</description>
     
     <item>
       <title>Cara mengaktifkan Tap-to-Click di Archlinux</title>
-      <link>https://novores.github.io/post/cara-mengaktifkan-tap-to-click-on-linux/</link>
+      <link>https://novalhidayat.com/post/cara-mengaktifkan-tap-to-click-on-linux/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       
-      <guid>https://novores.github.io/post/cara-mengaktifkan-tap-to-click-on-linux/</guid>
+      <guid>https://novalhidayat.com/post/cara-mengaktifkan-tap-to-click-on-linux/</guid>
       
         <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
 &lt;p&gt;Ketika menggunakan linux kita kadang-kadang tidak mendapati Sistem kerja komputer yang semestinya, kita dituntut untuk bersikap &lt;em&gt;do it yourself&lt;/em&gt;.&lt;/p&gt;</description>

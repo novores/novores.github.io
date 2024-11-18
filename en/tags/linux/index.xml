@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on </title>
-    <link>https://novores.github.io/en/tags/linux/</link>
+    <link>https://novalhidayat.com/en/tags/linux/</link>
     <description>Recent content in Linux on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 12 Mar 2022 07:02:58 +0700</lastBuildDate><atom:link href="https://novores.github.io/en/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Mar 2022 07:02:58 +0700</lastBuildDate><atom:link href="https://novalhidayat.com/en/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Share Files Between Devices with Wormhole William</title>
-      <link>https://novores.github.io/en/post/wormhole/</link>
+      <link>https://novalhidayat.com/en/post/wormhole/</link>
       <pubDate>Sat, 12 Mar 2022 07:02:58 +0700</pubDate>
       
-      <guid>https://novores.github.io/en/post/wormhole/</guid>
+      <guid>https://novalhidayat.com/en/post/wormhole/</guid>
       
         <description>wormhole-william is the go language implementation of magic-wormhole</description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>How to Activate Bluetooth With Just A Terminal on Linux</title>
-      <link>https://novores.github.io/en/post/bluetoothctl/</link>
+      <link>https://novalhidayat.com/en/post/bluetoothctl/</link>
       <pubDate>Mon, 07 Feb 2022 23:01:42 +0700</pubDate>
       
-      <guid>https://novores.github.io/en/post/bluetoothctl/</guid>
+      <guid>https://novalhidayat.com/en/post/bluetoothctl/</guid>
       
         <description>&lt;h1 id=&#34;intro&#34;&gt;Intro&lt;/h1&gt;
 &lt;p&gt;bluetooth is one of the technologies that must exist in every computer device, because of its many, many uses, not only for file transfers, but bluetooth can also be used to connect sound wirelessly.&lt;/p&gt;</description>
@@ -32,10 +32,10 @@
     
     <item>
       <title>How to Ignore Certain Packages To Upgrade in Archlinux</title>
-      <link>https://novores.github.io/en/post/mengabaikan-package-archlinux/</link>
+      <link>https://novalhidayat.com/en/post/mengabaikan-package-archlinux/</link>
       <pubDate>Sat, 29 Jan 2022 07:02:58 +0700</pubDate>
       
-      <guid>https://novores.github.io/en/post/mengabaikan-package-archlinux/</guid>
+      <guid>https://novalhidayat.com/en/post/mengabaikan-package-archlinux/</guid>
       
         <description>&lt;h1 id=&#34;background&#34;&gt;Background&lt;/h1&gt;
 &lt;p&gt;sometimes when we want to update a package, there are things we want to ignore to update. for example, if there is a lack of quota I will make one large package to be ignored, one of which is libreoffice, this package &lt;strong&gt;one of the big packages and not too important to upgrade&lt;/strong&gt; in my opinion, that I have&lt;/p&gt;</description>
@@ -44,10 +44,10 @@
     
     <item>
       <title>Emptty: A Very Simple Display Manager</title>
-      <link>https://novores.github.io/en/post/cara-mudah-mengkonfigurasi-emptty/</link>
+      <link>https://novalhidayat.com/en/post/cara-mudah-mengkonfigurasi-emptty/</link>
       <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://novores.github.io/en/post/cara-mudah-mengkonfigurasi-emptty/</guid>
+      <guid>https://novalhidayat.com/en/post/cara-mudah-mengkonfigurasi-emptty/</guid>
       
         <description>&lt;h2 id=&#34;description&#34;&gt;description&lt;/h2&gt;
 &lt;p&gt;emptty itself is cli based, this is what makes it quite simple to operate, emptty is a simple display manager, emptty is written in the go language. but there are some configurations that we must determine first, so that emptty can work as we want.&lt;/p&gt;</description>
@@ -56,10 +56,10 @@
     
     <item>
       <title>Set Touchpad Configuration in Linux</title>
-      <link>https://novores.github.io/en/post/cara-mengaktifkan-tap-to-click-on-linux/</link>
+      <link>https://novalhidayat.com/en/post/cara-mengaktifkan-tap-to-click-on-linux/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       
-      <guid>https://novores.github.io/en/post/cara-mengaktifkan-tap-to-click-on-linux/</guid>
+      <guid>https://novalhidayat.com/en/post/cara-mengaktifkan-tap-to-click-on-linux/</guid>
       
         <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
 &lt;p&gt;when using linux we sometimes don&amp;rsquo;t find the computer working system properly, we are required to be &lt;em&gt;do it yourself&lt;/em&gt;.&lt;/p&gt;</description>

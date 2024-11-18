@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>How To on </title>
-    <link>https://novores.github.io/en/tags/how-to/</link>
+    <link>https://novalhidayat.com/en/tags/how-to/</link>
     <description>Recent content in How To on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 26 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://novores.github.io/en/tags/how-to/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://novalhidayat.com/en/tags/how-to/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Authenticate Git With SSH</title>
-      <link>https://novores.github.io/en/post/connect-ke-github-dengan-ssh/</link>
+      <link>https://novalhidayat.com/en/post/connect-ke-github-dengan-ssh/</link>
       <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://novores.github.io/en/post/connect-ke-github-dengan-ssh/</guid>
+      <guid>https://novalhidayat.com/en/post/connect-ke-github-dengan-ssh/</guid>
       
         <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
 &lt;p&gt;authenticating git with ssh is by generating a pair of encryption keys asymmetrically, where the key is stored on the system and the other is stored on the server.&lt;/p&gt;</description>

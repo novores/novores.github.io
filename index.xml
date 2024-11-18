@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>https://novores.github.io/</link>
+    <link>https://novalhidayat.com/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-ID</language>
-    <lastBuildDate>Fri, 03 Nov 2023 21:28:16 +0700</lastBuildDate><atom:link href="https://novores.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Oct 2024 18:19:25 +0700</lastBuildDate><atom:link href="https://novalhidayat.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Menyambungkan PostgreSQL DB ke LibreOffice Base</title>
-      <link>https://novores.github.io/post/connect_ps_db_to_lobase/</link>
+      <link>https://novalhidayat.com/post/connect_ps_db_to_lobase/</link>
       <pubDate>Sat, 21 Oct 2023 09:19:13 +0700</pubDate>
       
-      <guid>https://novores.github.io/post/connect_ps_db_to_lobase/</guid>
+      <guid>https://novalhidayat.com/post/connect_ps_db_to_lobase/</guid>
       
         <description>&lt;!-- latar belakang --&gt;
 &lt;h2 id=&#34;sparkles-latar-belakang&#34;&gt;&amp;#x2728; Latar Belakang&lt;/h2&gt;
@@ -25,10 +25,10 @@ dalam PostgreSQL, mariadb/MySQL, maupun MS Access sekalipun ke dalam seluruh pla
     
     <item>
       <title>Cara Mudah Menyemat Asciinema Ke Dalam Hugo</title>
-      <link>https://novores.github.io/post/cara_mudah_embed_asciinema_ke_dalam_hugo/</link>
+      <link>https://novalhidayat.com/post/cara_mudah_embed_asciinema_ke_dalam_hugo/</link>
       <pubDate>Sat, 17 Sep 2022 18:20:45 +0700</pubDate>
       
-      <guid>https://novores.github.io/post/cara_mudah_embed_asciinema_ke_dalam_hugo/</guid>
+      <guid>https://novalhidayat.com/post/cara_mudah_embed_asciinema_ke_dalam_hugo/</guid>
       
         <description>&lt;p&gt;Sebagai author blog khususnya yang berhubungan dengan perkomputeran, terkadang kita membutuhkan suatu media yang dapat menunjang isi konten.
 Ada banyak cara untuk menunjang isi konten diantaranya dengan screenshot dan video recording. namun jika kita dihadapkan dengan comandline interactive
@@ -38,10 +38,10 @@ Ada banyak cara untuk menunjang isi konten diantaranya dengan screenshot dan vid
     
     <item>
       <title>Linux Upskill Challenge: Day 1</title>
-      <link>https://novores.github.io/post/linuxupskillchallenge-day1/</link>
+      <link>https://novalhidayat.com/post/linuxupskillchallenge-day1/</link>
       <pubDate>Thu, 15 Sep 2022 07:10:42 +0700</pubDate>
       
-      <guid>https://novores.github.io/post/linuxupskillchallenge-day1/</guid>
+      <guid>https://novalhidayat.com/post/linuxupskillchallenge-day1/</guid>
       
         <description>Get to know your server</description>
       
@@ -49,10 +49,10 @@ Ada banyak cara untuk menunjang isi konten diantaranya dengan screenshot dan vid
     
     <item>
       <title>Linux Upskill Challenge: Day 0</title>
-      <link>https://novores.github.io/post/linuxupskillchallenge-day0/</link>
+      <link>https://novalhidayat.com/post/linuxupskillchallenge-day0/</link>
       <pubDate>Tue, 30 Aug 2022 20:58:30 +0700</pubDate>
       
-      <guid>https://novores.github.io/post/linuxupskillchallenge-day0/</guid>
+      <guid>https://novalhidayat.com/post/linuxupskillchallenge-day0/</guid>
       
         <description>Make Your Own Server</description>
       
@@ -60,10 +60,10 @@ Ada banyak cara untuk menunjang isi konten diantaranya dengan screenshot dan vid
     
     <item>
       <title>Menambahkan Cactus Comments ke dalam Hugo</title>
-      <link>https://novores.github.io/post/cactus-comment/</link>
+      <link>https://novalhidayat.com/post/cactus-comment/</link>
       <pubDate>Wed, 13 Apr 2022 06:31:13 +0700</pubDate>
       
-      <guid>https://novores.github.io/post/cactus-comment/</guid>
+      <guid>https://novalhidayat.com/post/cactus-comment/</guid>
       
         <description>&lt;h2 id=&#34;pengantar&#34;&gt;Pengantar&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; merupakan salah satu Static Site Generator yang kaya akan fitur. Salah satunya fitur komentar, untuk menambahkan fitur komentar ini kita hanya perlu menambahkan shortcode ke dalam fronmatter Blog kita. namun sayangnta fitur ini hanya tersedia untuk &lt;a href=&#34;https://disqus.com/&#34;&gt;Disqus&lt;/a&gt;. saya pribadi tidak terlalu menyukai disquss karena &lt;em&gt;proprietary&lt;/em&gt;-nya.&lt;/p&gt;</description>
@@ -72,10 +72,10 @@ Ada banyak cara untuk menunjang isi konten diantaranya dengan screenshot dan vid
     
     <item>
       <title>Berbagi File Antar Device Dengan Wormhole William</title>
-      <link>https://novores.github.io/post/wormhole/</link>
+      <link>https://novalhidayat.com/post/wormhole/</link>
       <pubDate>Sat, 12 Mar 2022 07:02:58 +0700</pubDate>
       
-      <guid>https://novores.github.io/post/wormhole/</guid>
+      <guid>https://novalhidayat.com/post/wormhole/</guid>
       
         <description>wormhole-william adalah implementasi bahasa go dari magic-wormhole</description>
       
@@ -83,10 +83,10 @@ Ada banyak cara untuk menunjang isi konten diantaranya dengan screenshot dan vid
     
     <item>
       <title>Cara Aktifkan bluetooth Cukup dengan Terminal di Linux</title>
-      <link>https://novores.github.io/post/bluetoothctl/</link>
+      <link>https://novalhidayat.com/post/bluetoothctl/</link>
       <pubDate>Mon, 07 Feb 2022 23:01:42 +0700</pubDate>
       
-      <guid>https://novores.github.io/post/bluetoothctl/</guid>
+      <guid>https://novalhidayat.com/post/bluetoothctl/</guid>
       
         <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
 &lt;p&gt;Bluetooth merupakan salah satu teknologi yang wajib ada di setiap perangkat komputer, karena kegunaanya yang sangat-sangat banyak, bukan hanya untuk transfer file, namun bluetooth juga dapat digunakan untuk menyambungkan suara secara &lt;em&gt;wireless&lt;/em&gt;.&lt;/p&gt;</description>
@@ -95,10 +95,10 @@ Ada banyak cara untuk menunjang isi konten diantaranya dengan screenshot dan vid
     
     <item>
       <title>Cara Mengabaikan package tertentu untuk di Upgrade di Archlinux</title>
-      <link>https://novores.github.io/post/mengabaikan-package-archlinux/</link>
+      <link>https://novalhidayat.com/post/mengabaikan-package-archlinux/</link>
       <pubDate>Sat, 29 Jan 2022 07:02:58 +0700</pubDate>
       
-      <guid>https://novores.github.io/post/mengabaikan-package-archlinux/</guid>
+      <guid>https://novalhidayat.com/post/mengabaikan-package-archlinux/</guid>
       
         <description>&lt;h1 id=&#34;background&#34;&gt;Background&lt;/h1&gt;
 &lt;p&gt;Terkadang ketika kita ingin meng-update package, ada hal yang ingin kita abaikan untuk diupdate. contohnya
@@ -109,10 +109,10 @@ libreoffice, package ini &lt;strong&gt;salah satu package besar dan tidak terlal
     
     <item>
       <title>Emptty: Display Manager yang Sangat Simple</title>
-      <link>https://novores.github.io/post/cara-mudah-mengkonfigurasi-emptty/</link>
+      <link>https://novalhidayat.com/post/cara-mudah-mengkonfigurasi-emptty/</link>
       <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://novores.github.io/post/cara-mudah-mengkonfigurasi-emptty/</guid>
+      <guid>https://novalhidayat.com/post/cara-mudah-mengkonfigurasi-emptty/</guid>
       
         <description>&lt;h2 id=&#34;sparkles-pendahuluan&#34;&gt;&amp;#x2728; Pendahuluan&lt;/h2&gt;
 &lt;p&gt;Emptty merupakan salah satu Display manager yang simple, emptty ditulis dalam bahasa Go.
@@ -124,10 +124,10 @@ bekerja sesuai keinginan kita.&lt;/p&gt;</description>
     
     <item>
       <title>Mengautentikasi Git dengan SSH</title>
-      <link>https://novores.github.io/post/connect-ke-github-dengan-ssh/</link>
+      <link>https://novalhidayat.com/post/connect-ke-github-dengan-ssh/</link>
       <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://novores.github.io/post/connect-ke-github-dengan-ssh/</guid>
+      <guid>https://novalhidayat.com/post/connect-ke-github-dengan-ssh/</guid>
       
         <description>setelah membaca artikel ini kamu dapat menyambungkan git dengan ssh di terminal</description>
       
@@ -135,10 +135,10 @@ bekerja sesuai keinginan kita.&lt;/p&gt;</description>
     
     <item>
       <title>Cara mengaktifkan Tap-to-Click di Archlinux</title>
-      <link>https://novores.github.io/post/cara-mengaktifkan-tap-to-click-on-linux/</link>
+      <link>https://novalhidayat.com/post/cara-mengaktifkan-tap-to-click-on-linux/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       
-      <guid>https://novores.github.io/post/cara-mengaktifkan-tap-to-click-on-linux/</guid>
+      <guid>https://novalhidayat.com/post/cara-mengaktifkan-tap-to-click-on-linux/</guid>
       
         <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
 &lt;p&gt;Ketika menggunakan linux kita kadang-kadang tidak mendapati Sistem kerja komputer yang semestinya, kita dituntut untuk bersikap &lt;em&gt;do it yourself&lt;/em&gt;.&lt;/p&gt;</description>
@@ -147,10 +147,10 @@ bekerja sesuai keinginan kita.&lt;/p&gt;</description>
     
     <item>
       <title>📫 Kontak</title>
-      <link>https://novores.github.io/contact/</link>
+      <link>https://novalhidayat.com/contact/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://novores.github.io/contact/</guid>
+      <guid>https://novalhidayat.com/contact/</guid>
       
         <description>Contact Page</description>
       
@@ -158,10 +158,10 @@ bekerja sesuai keinginan kita.&lt;/p&gt;</description>
     
     <item>
       <title></title>
-      <link>https://novores.github.io/about/</link>
+      <link>https://novalhidayat.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://novores.github.io/about/</guid>
+      <guid>https://novalhidayat.com/about/</guid>
       
         <description>&lt;h2 id=&#34;hi-kawan-wave&#34;&gt;Hi kawan &amp;#x1f44b;&lt;/h2&gt;
 &lt;p&gt;nama saya &lt;strong&gt;Noval Hidayat&lt;/strong&gt; dan saya penulis blog ini.&lt;/p&gt;</description>
@@ -170,10 +170,10 @@ bekerja sesuai keinginan kita.&lt;/p&gt;</description>
     
     <item>
       <title>✏️ Portfolio</title>
-      <link>https://novores.github.io/portfolio/</link>
+      <link>https://novalhidayat.com/portfolio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://novores.github.io/portfolio/</guid>
+      <guid>https://novalhidayat.com/portfolio/</guid>
       
         <description>Welcome to my Portfolio!</description>
       
@@ -181,10 +181,10 @@ bekerja sesuai keinginan kita.&lt;/p&gt;</description>
     
     <item>
       <title>Archives</title>
-      <link>https://novores.github.io/archives/</link>
+      <link>https://novalhidayat.com/archives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://novores.github.io/archives/</guid>
+      <guid>https://novalhidayat.com/archives/</guid>
       
         <description>archives</description>
       
@@ -192,10 +192,10 @@ bekerja sesuai keinginan kita.&lt;/p&gt;</description>
     
     <item>
       <title>Cari</title>
-      <link>https://novores.github.io/search/</link>
+      <link>https://novalhidayat.com/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://novores.github.io/search/</guid>
+      <guid>https://novalhidayat.com/search/</guid>
       
         <description></description>
       

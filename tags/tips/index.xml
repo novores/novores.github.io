@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tips on </title>
-    <link>https://novores.github.io/tags/tips/</link>
+    <link>https://novalhidayat.com/tags/tips/</link>
     <description>Recent content in Tips on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-ID</language>
-    <lastBuildDate>Mon, 07 Feb 2022 23:01:42 +0700</lastBuildDate><atom:link href="https://novores.github.io/tags/tips/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Feb 2022 23:01:42 +0700</lastBuildDate><atom:link href="https://novalhidayat.com/tags/tips/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cara Aktifkan bluetooth Cukup dengan Terminal di Linux</title>
-      <link>https://novores.github.io/post/bluetoothctl/</link>
+      <link>https://novalhidayat.com/post/bluetoothctl/</link>
       <pubDate>Mon, 07 Feb 2022 23:01:42 +0700</pubDate>
       
-      <guid>https://novores.github.io/post/bluetoothctl/</guid>
+      <guid>https://novalhidayat.com/post/bluetoothctl/</guid>
       
         <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
 &lt;p&gt;Bluetooth merupakan salah satu teknologi yang wajib ada di setiap perangkat komputer, karena kegunaanya yang sangat-sangat banyak, bukan hanya untuk transfer file, namun bluetooth juga dapat digunakan untuk menyambungkan suara secara &lt;em&gt;wireless&lt;/em&gt;.&lt;/p&gt;</description>
@@ -21,10 +21,10 @@
     
     <item>
       <title>Cara Mengabaikan package tertentu untuk di Upgrade di Archlinux</title>
-      <link>https://novores.github.io/post/mengabaikan-package-archlinux/</link>
+      <link>https://novalhidayat.com/post/mengabaikan-package-archlinux/</link>
       <pubDate>Sat, 29 Jan 2022 07:02:58 +0700</pubDate>
       
-      <guid>https://novores.github.io/post/mengabaikan-package-archlinux/</guid>
+      <guid>https://novalhidayat.com/post/mengabaikan-package-archlinux/</guid>
       
         <description>&lt;h1 id=&#34;background&#34;&gt;Background&lt;/h1&gt;
 &lt;p&gt;Terkadang ketika kita ingin meng-update package, ada hal yang ingin kita abaikan untuk diupdate. contohnya

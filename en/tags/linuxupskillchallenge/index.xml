@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linuxupskillchallenge on </title>
-    <link>https://novores.github.io/en/tags/linuxupskillchallenge/</link>
+    <link>https://novalhidayat.com/en/tags/linuxupskillchallenge/</link>
     <description>Recent content in Linuxupskillchallenge on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 15 Sep 2022 07:10:42 +0700</lastBuildDate><atom:link href="https://novores.github.io/en/tags/linuxupskillchallenge/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Sep 2022 07:10:42 +0700</lastBuildDate><atom:link href="https://novalhidayat.com/en/tags/linuxupskillchallenge/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux Upskill Challenge: Day 1</title>
-      <link>https://novores.github.io/en/post/linuxupskillchallenge-day1/</link>
+      <link>https://novalhidayat.com/en/post/linuxupskillchallenge-day1/</link>
       <pubDate>Thu, 15 Sep 2022 07:10:42 +0700</pubDate>
       
-      <guid>https://novores.github.io/en/post/linuxupskillchallenge-day1/</guid>
+      <guid>https://novalhidayat.com/en/post/linuxupskillchallenge-day1/</guid>
       
         <description>Get to know your server</description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>Linux Upskill Challenge: Day 0</title>
-      <link>https://novores.github.io/en/post/linuxupskillchallenge-day0/</link>
+      <link>https://novalhidayat.com/en/post/linuxupskillchallenge-day0/</link>
       <pubDate>Tue, 30 Aug 2022 20:58:30 +0700</pubDate>
       
-      <guid>https://novores.github.io/en/post/linuxupskillchallenge-day0/</guid>
+      <guid>https://novalhidayat.com/en/post/linuxupskillchallenge-day0/</guid>
       
         <description>Make Your Own Server</description>
       
